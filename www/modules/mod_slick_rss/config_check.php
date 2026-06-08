@@ -193,7 +193,13 @@ function fnLoadPngs() {
 }
 </script>
 
-</head>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head>
 
 <body>
 
@@ -304,7 +310,7 @@ function fnLoadPngs() {
 				<p class="footnote">**NOTE** Passing this test does not guarantee that SimplePie will run on your webhost &mdash; it only ensures that the basic requirements have been addressed.</p>
 			<?php } else if ($php_ok && $xml_ok && !$mbstring_ok && !$iconv_ok) { ?>
 				<h3>Bottom Line: Yes, but it's crippled.</h3>
-				<p><em>You're limited to essentially english, spanish, italian, and other western-european languages.</em>  Even then you might still have some problems.  We'd recommend that you stick to publishing specific feeds on your site where you know that they're UTF-8 or ISO-8859-1.</p>
+				<p><em>You're limited to essentially english, spanish, italian, and other western-european languages.</em>  Even then you might still have some problems.  We'd recommend that you stick to publishing specific feeds on your site where you know that they're UTF-8 or charset=UTF-8.</p>
 				<p>You can download the latest version of SimplePie from <a href="http://simplepie.org/downloads/">SimplePie.org</a> and install it by <a href="http://simplepie.org/docs/installing/">following the instructions</a>.  You can find example uses with <a href="http://simplepie.org/ideas/">SimplePie Ideas</a>.</p>
 				<p class="footnote">**NOTE** Passing this test does not guarantee that SimplePie will run on your webhost &mdash; it only ensures that the basic requirements have been addressed.</p>
 			<?php } else if ($php_ok && $xml_ok && (!$mbstring_ok || !$iconv_ok)) { ?>

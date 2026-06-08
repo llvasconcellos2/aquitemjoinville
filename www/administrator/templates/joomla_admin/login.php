@@ -1,7 +1,7 @@
 <?php
 /**
 * @version $Id: login.php 5975 2006-12-11 01:26:33Z robs $
-* @package Joomla / Tradução JoomlaClube 2008 - www.joomlaclube.com.br
+* @package Joomla / Traduï¿½ï¿½o JoomlaClube 2008 - www.joomlaclube.com.br
 * @copyright Copyright (C) 2005 Open Source Matters. All rights reserved.
 * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL, see LICENSE.php
 * Joomla! is free software. This version may have been modified pursuant
@@ -32,7 +32,13 @@ $tstart = mosProfiler::getmicrotime();
 	}
 </script>
 <link rel="shortcut icon" href="<?php echo $mosConfig_live_site .'/images/favicon.ico';?>" />
-</head>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head>
 <body onload="setFocus();">
 <div id="wrapper">
 	<div id="header">
@@ -46,10 +52,10 @@ $tstart = mosProfiler::getmicrotime();
 	?>
 	<div class="login">
 		<div class="login-form">
-			<img src="templates/joomla_admin/images/login.gif" alt="Autenticação para Área de Administração" />
+			<img src="templates/joomla_admin/images/login.gif" alt="Autenticaï¿½ï¿½o para ï¿½rea de Administraï¿½ï¿½o" />
 			<form action="index.php" method="post" name="loginForm" id="loginForm">
 			<div class="form-block">
-				<div class="inputlabel">Nome do Usuário</div>
+				<div class="inputlabel">Nome do Usuï¿½rio</div>
 				<div><input name="usrname" type="text" class="inputbox" size="15" /></div>
 				<div class="inputlabel">Senha</div>
 				<div><input name="pass" type="password" class="inputbox" size="15" /></div>
@@ -60,7 +66,7 @@ $tstart = mosProfiler::getmicrotime();
 		<div class="login-text">
 			<div class="ctr"><img src="templates/joomla_admin/images/security.png" alt="security" /></div>
 			<p>Bem vindo ao Joomla!</p>
-			<p>Utilize um nome de usuário e senha válidos para ter acesso ao Painel de Administração do Site</p>
+			<p>Utilize um nome de usuï¿½rio e senha vï¿½lidos para ter acesso ao Painel de Administraï¿½ï¿½o do Site</p>
 		</div>
 		<div class="clr"></div>
 	</div>
@@ -71,7 +77,7 @@ $tstart = mosProfiler::getmicrotime();
 </noscript>
 <div class="footer" align="center">
 	<!--<div align="center">
-   Tradução do Joomla produzido por: 
+   Traduï¿½ï¿½o do Joomla produzido por: 
 <a href="http://www.joomlaclube.com.br/" target="_blank"><strong>JoomlaClube</strong></a><br /><br />
 		<?php echo $_VERSION->URL; ?>
 	</div>-->

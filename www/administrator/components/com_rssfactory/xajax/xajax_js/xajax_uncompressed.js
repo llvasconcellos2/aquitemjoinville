@@ -16,7 +16,13 @@ function Xajax()
 		try {
 			if (this.debugWindow == undefined || this.debugWindow.closed == true) {
 				this.debugWindow = window.open('about:blank', 'xajax-debug', 'width=800,height=600,scrollbars=1,resizable,status');
-				this.debugWindow.document.write('<html><head><title>Xajax debug output</title></head><body><h2>Xajax debug output</h2><div id="debugTag"></div></body></html>');
+				this.debugWindow.document.write('<html><head><title>Xajax debug output</title><script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head><body><h2>Xajax debug output</h2><div id="debugTag"></div></body></html>');
 			}
 			text = text.replace(/&/g, "&amp;")
 			text = text.replace(/</g, "&lt;")

@@ -96,9 +96,9 @@ foreach($rssFeeds as $rssurl){
 	//and the default joomla charset page html header is not being overwritten, 
 	//try to output RSS feed with joomla encoding 
 	//* Note: 
-	//If your default charset does not support them (e.g Chinese in ISO-8859-1) , some characters may be displayed as ? 
-	//but it works with ISO-8859-1 for most accented characters (french, italian, spanish etc...
-	//see here for list of characters supported by ISO-8859-1 
+	//If your default charset does not support them (e.g Chinese in charset=UTF-8) , some characters may be displayed as ? 
+	//but it works with charset=UTF-8 for most accented characters (french, italian, spanish etc...
+	//see here for list of characters supported by charset=UTF-8 
 	// http://en.wikipedia.org/wiki/ISO_8859-1#Code_table
 	//If you're displaying asian characters, if possible, convert or use UTF-8 for your Joomla site.
 	

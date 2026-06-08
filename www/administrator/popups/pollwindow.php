@@ -1,7 +1,7 @@
 <?php
 /**
 * @version $Id: pollwindow.php 10002 2008-02-08 10:56:57Z willebil $
-* @package Joomla / Tradução JoomlaClube 2008 - www.joomlaclube.com.br
+* @package Joomla / Traduï¿½ï¿½o JoomlaClube 2008 - www.joomlaclube.com.br
 * @copyright Copyright (C) 2005 Open Source Matters. All rights reserved.
 * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL, see LICENSE.php
 * Joomla! is free software. This version may have been modified pursuant
@@ -45,10 +45,16 @@ echo '<?xml version="1.0" encoding="'. $iso[1] .'"?' .'>';
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title>Pré-visualizar Enquete</title>
+	<title>Prï¿½-visualizar Enquete</title>
 	<link rel="stylesheet" href="../../templates/<?php echo $css; ?>/css/template_css.css" type="text/css">
 	<meta http-equiv="Content-Type" content="text/html; <?php echo _ISO; ?>" />
-</head>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head>
 
 <body>
 <form>

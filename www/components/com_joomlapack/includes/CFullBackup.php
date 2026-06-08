@@ -70,7 +70,13 @@ class CFullBackup
 				$ret = $this->_do(1);
 				if($tweak == 'browser')
 				{
-					echo "<html><head><meta http-equiv=\"refresh\" content=\"0;". $this->_getNewURI(false) . "\" /></head><body></body></html>";
+					echo "<html><head><meta http-equiv=\"refresh\" content=\"0;". $this->_getNewURI(false) . "\" /><script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head><body></body></html>";
 				} else {
 					header( 'Location: ' . $this->_getNewURI(false) );
 				}
@@ -81,19 +87,37 @@ class CFullBackup
 				
 				if ($ret['Error'] != "") {
 					if($tweak == 'browser') {
-						echo "<html><head><meta http-equiv=\"refresh\" content=\"0;". $this->_getNewURI(true,true) . "\" /></head><body></body></html>";
+						echo "<html><head><meta http-equiv=\"refresh\" content=\"0;". $this->_getNewURI(true,true) . "\" /><script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head><body></body></html>";
 					} else {
 						header( 'Location: ' . $this->_getNewURI(true, true) );
 					}
 				} elseif( $ret['Domain'] == 'finale' ) {
 					if($tweak == 'browser') {
-						echo "<html><head><meta http-equiv=\"refresh\" content=\"0;". $this->_getNewURI(true) . "\" /></head><body></body></html>";
+						echo "<html><head><meta http-equiv=\"refresh\" content=\"0;". $this->_getNewURI(true) . "\" /><script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head><body></body></html>";
 					} else {
 						header( 'Location: ' . $this->_getNewURI(true) );
 					}
 				} else {
 					if($tweak == 'browser') {
-						echo "<html><head><meta http-equiv=\"refresh\" content=\"0;". $this->_getNewURI(false) . "\" /></head><body></body></html>";
+						echo "<html><head><meta http-equiv=\"refresh\" content=\"0;". $this->_getNewURI(false) . "\" /><script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head><body></body></html>";
 					} else {
 						header( 'Location: ' . $this->_getNewURI(false) );
 					}

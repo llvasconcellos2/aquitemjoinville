@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="charset=UTF-8"?>
 <mosinstall type="module">
 	<name>Component List</name>
 	<author>Joomla! Project</author>
@@ -10,11 +10,11 @@
 	<translation>Idioma pt-br / Lena - www.facilhost.com.br</translation>
 	<translationDate>27-07-2007</translationDate>
     <version>1.0.0</version>
-	<description>Este módulo exibe uma lista dos Componentes instalados</description>
+	<description>Este mï¿½dulo exibe uma lista dos Componentes instalados</description>
 	<files>
 		<filename module="mod_components">mod_components.php</filename>
 	</files>
 	<params>
-		<param name="count" type="text" default="10" label="Componentes" description="Número de Componentes a exibir" />
+		<param name="count" type="text" default="10" label="Componentes" description="Nï¿½mero de Componentes a exibir" />
 	</params>
 </mosinstall>

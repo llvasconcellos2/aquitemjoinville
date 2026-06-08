@@ -189,7 +189,13 @@ function drawErrorBase(&$manager)
 /*]]>*/
 </script>
 <script type="text/javascript" src="components/com_swmenufree/ImageManager/assets/images.js"></script>
-</head>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head>
 
 <body>
 <?php if ($manager->isValidBase() == false) { drawErrorBase($manager); } 

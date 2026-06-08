@@ -4,7 +4,7 @@
  * Moxiecode DHTML Windows script.
  *
  * @author Moxiecode
- * @copyright Copyright © 2004, Moxiecode Systems AB, All rights reserved.
+ * @copyright Copyright ï¿½ 2004, Moxiecode Systems AB, All rights reserved.
  */
 
 // Windows handler
@@ -170,7 +170,13 @@ MCWindows.prototype.open = function(url, name, features) {
 	html += '<title>Wrapper iframe</title>';
 	html += '<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">';
 	html += '<link href="../jscripts/tiny_mce/themes/advanced/css/editor_ui.css" rel="stylesheet" type="text/css" />';
-	html += '</head>';
+	html += '<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head>';
 	html += '<body onload="parent.mcWindows.onLoad(\'' + name + '\');">';
 
 	html += '<div id="' + id + '_container" class="mceWindow">';

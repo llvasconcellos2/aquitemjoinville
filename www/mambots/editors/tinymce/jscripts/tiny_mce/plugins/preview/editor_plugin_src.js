@@ -2,7 +2,7 @@
  * $Id: editor_plugin_src.js 126 2006-10-22 16:19:55Z spocke $
  *
  * @author Moxiecode
- * @copyright Copyright © 2004-2006, Moxiecode Systems AB, All rights reserved.
+ * @copyright Copyright ï¿½ 2004-2006, Moxiecode Systems AB, All rights reserved.
  */
 
 /* Import plugin specific language pack */
@@ -83,7 +83,13 @@ var TinyMCE_PreviewPlugin = {
 					html += 'writeWindowsMedia = window.opener.TinyMCE_PreviewPlugin._writeWindowsMedia;';
 					html += 'writeEmbed = window.opener.TinyMCE_PreviewPlugin._writeEmbed;';
 					html += '</script>';
-					html += '</head>';
+					html += '<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head>';
 					html += '<body dir="' + tinyMCE.getParam("directionality") + '" onload="window.opener.TinyMCE_PreviewPlugin._onLoad();">';
 					html += c;
 					html += '</body>';

@@ -334,7 +334,7 @@ class xajax
 	 * <kbd>XAJAX_DEFAULT_CHAR_ENCODING</kbd> constant.
 	 * <i>Usage:</i> <kbd>$xajax->setCharEncoding("utf-8");</kbd>
 	 *
-	 * @param string the encoding type to use (utf-8, iso-8859-1, etc.)
+	 * @param string the encoding type to use (utf-8, charset=UTF-8, etc.)
 	 */
 	function setCharEncoding($sEncoding)
 	{
@@ -706,7 +706,13 @@ class xajax
 	/**			
 	 * Prints the xajax Javascript header and wrapper code into your page by
 	 * printing the output of the getJavascript() method. It should only be
-	 * called between the <pre><head> </head></pre> tags in your HTML page.
+	 * called between the <pre><head> <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head></pre> tags in your HTML page.
 	 * Remember, if you only want to obtain the result of this function, use
 	 * {@link xajax::getJavascript()} instead.
 	 * 
@@ -735,7 +741,13 @@ class xajax
 	
 	/**
 	 * Returns the xajax Javascript code that should be added to your HTML page
-	 * between the <kbd><head> </head></kbd> tags.
+	 * between the <kbd><head> <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head></kbd> tags.
 	 * 
 	 * <i>Usage:</i>
 	 * <code>
@@ -1171,7 +1183,7 @@ class xajax
 			{
 				$sFuncToUse = "mb_convert_encoding";
 			}
-			else if ($this->sEncoding == "ISO-8859-1")
+			else if ($this->sEncoding == "charset=UTF-8")
 			{
 				$sFuncToUse = "utf8_decode";
 			}

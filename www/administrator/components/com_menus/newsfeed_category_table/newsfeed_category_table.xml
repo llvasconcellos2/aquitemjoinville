@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="charset=UTF-8"?>
 <mosinstall type="menu" version="1.0.0">
-	<name>Tabela - Categoria de Notícias Externas</name>
+	<name>Tabela - Categoria de Notï¿½cias Externas</name>
 	<group>Component</group>
 	<author>Joomla! Project</author>
 	<creationDate>July 2004</creationDate>
@@ -11,22 +11,22 @@
 	<translation>Idioma pt-br / Lena - www.facilhost.com.br</translation>
 	<translationDate>27-07-2007</translationDate>
     <version>1.0.0</version>
-	<description>Exibe uma tabela com os itens de Notícias Externas de uma categoria específica</description>
+	<description>Exibe uma tabela com os itens de Notï¿½cias Externas de uma categoria especï¿½fica</description>
 	<params>
-		<param name="menu_image" type="imagelist" directory="/images" hide_default="1" default="" label="Imagem do Menu" description="Uma pequena imagem para ser colocada à esquerda ou direita do item de menu. As imagens devem estar no diretório:  /images" />
-		<param name="pageclass_sfx" type="text" default="" label="Sufixo de Classe da Página" description="Um sufixo para ser aplicado à classe css da página, o que permitirá um estilo personalizado" />
-		<param name="back_button" type="list" default="" label="Botão ` Voltar ´" description="Exibir/Ocultar um botão Voltar, para retornar à página vista anteriormente">
+		<param name="menu_image" type="imagelist" directory="/images" hide_default="1" default="" label="Imagem do Menu" description="Uma pequena imagem para ser colocada ï¿½ esquerda ou direita do item de menu. As imagens devem estar no diretï¿½rio:  /images" />
+		<param name="pageclass_sfx" type="text" default="" label="Sufixo de Classe da Pï¿½gina" description="Um sufixo para ser aplicado ï¿½ classe css da pï¿½gina, o que permitirï¿½ um estilo personalizado" />
+		<param name="back_button" type="list" default="" label="Botï¿½o ` Voltar ï¿½" description="Exibir/Ocultar um botï¿½o Voltar, para retornar ï¿½ pï¿½gina vista anteriormente">
 			<option value="">Usar Global</option>
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>
-		<param name="page_title" type="radio" default="1" label="Título da Página" description="Exibir/Ocultar o Título da Página">
+		<param name="page_title" type="radio" default="1" label="Tï¿½tulo da Pï¿½gina" description="Exibir/Ocultar o Tï¿½tulo da Pï¿½gina">
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>
-		<param name="header" type="text" size="30" default="" label="Título da Página" description="Texto a ser exibido no topo da página. Se estiver em branco, será utilizado o nome do menu" />
+		<param name="header" type="text" size="30" default="" label="Tï¿½tulo da Pï¿½gina" description="Texto a ser exibido no topo da pï¿½gina. Se estiver em branco, serï¿½ utilizado o nome do menu" />
 		<param name="@spacer" type="spacer" default="" label="" description="" />
-		<param name="headings" type="radio" default="1" label="Cabeçalho da Tabela" description="Exibir/Ocultar o Cabeçalho da Tabela">
+		<param name="headings" type="radio" default="1" label="Cabeï¿½alho da Tabela" description="Exibir/Ocultar o Cabeï¿½alho da Tabela">
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>
@@ -38,7 +38,7 @@
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>
-		<param name="link" type="radio" default="1" label="Coluna do endereço" description="Exibir/Ocultar a coluna do endereço">
+		<param name="link" type="radio" default="1" label="Coluna do endereï¿½o" description="Exibir/Ocultar a coluna do endereï¿½o">
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>
@@ -47,11 +47,11 @@
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>
-		<param name="cat_description" type="radio" default="1" label="Descrição da Categoria" description="Exibir/Ocultar a descrição para a lista de outras categorias">
+		<param name="cat_description" type="radio" default="1" label="Descriï¿½ï¿½o da Categoria" description="Exibir/Ocultar a descriï¿½ï¿½o para a lista de outras categorias">
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>
-		<param name="cat_items" type="radio" default="1" label="Qtd. Itens da Categoria" description="Exibir/Ocultar o número de itens de cada categoria">
+		<param name="cat_items" type="radio" default="1" label="Qtd. Itens da Categoria" description="Exibir/Ocultar o nï¿½mero de itens de cada categoria">
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>

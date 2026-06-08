@@ -2804,11 +2804,11 @@ class SimplePie_Misc
 			{
 				return mb_convert_encoding($data, $output['encoding'], $input['encoding']);
 			}
-			else if ($input['encoding'] == 'ISO-8859-1' && $output['encoding'] == 'UTF-8')
+			else if ($input['encoding'] == 'charset=UTF-8' && $output['encoding'] == 'UTF-8')
 			{
 				return utf8_encode($data);
 			}
-			else if ($input['encoding'] == 'UTF-8' && $output['encoding'] == 'ISO-8859-1')
+			else if ($input['encoding'] == 'UTF-8' && $output['encoding'] == 'charset=UTF-8')
 			{
 				return utf8_decode($data);
 			}
@@ -3054,10 +3054,10 @@ class SimplePie_Misc
 				$return['use_mbstring'] = true;
 				break;
 
-			// ISO-8859-1
-			case 'iso-8859-1':
+			// charset=UTF-8
+			case 'charset=UTF-8':
 			case 'iso8859-1':
-				$return['encoding'] = 'ISO-8859-1';
+				$return['encoding'] = 'charset=UTF-8';
 				$return['use_iconv'] = true;
 				$return['use_mbstring'] = true;
 				break;
@@ -3126,44 +3126,44 @@ class SimplePie_Misc
 				$return['use_mbstring'] = true;
 				break;
 
-			// ISO-8859-10
-			case 'iso-8859-10':
+			// charset=UTF-80
+			case 'charset=UTF-80':
 			case 'iso8859-10':
-				$return['encoding'] = 'ISO-8859-10';
+				$return['encoding'] = 'charset=UTF-80';
 				$return['use_iconv'] = true;
 				$return['use_mbstring'] = true;
 				break;
 
 			// mbstring/iconv functions don't appear to support 11 & 12
 
-			// ISO-8859-13
-			case 'iso-8859-13':
+			// charset=UTF-83
+			case 'charset=UTF-83':
 			case 'iso8859-13':
-				$return['encoding'] = 'ISO-8859-13';
+				$return['encoding'] = 'charset=UTF-83';
 				$return['use_iconv'] = true;
 				$return['use_mbstring'] = true;
 				break;
 
-			// ISO-8859-14
-			case 'iso-8859-14':
+			// charset=UTF-84
+			case 'charset=UTF-84':
 			case 'iso8859-14':
-				$return['encoding'] = 'ISO-8859-14';
+				$return['encoding'] = 'charset=UTF-84';
 				$return['use_iconv'] = true;
 				$return['use_mbstring'] = true;
 				break;
 
-			// ISO-8859-15
-			case 'iso-8859-15':
+			// charset=UTF-85
+			case 'charset=UTF-85':
 			case 'iso8859-15':
-				$return['encoding'] = 'ISO-8859-15';
+				$return['encoding'] = 'charset=UTF-85';
 				$return['use_iconv'] = true;
 				$return['use_mbstring'] = true;
 				break;
 
-			// ISO-8859-16
-			case 'iso-8859-16':
+			// charset=UTF-86
+			case 'charset=UTF-86':
 			case 'iso8859-16':
-				$return['encoding'] = 'ISO-8859-16';
+				$return['encoding'] = 'charset=UTF-86';
 				$return['use_iconv'] = true;
 				break;
 
@@ -5235,7 +5235,7 @@ class SimplePie_Sanitize
 		}
 		else
 		{
-			$return = SimplePie_Misc::change_encoding(html_entity_decode($data[0], ENT_QUOTES), 'ISO-8859-1', $this->input_encoding);
+			$return = SimplePie_Misc::change_encoding(html_entity_decode($data[0], ENT_QUOTES), 'charset=UTF-8', $this->input_encoding);
 			if ($return == $data[0])
 			{
 				$return = SimplePie_Misc::change_encoding(preg_replace_callback('/&#([x]?[0-9a-f]+);/mi', array(&$this, 'replace_num_entity'), $data[0]), 'UTF-8', $this->input_encoding);

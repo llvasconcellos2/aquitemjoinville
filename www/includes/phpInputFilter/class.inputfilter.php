@@ -1,6 +1,6 @@
 <?php
 /**
- * @package Joomla / Tradução JoomlaClube 2008 - www.joomlaclube.com.br
+ * @package Joomla / Traduï¿½ï¿½o JoomlaClube 2008 - www.joomlaclube.com.br
  *  @class: InputFilter (PHP4 & PHP5, with comments)
  * @project: PHP Input Filter
  * @date: 10-05-2005
@@ -453,7 +453,7 @@ class InputFilter
 	function decode($source)
 	{
 		// url decode
-		$source = html_entity_decode($source, ENT_QUOTES, "ISO-8859-1");
+		$source = html_entity_decode($source, ENT_QUOTES, "charset=UTF-8");
 		// convert decimal
 		$source = preg_replace('/&#(\d+);/me', "chr(\\1)", $source); // decimal notation
 		// convert hex

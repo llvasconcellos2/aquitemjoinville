@@ -1,7 +1,7 @@
 <?php
 /**
 * @version $Id: sef.php 1553 2005-12-24 17:04:09Z Saka $
-* @package Joomla / Tradução JoomlaClube 2008 - www.joomlaclube.com.br
+* @package Joomla / Traduï¿½ï¿½o JoomlaClube 2008 - www.joomlaclube.com.br
 * @copyright Copyright (C) 2005 Open Source Matters. All rights reserved.
 * @license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL, see LICENSE.php
 * Joomla! is free software. This version may have been modified pursuant
@@ -23,7 +23,7 @@ include_once( 'language/' . $mosConfig_lang . '.php' );
 
 // backward compatibility
 if (!defined( '_404' )) {
-	define( '_404', 'Lamentamos mas a página que solicitou não foi encontrada.' );
+	define( '_404', 'Lamentamos mas a pï¿½gina que solicitou nï¿½o foi encontrada.' );
 }
 if (!defined( '_404_RTS' )) {
 	define( '_404_RTS', 'Volte ao site' );
@@ -43,7 +43,13 @@ if (!defined( '_404_RTS' )) {
 		text-align: center;
 	}
 </style>
-</head>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head>
 <body>
 
 <h2>

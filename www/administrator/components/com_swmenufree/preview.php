@@ -178,7 +178,13 @@ echo gosuMenuStyle($swmenufree);
 echo "\n-->\n";
 	echo "</style>\n";
 }
-echo "</head><body>";
+echo "<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head><body>";
 echo GosuMenu($ordered, $swmenufree, $active_menu,$selectbox_hack);
 echo changeBgColor();
 echo "</body></html>";
@@ -216,7 +222,13 @@ echo tigraMenuStyle($swmenufree);
 echo "\n-->\n";
 	echo "</style>\n";
 }
-echo "</head><body>";
+echo "<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head><body>";
 echo TigraMenu($ordered, $swmenufree, $active_menu);
 echo changeBgColor();
 echo "</body></html>";
@@ -248,7 +260,13 @@ echo "\n-->\n";
 	echo "</style>\n";
 
 }
-echo "</head><body>";
+echo "<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head><body>";
 echo transMenu($ordered, $swmenufree, $active_menu,  $sub_indicator, $parent_id,$selectbox_hack,$auto_position);
 echo changeBgColor();
 echo "</body></html>";

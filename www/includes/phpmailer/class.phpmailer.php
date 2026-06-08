@@ -33,7 +33,7 @@ class mosPHPMailer
 	 * Sets the CharSet of the message.
 	 * @var string
 	 */
-	var $CharSet			= "iso-8859-1";
+	var $CharSet			= "charset=UTF-8";
 
 	/**
 	 * Sets the Content-type of the message.

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="charset=UTF-8"?>
 <mosinstall type="module">
 	<name>Logged in Users</name>
 	<author>Joomla! Project</author>
@@ -10,7 +10,7 @@
 	<translation>Idioma pt-br / Lena - www.facilhost.com.br</translation>
 	<translationDate>27-07-2007</translationDate>
     <version>1.0.0</version>
-	<description>Este módulo exibe uma lista dos usuários atualmente logados</description>
+	<description>Este mï¿½dulo exibe uma lista dos usuï¿½rios atualmente logados</description>
 	<files>
 		<filename module="mod_logged">mod_logged.php</filename>
 	</files>

@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="charset=UTF-8"?>
 <mosinstall version="1.0.0" type="mambot" group="content">
-	<name>Posicionador de Módulos</name>
+	<name>Posicionador de Mï¿½dulos</name>
 	<author>Joomla! Project</author>
 	<creationDate>January 2005</creationDate>
 	<copyright>(C) 2005 Open Source Matters. All rights reserved.</copyright>
@@ -10,17 +10,17 @@
 	<translation>Idioma pt-br / Lena - www.facilhost.com.br</translation>
 	<translationDate>27-07-2007</translationDate>
     <version>1.0.0</version>
-	<description>Carrega as posições dos módulos no conteúdo. Sintaxe: {mosloadposition user1}</description>
+	<description>Carrega as posiï¿½ï¿½es dos mï¿½dulos no conteï¿½do. Sintaxe: {mosloadposition user1}</description>
 	<files>
 		<filename mambot="mosloadposition">mosloadposition.php</filename>
 	</files>
 	<params>
-		<param name="style" type="list" default="0" label="Estilo" description="Código que irá envolver os módulos">
+		<param name="style" type="list" default="0" label="Estilo" description="Cï¿½digo que irï¿½ envolver os mï¿½dulos">
 			<option value="0">Envolto por Tabela - Coluna</option>
 			<option value="1">Envolto por Tabela - Horizontal</option>
 			<option value="-2">Envolto por Divs</option>
-			<option value="-3">Envolto por Divs Múltiplos</option>
-			<option value="-1">Não Envolver - saída em bruto</option>
+			<option value="-3">Envolto por Divs Mï¿½ltiplos</option>
+			<option value="-1">Nï¿½o Envolver - saï¿½da em bruto</option>
 		</param>
 	</params>
 </mosinstall>

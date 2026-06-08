@@ -1,7 +1,7 @@
 <?php
 /**
 * @version $Id: contentwindow.php 5864 2006-11-27 22:54:44Z Saka $
-* @package Joomla / Tradução JoomlaClube 2008 - www.joomlaclube.com.br
+* @package Joomla / Traduï¿½ï¿½o JoomlaClube 2008 - www.joomlaclube.com.br
 * @copyright Copyright (C) 2005 Open Source Matters. All rights reserved.
 * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL, see LICENSE.php
 * Joomla! is free software. This version may have been modified pursuant
@@ -54,7 +54,7 @@ echo '<?xml version="1.0" encoding="'. $iso[1] .'"?' .'>';
 <html xmlns="http://www.w3.org/1999/xhtml">
 <base href="<?php echo($mosConfig_live_site); ?>/" />
 <head>
-<title>Pré-visualizar Conteúdo</title>
+<title>Prï¿½-visualizar Conteï¿½do</title>
 <link rel="stylesheet" href="templates/<?php echo $css;?>/css/template_css.css" type="text/css" />
 	<script>
 		var form = window.opener.document.adminForm
@@ -83,7 +83,13 @@ echo '<?xml version="1.0" encoding="'. $iso[1] .'"?' .'>';
 		}
 	</script>
 <meta http-equiv="Content-Type" content="text/html; <?php echo _ISO; ?>" />
-</head>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head>
 <body style="background-color:#FFFFFF">
 <table align="center" width="90%" cellspacing="2" cellpadding="2" border="0">
 	<tr>

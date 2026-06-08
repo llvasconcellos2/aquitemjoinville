@@ -1737,7 +1737,7 @@ class DOMIT_Lite_Parser {
 		if (version_compare(phpversion(), '5.0', '<=')) {
 			$parser = xml_parser_create('');
 		} else {
-			$parser = xml_parser_create('iso-8859-1');
+			$parser = xml_parser_create('charset=UTF-8');
 		}
 
 		//set handlers for SAX events

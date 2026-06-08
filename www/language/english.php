@@ -1,7 +1,7 @@
 <?php
 /**
 * @version $Id: english.php 6087 2006-12-24 18:59:57Z robs $
-* @package Joomla / Tradução JoomlaClube 2008 - www.joomlaclube.com.br
+* @package Joomla / Traduï¿½ï¿½o JoomlaClube 2008 - www.joomlaclube.com.br
 * @copyright Copyright (C) 2005 Open Source Matters. All rights reserved.
 * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL, see LICENSE.php
 * Joomla! is free software. This version may have been modified pursuant
@@ -418,7 +418,7 @@ DEFINE('_SEARCH_SECBLOG','Section Blog');
 
 
 /** templates/*.php */
-DEFINE('_ISO','charset=iso-8859-1');
+DEFINE('_ISO','charset=charset=UTF-8');
 DEFINE('_DATE_FORMAT','l, F d Y');  //Uses PHP's DATE Command Format - Depreciated
 /**
 * Modify this line to reflect how you want the date to appear in your site

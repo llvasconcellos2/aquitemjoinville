@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="charset=UTF-8"?>
 <mosinstall type="component" version="1.0.0">
   <name>Media Manager</name>
   <author>Joomla! Project</author>
@@ -9,6 +9,6 @@
   <authorUrl>www.joomla.org</authorUrl>    <translation>Idioma pt-br / Lena - www.facilhost.com.br</translation>
 	<translationDate>27-07-2007</translationDate>
     <version>1.0.0</version>
-  <description>Este componente administra os arquivos multimídia do site</description>
+  <description>Este componente administra os arquivos multimï¿½dia do site</description>
   <params />
 </mosinstall>

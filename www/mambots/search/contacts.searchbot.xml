@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="charset=UTF-8"?>
 <mosinstall version="1.0.0" type="mambot" group="search">
 	<name>Pesquisador de Contatos</name>
 	<author>Joomla! Project</author>
@@ -15,6 +15,6 @@
 		<filename mambot="contacts.searchbot">contacts.searchbot.php</filename>
 	</files>
 	<params>
-		<param name="search_limit" type="text" size="5" default="50" label="Limite de Pesquisa" description="Número de resultados a exibir"/>		
+		<param name="search_limit" type="text" size="5" default="50" label="Limite de Pesquisa" description="Nï¿½mero de resultados a exibir"/>		
 	</params>
 </mosinstall>

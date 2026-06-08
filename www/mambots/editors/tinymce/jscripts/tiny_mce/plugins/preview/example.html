@@ -1,14 +1,24 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-<script language="javascript" src="../../tiny_mce_popup.js"></script>
-<script type="text/javascript" src="jscripts/embed.js"></script>
-<title>Exemplo de visualização de uma página personalizada</title>
-<link href="{$content_css}" rel="stylesheet" type="text/css" />
+  <script language="javascript" src="../../tiny_mce_popup.js"></script>
+  <script type="text/javascript" src="jscripts/embed.js"></script>
+  <title>Exemplo de visualizaï¿½ï¿½o de uma pï¿½gina personalizada</title>
+  <link href="{$content_css}" rel="stylesheet" type="text/css" />
+  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+  <script>
+    window.RufflePlayer.config = {
+      autoplay: "on",
+      unmuteOverlay: "hidden"
+    };
+  </script>
 </head>
+
 <body>
 
-Conteúdo do Editor: <br />
-{$content}
+  Conteï¿½do do Editor: <br />
+  {$content}
 
 </body>
+
 </html>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="charset=UTF-8"?>
 <mosinstall type="module" version="1.0.0">
 	<name>Menu Principal</name>
 	<author>Joomla! Project</author>
@@ -15,56 +15,56 @@
 		<filename module="mod_mainmenu">mod_mainmenu.php</filename>
 	</files>
 		<params>
-		<param name="class_sfx" type="text" default="" label="Sufixo de Classe do Menu" description="Um sufixo para ser aplicado à classe css dos itens de menu" />
-		<param name="moduleclass_sfx" type="text" default="" label="Sufixo de Classe da Página" description="Um sufixo para ser aplicado à classe css da página, isto permite um estilo de página individual" />
+		<param name="class_sfx" type="text" default="" label="Sufixo de Classe do Menu" description="Um sufixo para ser aplicado ï¿½ classe css dos itens de menu" />
+		<param name="moduleclass_sfx" type="text" default="" label="Sufixo de Classe da Pï¿½gina" description="Um sufixo para ser aplicado ï¿½ classe css da pï¿½gina, isto permite um estilo de pï¿½gina individual" />
 		<param name="@spacer" type="spacer" default="" label="" description="" />
-		<param name="menutype" type="mos_menu" default="" label="Nome do Menu" description="O nome do menu (o padrão é 'menu principal')" />
+		<param name="menutype" type="mos_menu" default="" label="Nome do Menu" description="O nome do menu (o padrï¿½o ï¿½ 'menu principal')" />
 		<param name="menu_style" type="list" default="vert_indent" label="Estilo do Menu" description="O estilo do menu">
 			<option value="vert_indent">Vertical</option>
 			<option value="horiz_flat">Horizontal</option>
 			<option value="list_flat">Lista Simples</option>
 		</param>
 		<param name="@spacer" type="spacer" default="" label="" description="" />
-		<param name="full_active_id" type="radio" default="0" label="Destacando Ativo cheio" description="Habilite menu artigo destacando ativo cheio e inclui para `Link - Artigo de Componente ` e `Link - Url ` que pode causar perda de complacência de XHTML se mais de um artigo é ativo">
-			<option value="0">Não</option>
+		<param name="full_active_id" type="radio" default="0" label="Destacando Ativo cheio" description="Habilite menu artigo destacando ativo cheio e inclui para `Link - Artigo de Componente ` e `Link - Url ` que pode causar perda de complacï¿½ncia de XHTML se mais de um artigo ï¿½ ativo">
+			<option value="0">Nï¿½o</option>
 			<option value="1">Sim</option>
 		</param>		
 		<param name="@spacer" type="spacer" default="" label="" description="" />
-		<param name="cache" type="radio" default="0" label="Habilitar Cache" description="Selecione se deseja realizar cache do conteúdo para este módulo">
-			<option value="0">Não</option>
+		<param name="cache" type="radio" default="0" label="Habilitar Cache" description="Selecione se deseja realizar cache do conteï¿½do para este mï¿½dulo">
+			<option value="0">Nï¿½o</option>
 			<option value="1">Sim</option>
 		</param>
-		<param name="menu_images" type="radio" default="0" label="Exibir Ícones do Menu" description="Exibir os ícones do menu que você selecionou para itens de menu">
-			<option value="0">Não</option>
+		<param name="menu_images" type="radio" default="0" label="Exibir ï¿½cones do Menu" description="Exibir os ï¿½cones do menu que vocï¿½ selecionou para itens de menu">
+			<option value="0">Nï¿½o</option>
 			<option value="1">Sim</option>
 		</param>
-		<param name="menu_images_align" type="radio" default="0" label="Alinh. do Ícone do Menu" description="Alinhamento para os ícones do menu">
+		<param name="menu_images_align" type="radio" default="0" label="Alinh. do ï¿½cone do Menu" description="Alinhamento para os ï¿½cones do menu">
 			<option value="0">Esquerda</option>
 			<option value="1">Direita</option>
 		</param>
-		<param name="expand_menu" type="radio" default="0" label="Expandir Menu" description="Expandir o menu e fazer itens do sub-menus sempre visíveis">
-			<option value="0">Não</option>
+		<param name="expand_menu" type="radio" default="0" label="Expandir Menu" description="Expandir o menu e fazer itens do sub-menus sempre visï¿½veis">
+			<option value="0">Nï¿½o</option>
 			<option value="1">Sim</option>
 		</param>
-		<param name="activate_parent" type="radio" default="0" label="Principal Ativado" description="Se habilitado, ativa o id para todos os menus na ramificação para principal">
-			<option value="0">Não</option>
+		<param name="activate_parent" type="radio" default="0" label="Principal Ativado" description="Se habilitado, ativa o id para todos os menus na ramificaï¿½ï¿½o para principal">
+			<option value="0">Nï¿½o</option>
 			<option value="1">Sim</option>
 		</param>
 		<param name="@spacer" type="spacer" default="" label="" description="" />
-		<param name="indent_image" type="list" default="0" label="Identação da Imagem" description="Selecione qual identação de imagem o sistema deve usar">
+		<param name="indent_image" type="list" default="0" label="Identaï¿½ï¿½o da Imagem" description="Selecione qual identaï¿½ï¿½o de imagem o sistema deve usar">
 			<option value="0">Tema</option>
-			<option value="1">Imagens Joomla Padrão</option>
-			<option value="2">Parâmetros abaixo</option>
+			<option value="1">Imagens Joomla Padrï¿½o</option>
+			<option value="2">Parï¿½metros abaixo</option>
 			<option value="3">Nenhum</option>
 		</param>
-		<param name="indent_image1" type="imagelist" directory="/images/M_images" default="" label="Imagem 1" description="Imagem para o primeiro sub-nível" />
-		<param name="indent_image2" type="imagelist" directory="/images/M_images" default="" label="Imagem 2" description="Imagem para o segundo sub-nível" />
-		<param name="indent_image3" type="imagelist" directory="/images/M_images" default="" label="Imagem 3" description="Imagem para o terceiro sub-nível" />
-		<param name="indent_image4" type="imagelist" directory="/images/M_images" default="" label="Imagem 4" description="Imagem para o quarto sub-nível" />
-		<param name="indent_image5" type="imagelist" directory="/images/M_images" default="" label="Imagem 5" description="Imagem para o quinto sub-nível" />
-		<param name="indent_image6" type="imagelist" directory="/images/M_images" default="" label="Imagem 6" description="Imagem para o sexto sub-nível" />
+		<param name="indent_image1" type="imagelist" directory="/images/M_images" default="" label="Imagem 1" description="Imagem para o primeiro sub-nï¿½vel" />
+		<param name="indent_image2" type="imagelist" directory="/images/M_images" default="" label="Imagem 2" description="Imagem para o segundo sub-nï¿½vel" />
+		<param name="indent_image3" type="imagelist" directory="/images/M_images" default="" label="Imagem 3" description="Imagem para o terceiro sub-nï¿½vel" />
+		<param name="indent_image4" type="imagelist" directory="/images/M_images" default="" label="Imagem 4" description="Imagem para o quarto sub-nï¿½vel" />
+		<param name="indent_image5" type="imagelist" directory="/images/M_images" default="" label="Imagem 5" description="Imagem para o quinto sub-nï¿½vel" />
+		<param name="indent_image6" type="imagelist" directory="/images/M_images" default="" label="Imagem 6" description="Imagem para o sexto sub-nï¿½vel" />
 		<param name="@spacer" type="spacer" default="" label="" description="" />
-		<param name="spacer" type="text" default="" size="5" label="Espaçador" description="Espaçador para menu horizontal" />
-		<param name="end_spacer" type="text" default="" size="5" label="Espaçador Final" description="Espaçador final para menu horizontal" />
+		<param name="spacer" type="text" default="" size="5" label="Espaï¿½ador" description="Espaï¿½ador para menu horizontal" />
+		<param name="end_spacer" type="text" default="" size="5" label="Espaï¿½ador Final" description="Espaï¿½ador final para menu horizontal" />
 	</params>
 </mosinstall>

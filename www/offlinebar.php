@@ -1,7 +1,7 @@
 <?php
 /**
 * @version $Id: offlinebar.php 451 2005-10-11 04:58:12Z stingrey $
-* @package Joomla / Tradução JoomlaClube 2008 - www.joomlaclube.com.br
+* @package Joomla / Traduï¿½ï¿½o JoomlaClube 2008 - www.joomlaclube.com.br
 * @copyright Copyright (C) 2005 Open Source Matters. All rights reserved.
 * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL, see LICENSE.php
 * Joomla! is free software. This version may have been modified pursuant
@@ -55,7 +55,13 @@ table.moswarning h2 {
 <meta http-equiv="Content-Type" content="text/html; <?php echo _ISO; ?>" />
 <title><?php echo $mosConfig_sitename; ?> - Offline</title>
 <link rel="stylesheet" href="<?php echo $mosConfig_live_site; ?>/templates/<?php echo $cur_template;?>/css/template_css.css" type="text/css" />
-</head>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head>
 <body style="margin: 0px; padding: 0px;">
 
 <table width="100%" align="center" class="moswarning">

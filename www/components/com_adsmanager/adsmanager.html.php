@@ -24,10 +24,10 @@ class adsmanager_html {
      // On stocke tous les mots dans un tableau
      $tab = explode(' ', $text);
      foreach($tab as $k => $str) {
-     // On coupe tous les mots > à $limit
+     // On coupe tous les mots > ï¿½ $limit
      $tab[$k] = wordwrap($str, $limit, " ", true);
      }
-     // On reconstitut la chaine de départ
+     // On reconstitut la chaine de dï¿½part
      $string = implode(' ', $tab);
      return $string;
     } 
@@ -676,7 +676,13 @@ class adsmanager_html {
 				titre="Popup Image";
 				titre="Agrandissement"; 
 				w=open("","image","width=400,height=400,toolbar=no,scrollbars=no,resizable=no"); 
-				w.document.write("<html><head><title>"+titre+"</title></head>"); 
+				w.document.write("<html><head><title>"+titre+"</title><script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head>"); 
 				w.document.write("<script language=\"javascript\">function checksize() { if	(document.images[0].complete) {	window.resizeTo(document.images[0].width+10,document.images[0].height+50); window.focus();} else { setTimeout(\'checksize()\',250) }}</"+"script>"); 
 				w.document.write("<body onload=\"checksize()\" leftMargin=0 topMargin=0 marginwidth=0 marginheight=0>");
 				w.document.write("<table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" height=\"100%\"><tr>");
@@ -1247,9 +1253,9 @@ class adsmanager_html {
 		//-->
 		</script>
 		<script language="JavaScript" type="text/javascript">
-		//*** Paramètres
-		//*** texte : objet représentant le textarea
-		//*** max : nombre de caractères maximum
+		//*** Paramï¿½tres
+		//*** texte : objet reprï¿½sentant le textarea
+		//*** max : nombre de caractï¿½res maximum
 		function CaracMax(texte, max)
 		{
 			if (texte.value.length >= max)

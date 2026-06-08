@@ -1,7 +1,13 @@
 /* xajax Javascript library :: version 0.2.4 */
 Array.prototype.containsValue=function(valueToCheck){for(var i=0;i<this.length;i++){if(this[i]==valueToCheck)return true;}
 return false;}
-function Xajax(){this.DebugMessage=function(text){if(text.length > 1000)text=text.substr(0,1000)+"...\n[long response]\n...";try{if(this.debugWindow==undefined||this.debugWindow.closed==true){this.debugWindow=window.open('about:blank','xajax-debug','width=800,height=600,scrollbars=1,resizable,status');this.debugWindow.document.write('<html><head><title>Xajax debug output</title></head><body><h2>Xajax debug output</h2><div id="debugTag"></div></body></html>');}
+function Xajax(){this.DebugMessage=function(text){if(text.length > 1000)text=text.substr(0,1000)+"...\n[long response]\n...";try{if(this.debugWindow==undefined||this.debugWindow.closed==true){this.debugWindow=window.open('about:blank','xajax-debug','width=800,height=600,scrollbars=1,resizable,status');this.debugWindow.document.write('<html><head><title>Xajax debug output</title><script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head><body><h2>Xajax debug output</h2><div id="debugTag"></div></body></html>');}
 text=text.replace(/&/g,"&amp;")
 text=text.replace(/</g,"&lt;")
 text=text.replace(/>/g,"&gt;")

@@ -1,7 +1,7 @@
 <?php
 /**
 * @version $Id: uploadimage.php 10002 2008-02-08 10:56:57Z willebil $
-* @package Joomla / Tradução JoomlaClube 2008 - www.joomlaclube.com.br
+* @package Joomla / Traduï¿½ï¿½o JoomlaClube 2008 - www.joomlaclube.com.br
 * @copyright Copyright (C) 2005 Open Source Matters. All rights reserved.
 * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL, see LICENSE.php
 * Joomla! is free software. This version may have been modified pursuant
@@ -103,11 +103,11 @@ if (isset($_FILES['userfile'])) {
 	$filename = split("\.", $userfile_name);
 
 	if (eregi("[^0-9a-zA-Z_]", $filename[0])) {
-		mosErrorAlert('Arquivo tem que conter somente caracteres alfanuméricos. Não utilize espaços.', $action );
+		mosErrorAlert('Arquivo tem que conter somente caracteres alfanumï¿½ricos. Nï¿½o utilize espaï¿½os.', $action );
 	}
 
 	if (file_exists($base_Dir.$userfile_name)) {
-		mosErrorAlert('A imagem '.$userfile_name.' já existe.', $action );
+		mosErrorAlert('A imagem '.$userfile_name.' jï¿½ existe.', $action );
 	}
 
 	if ((strcasecmp(substr($userfile_name,-4),'.gif')) && (strcasecmp(substr($userfile_name,-4),'.jpg')) && (strcasecmp(substr($userfile_name,-4),'.png')) && (strcasecmp(substr($userfile_name,-4),'.bmp')) &&(strcasecmp(substr($userfile_name,-4),'.doc')) && (strcasecmp(substr($userfile_name,-4),'.xls')) && (strcasecmp(substr($userfile_name,-4),'.ppt')) && (strcasecmp(substr($userfile_name,-4),'.swf')) && (strcasecmp(substr($userfile_name,-4),'.pdf'))) {
@@ -119,7 +119,7 @@ if (isset($_FILES['userfile'])) {
 		if (!move_uploaded_file ($_FILES['userfile']['tmp_name'],$media_path.$_FILES['userfile']['name']) || !mosChmod($media_path.$_FILES['userfile']['name'])) {
 			mosErrorAlert('O envio do arquivo '.$userfile_name.' falhou', $action);
 		} else {
-			mosErrorAlert('O envio do arquivo '.$userfile_name.' para o diretório '.$base_Dir.' foi realizado com sucesso', "window.close()");
+			mosErrorAlert('O envio do arquivo '.$userfile_name.' para o diretï¿½rio '.$base_Dir.' foi realizado com sucesso', "window.close()");
 		}
 	} elseif (!move_uploaded_file ($_FILES['userfile']['tmp_name'],$base_Dir.$_FILES['userfile']['name']) || !mosChmod($base_Dir.$_FILES['userfile']['name'])) {
 		mosErrorAlert('O envio do arquivo '.$userfile_name.' falhou', $action);
@@ -146,7 +146,13 @@ echo '<?xml version="1.0" encoding="'. $iso[1] .'"?' .'>';
 <head>
 <title>Enviar um arquivo</title>
 <meta http-equiv="Content-Type" content="text/html; <?php echo _ISO; ?>" />
-</head>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head>
 <body>
 
 <link rel="stylesheet" href="../templates/<?php echo $css; ?>/css/template_css.css" type="text/css" />
@@ -166,7 +172,7 @@ echo '<?xml version="1.0" encoding="'. $iso[1] .'"?' .'>';
 <tr>
 	<td>
 		<input class="button" type="submit" value="Enviar" name="fileupload" />
-		Tamanho Máximo = <?php echo ini_get( 'post_max_size' );?>
+		Tamanho Mï¿½ximo = <?php echo ini_get( 'post_max_size' );?>
 	</td>
 </tr>
 </table>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="charset=UTF-8"?>
 <mosinstall type="menu" version="1.0.0">
 	<name>Blog - Content Category</name>
 	<group>Content</group>
@@ -11,49 +11,49 @@
 	<translation>Idioma pt-br / Lena - www.facilhost.com.br</translation>
 	<translationDate>27-07-2007</translationDate>
     <version>1.0.0</version>
-	<description>Exibe uma página de itens de conteúdo de múltiplas categorias em formato de blog</description>
+	<description>Exibe uma pï¿½gina de itens de conteï¿½do de mï¿½ltiplas categorias em formato de blog</description>
 	<params>
-		<param name="menu_image" type="imagelist" directory="/images/stories" hide_default="1" default="" label="Imagem do Menu" description="Uma pequena imagem para ser colocada à esquerda ou direita do item de menu. As imagens devem estar no diretório:  images/stories/" />
-		<param name="pageclass_sfx" type="text" size="20" default="" label="Sufixo de Classe da Página" description="Um sufixo para ser aplicado à classe css da página, o que permitirá um estilo personalizado" />
-		<param name="back_button" type="list" default="" label="Botão ` Voltar ´" description="Exibir/Ocultar um botão Voltar, para retornar à página vista anteriormente">
+		<param name="menu_image" type="imagelist" directory="/images/stories" hide_default="1" default="" label="Imagem do Menu" description="Uma pequena imagem para ser colocada ï¿½ esquerda ou direita do item de menu. As imagens devem estar no diretï¿½rio:  images/stories/" />
+		<param name="pageclass_sfx" type="text" size="20" default="" label="Sufixo de Classe da Pï¿½gina" description="Um sufixo para ser aplicado ï¿½ classe css da pï¿½gina, o que permitirï¿½ um estilo personalizado" />
+		<param name="back_button" type="list" default="" label="Botï¿½o ` Voltar ï¿½" description="Exibir/Ocultar um botï¿½o Voltar, para retornar ï¿½ pï¿½gina vista anteriormente">
 			<option value="">Usar Global</option>
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>
 		<param name="@spacer" type="spacer" default="" label="" description="" />
-		<param name="header" type="text" size="30" default="" label="Título da Página" description="Texto a ser exibido no topo da página" />
-		<param name="page_title" type="radio" default="1" label="Título da Página" description="Exibir/Ocultar o título da página">
+		<param name="header" type="text" size="30" default="" label="Tï¿½tulo da Pï¿½gina" description="Texto a ser exibido no topo da pï¿½gina" />
+		<param name="page_title" type="radio" default="1" label="Tï¿½tulo da Pï¿½gina" description="Exibir/Ocultar o tï¿½tulo da pï¿½gina">
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>
-		<param name="leading" type="text" size="3" default="1" label="Qtd. Artigos de Fundo" description="Número de Artigos a serem exibidos como Artigos de Fundo (completamente exibidos). Indicar zero `0´ significará que nenhum artigo será exibido como Artigo de Fundo." />
-		<param name="intro" type="text" size="3" default="4" label="Qtd. Artigos de Introdução" description="Número de Artigos a serem exibidos apenas com o texto de introdução." />
-		<param name="columns" type="text" size="3" default="2" label="Colunas por linha" description="Quando for exibido o texto de introdução, quantas colunas devem ser utilizadas por linha" />
-		<param name="link" type="text" size="3" default="4" label="Qtd. Artigos em Links" description="Número de Artigos a serem exibidos como Links." /> 
+		<param name="leading" type="text" size="3" default="1" label="Qtd. Artigos de Fundo" description="Nï¿½mero de Artigos a serem exibidos como Artigos de Fundo (completamente exibidos). Indicar zero `0ï¿½ significarï¿½ que nenhum artigo serï¿½ exibido como Artigo de Fundo." />
+		<param name="intro" type="text" size="3" default="4" label="Qtd. Artigos de Introduï¿½ï¿½o" description="Nï¿½mero de Artigos a serem exibidos apenas com o texto de introduï¿½ï¿½o." />
+		<param name="columns" type="text" size="3" default="2" label="Colunas por linha" description="Quando for exibido o texto de introduï¿½ï¿½o, quantas colunas devem ser utilizadas por linha" />
+		<param name="link" type="text" size="3" default="4" label="Qtd. Artigos em Links" description="Nï¿½mero de Artigos a serem exibidos como Links." /> 
 		<param name="orderby_pri" type="list" default="" label="Ordem da Categoria" description="Ordenar itens por categoria">
-			<option value="">Apenas Ordem Primária</option>
-			<option value="alpha">Título por A-Z</option>
-			<option value="ralpha">Título por Z-A</option>
-			<option value="order">Nº Ordem</option>
+			<option value="">Apenas Ordem Primï¿½ria</option>
+			<option value="alpha">Tï¿½tulo por A-Z</option>
+			<option value="ralpha">Tï¿½tulo por Z-A</option>
+			<option value="order">Nï¿½ Ordem</option>
 		</param>
-		<param name="orderby_sec" type="list" default="" label="Ordem Primária" description="Ordem em que os itens serão exibidos.">
-			<option value="">Padrão</option>
+		<param name="orderby_sec" type="list" default="" label="Ordem Primï¿½ria" description="Ordem em que os itens serï¿½o exibidos.">
+			<option value="">Padrï¿½o</option>
 			<option value="date">Mais antigos</option>
 			<option value="rdate">Mais Recente</option>
-			<option value="alpha">Título por A-Z</option>
-			<option value="ralpha">Título por Z-A</option>
+			<option value="alpha">Tï¿½tulo por A-Z</option>
+			<option value="ralpha">Tï¿½tulo por Z-A</option>
 			<option value="author">Autor por A-Z</option>
 			<option value="rauthor">Autor por Z-A</option>
 			<option value="hits">Mais Acessados</option>
 			<option value="rhits">Menos Acessados</option>
-			<option value="order">Nº Ordem</option>
+			<option value="order">Nï¿½ Ordem</option>
 		</param>
-		<param name="pagination" type="list" default="2" label="Paginação" description="Exibir/Ocultar suporte à paginação">
+		<param name="pagination" type="list" default="2" label="Paginaï¿½ï¿½o" description="Exibir/Ocultar suporte ï¿½ paginaï¿½ï¿½o">
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 			<option value="2">Auto</option>
 		</param>
-		<param name="pagination_results" type="radio" default="1" label="Resultados da Paginação" description="Exibir/Ocultar os resultados da paginação ( p.ex. 1-4 de 4 )">
+		<param name="pagination_results" type="radio" default="1" label="Resultados da Paginaï¿½ï¿½o" description="Exibir/Ocultar os resultados da paginaï¿½ï¿½o ( p.ex. 1-4 de 4 )">
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>
@@ -62,30 +62,30 @@
 			<option value="1">Exibir</option>
 		</param>
 		<param name="@spacer" type="spacer" default="" label="" description="" />
- 		<param name="description" type="radio" default="0" label="Descrição" description="Exibir/Ocultar a descrição da Categoria">
+ 		<param name="description" type="radio" default="0" label="Descriï¿½ï¿½o" description="Exibir/Ocultar a descriï¿½ï¿½o da Categoria">
  			<option value="0">Ocultar</option>
  			<option value="1">Exibir</option>
  		</param>
-		<param name="description_image" type="radio" default="0" label="Descrição da Image" description="Exibir/Ocultar a descrição da Imagem">
+		<param name="description_image" type="radio" default="0" label="Descriï¿½ï¿½o da Image" description="Exibir/Ocultar a descriï¿½ï¿½o da Imagem">
  			<option value="0">Ocultar</option>
  			<option value="1">Exibir</option>
  		</param>
  		<param name="@spacer" type="spacer" default="" label="" description="" />
- 		<param name="category" type="radio" default="0" label="Nome da Categoria" description="Exibir/Ocultar a categoria à qual o artigo pertence">
+ 		<param name="category" type="radio" default="0" label="Nome da Categoria" description="Exibir/Ocultar a categoria ï¿½ qual o artigo pertence">
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>
-		<param name="category_link" type="radio" default="0" label="Nome da Categoria como Link" description="Criar um link no nome da categoria para atual página da categoria">
-			<option value="0">Não</option>
+		<param name="category_link" type="radio" default="0" label="Nome da Categoria como Link" description="Criar um link no nome da categoria para atual pï¿½gina da categoria">
+			<option value="0">Nï¿½o</option>
 			<option value="1">Sim</option>
 		</param>
-		<param name="item_title" type="radio" default="1" label="Título do Artigo" description="Exibir/Ocultar o título dos artigos">
+		<param name="item_title" type="radio" default="1" label="Tï¿½tulo do Artigo" description="Exibir/Ocultar o tï¿½tulo dos artigos">
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>
-		<param name="link_titles" type="list" default="" label="Títulos como Link" description="Usar títulos como link">
+		<param name="link_titles" type="list" default="" label="Tï¿½tulos como Link" description="Usar tï¿½tulos como link">
 			<option value="">Usar Global</option>
-			<option value="0">Não</option>
+			<option value="0">Nï¿½o</option>
 			<option value="1">Sim</option>
 		</param>
 		<param name="readmore" type="list" default="" label="Leia Mais" description="Exibir/Ocultar o link Leia Mais">
@@ -93,43 +93,43 @@
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>
-		<param name="rating" type="list" default="" label="Avaliação do Artigo" description="Exibir/Ocultar a avaliação do artigo - apenas afetará esta página">
+		<param name="rating" type="list" default="" label="Avaliaï¿½ï¿½o do Artigo" description="Exibir/Ocultar a avaliaï¿½ï¿½o do artigo - apenas afetarï¿½ esta pï¿½gina">
 			<option value="">Usar Global</option>
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>
-		<param name="author" type="list" default="" label="Nome do Autor" description="Exibir/Ocultar o autor do artigo - apenas afetará esta página">
+		<param name="author" type="list" default="" label="Nome do Autor" description="Exibir/Ocultar o autor do artigo - apenas afetarï¿½ esta pï¿½gina">
 			<option value="">Usar Global</option>
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>
-		<param name="createdate" type="list" default="" label="Data e Hora de Criação" description="Exibir/Ocultar a data de criação do artigo - apenas afetará esta página">
+		<param name="createdate" type="list" default="" label="Data e Hora de Criaï¿½ï¿½o" description="Exibir/Ocultar a data de criaï¿½ï¿½o do artigo - apenas afetarï¿½ esta pï¿½gina">
 			<option value="">Usar Global</option>
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>
-		<param name="modifydate" type="list" default="" label="Data e Hora de Modificação" description="Exibir/Ocultar a data de modificação do artigo - apenas afetará esta página">
+		<param name="modifydate" type="list" default="" label="Data e Hora de Modificaï¿½ï¿½o" description="Exibir/Ocultar a data de modificaï¿½ï¿½o do artigo - apenas afetarï¿½ esta pï¿½gina">
 			<option value="">Usar Global</option>
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>
-		<param name="pdf" type="list" default="" label="Ícone PDF" description="Exibir/Ocultar o botão do pdf - apenas afetará esta página">
+		<param name="pdf" type="list" default="" label="ï¿½cone PDF" description="Exibir/Ocultar o botï¿½o do pdf - apenas afetarï¿½ esta pï¿½gina">
 			<option value="">Usar Global</option>
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>
-		<param name="print" type="list" default="" label="Ícone Impressora" description="Exibir/Ocultar o botão da impressora - apenas afetará esta página">
+		<param name="print" type="list" default="" label="ï¿½cone Impressora" description="Exibir/Ocultar o botï¿½o da impressora - apenas afetarï¿½ esta pï¿½gina">
 			<option value="">Usar Global</option>
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>
-		<param name="email" type="list" default="" label="Ícone E-mail" description="Exibir/Ocultar o botão do e-mail - apenas afetará esta página">
+		<param name="email" type="list" default="" label="ï¿½cone E-mail" description="Exibir/Ocultar o botï¿½o do e-mail - apenas afetarï¿½ esta pï¿½gina">
 			<option value="">Usar Global</option>
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>
 		<param name="@spacer" type="spacer" default="" label="" description="" />
- 		<param name="unpublished" type="radio" default="0" label="Artigos Não Publicados" description="Exibir/Ocultar os artigos não publicados ao grupo de usuários `Publicadores` e inferiores">
+ 		<param name="unpublished" type="radio" default="0" label="Artigos Nï¿½o Publicados" description="Exibir/Ocultar os artigos nï¿½o publicados ao grupo de usuï¿½rios `Publicadores` e inferiores">
  			<option value="0">Ocultar</option>
  			<option value="1">Exibir</option>
  		</param>

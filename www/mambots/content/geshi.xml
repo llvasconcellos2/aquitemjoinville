@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="charset=UTF-8"?>
 <mosinstall version="1.0.0" type="mambot" group="content">
 	<name>GeSHi</name>
 	<author>Joomla! Project</author>
@@ -9,7 +9,7 @@
 	<translation>Idioma pt-br / Lena - www.facilhost.com.br</translation>
 	<translationDate>27-07-2007</translationDate>
     <version>1.0.4</version>
-	<description>Exibe código formatado nos artigos, baseado no motor GeSHi</description>
+	<description>Exibe cï¿½digo formatado nos artigos, baseado no motor GeSHi</description>
 	<files>
 		<filename mambot="geshi">geshi.php</filename>
 	</files>

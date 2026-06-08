@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="charset=UTF-8"?>
 <mosinstall type="component" version="1.0.0">
-	<name>Página de Artigo</name>
+	<name>Pï¿½gina de Artigo</name>
 	<author>Joomla! Project</author>
 	<creationDate>July 2004</creationDate>
 	<copyright>(C) 2005 Open Source Matters. All rights reserved.</copyright>
@@ -10,90 +10,90 @@
 	<translation>Idioma pt-br / Lena - www.facilhost.com.br</translation>
 	<translationDate>27-07-2007</translationDate>
     <version>1.0.0</version>
-	<description>Isto mostra parâmetros página conteúdo</description>
+	<description>Isto mostra parï¿½metros pï¿½gina conteï¿½do</description>
 	<params>
-		<param name="pageclass_sfx" type="text" size="20" default="" label="Sufixo de Classe da Página" description="Um sufixo para ser aplicado à classe css da página, isto permite um estilo de página individual" />
-		<param name="back_button" type="list" default="" label="Botão Voltar" description="Exibir/Ocultar um botão Voltar, que te retorna à página vista anteriormente">
+		<param name="pageclass_sfx" type="text" size="20" default="" label="Sufixo de Classe da Pï¿½gina" description="Um sufixo para ser aplicado ï¿½ classe css da pï¿½gina, isto permite um estilo de pï¿½gina individual" />
+		<param name="back_button" type="list" default="" label="Botï¿½o Voltar" description="Exibir/Ocultar um botï¿½o Voltar, que te retorna ï¿½ pï¿½gina vista anteriormente">
 			<option value="">Usar Global</option>
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>
-		<param name="item_title" type="radio" default="1" label="Título da Página" description="Exibir/Ocultar o título dos itens">
+		<param name="item_title" type="radio" default="1" label="Tï¿½tulo da Pï¿½gina" description="Exibir/Ocultar o tï¿½tulo dos itens">
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>
-		<param name="link_titles" type="list" default="" label="Títulos como Link" description="Usar títulos como link">
+		<param name="link_titles" type="list" default="" label="Tï¿½tulos como Link" description="Usar tï¿½tulos como link">
 			<option value="">Usar Global</option>
-			<option value="0">Não</option>
+			<option value="0">Nï¿½o</option>
 			<option value="1">Sim</option>
 		</param>
-		<param name="introtext" type="radio" default="1" label="Texto de Introdução" description="Exibir/Ocultar o texto de introdução">
+		<param name="introtext" type="radio" default="1" label="Texto de Introduï¿½ï¿½o" description="Exibir/Ocultar o texto de introduï¿½ï¿½o">
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>
-		<param name="section" type="radio" default="0" label="Nome da Seção" description="Exibir/Ocultar a seção à qual o item pertence">
+		<param name="section" type="radio" default="0" label="Nome da Seï¿½ï¿½o" description="Exibir/Ocultar a seï¿½ï¿½o ï¿½ qual o item pertence">
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>
-		<param name="section_link" type="radio" default="0" label="Nome da Seção como Link" description="Criar um link no nome da seção para atual página da seção">
-			<option value="0">Não</option>
+		<param name="section_link" type="radio" default="0" label="Nome da Seï¿½ï¿½o como Link" description="Criar um link no nome da seï¿½ï¿½o para atual pï¿½gina da seï¿½ï¿½o">
+			<option value="0">Nï¿½o</option>
 			<option value="1">Sim</option>
 		</param>
-		<param name="category" type="radio" default="0" label="Nome da Categoria" description="Exibir/Ocultar a categoria à qual o item pertence">
+		<param name="category" type="radio" default="0" label="Nome da Categoria" description="Exibir/Ocultar a categoria ï¿½ qual o item pertence">
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>
-		<param name="category_link" type="radio" default="0" label="Nome da Categoria como Link" description="Criar um link no nome da categoria para atual página da categoria">
-			<option value="0">Não</option>
+		<param name="category_link" type="radio" default="0" label="Nome da Categoria como Link" description="Criar um link no nome da categoria para atual pï¿½gina da categoria">
+			<option value="0">Nï¿½o</option>
 			<option value="1">Sim</option>
 		</param>
-		<param name="rating" type="list" default="" label="Avaliação do Item" description="Exibir/Ocultar a avaliação do item - afeta somente esta página">
+		<param name="rating" type="list" default="" label="Avaliaï¿½ï¿½o do Item" description="Exibir/Ocultar a avaliaï¿½ï¿½o do item - afeta somente esta pï¿½gina">
 			<option value="">Usar Global</option>
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>
-		<param name="author" type="list" default="" label="Nome do Autor" description="Exibir/Ocultar o autor do item - afeta somente esta página">
+		<param name="author" type="list" default="" label="Nome do Autor" description="Exibir/Ocultar o autor do item - afeta somente esta pï¿½gina">
 			<option value="">Usar Global</option>
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>
-		<param name="createdate" type="list" default="" label="Data e Hora da Criação" description="Exibir/Ocultar a data de criação do item - afeta somente esta página">
+		<param name="createdate" type="list" default="" label="Data e Hora da Criaï¿½ï¿½o" description="Exibir/Ocultar a data de criaï¿½ï¿½o do item - afeta somente esta pï¿½gina">
 			<option value="">Usar Global</option>
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>
-		<param name="modifydate" type="list" default="" label="Data e Hora da Modificação" description="Exibir/Ocultar a data de modificação do item - afeta somente esta página">
+		<param name="modifydate" type="list" default="" label="Data e Hora da Modificaï¿½ï¿½o" description="Exibir/Ocultar a data de modificaï¿½ï¿½o do item - afeta somente esta pï¿½gina">
 			<option value="">Usar Global</option>
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>
-		<param name="pdf" type="list" default="" label="Ícone do PDF" description="Exibir/Ocultar o botão do pdf - afeta somente esta página">
+		<param name="pdf" type="list" default="" label="ï¿½cone do PDF" description="Exibir/Ocultar o botï¿½o do pdf - afeta somente esta pï¿½gina">
 			<option value="">Usar Global</option>
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>
-		<param name="print" type="list" default="" label="Ícone da Impressora" description="Exibir/Ocultar o botão da impressora - afeta somente esta página">
+		<param name="print" type="list" default="" label="ï¿½cone da Impressora" description="Exibir/Ocultar o botï¿½o da impressora - afeta somente esta pï¿½gina">
 			<option value="">Usar Global</option>
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>
-		<param name="email" type="list" default="" label="Ícone de E-mail" description="Exibir/Ocultar o botão do e-mail - afeta somente esta página">
+		<param name="email" type="list" default="" label="ï¿½cone de E-mail" description="Exibir/Ocultar o botï¿½o do e-mail - afeta somente esta pï¿½gina">
 			<option value="">Usar Global</option>
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>
 		<param name="@spacer" type="spacer" default="" label="" description="" />
-		<param name="keyref" type="text" size="25" default="" label="Referência Chave" description="Um texto chave pelo qual um item pode ser referenciado (como uma referência de ajuda)" />
-		<param name="docbook_type" type="list" default="" label="Tipo DocBook" description="Associa um tipo de documento DocBook com este item de conteúdo (Nota: experimental, não usar para produção).">
+		<param name="keyref" type="text" size="25" default="" label="Referï¿½ncia Chave" description="Um texto chave pelo qual um item pode ser referenciado (como uma referï¿½ncia de ajuda)" />
+		<param name="docbook_type" type="list" default="" label="Tipo DocBook" description="Associa um tipo de documento DocBook com este item de conteï¿½do (Nota: experimental, nï¿½o usar para produï¿½ï¿½o).">
 			<option value=""></option>
-			<option value="appendix">Apêndice</option>
+			<option value="appendix">Apï¿½ndice</option>
 			<option value="article">Artigo</option>
 			<option value="book">Livro</option>
-			<option value="chapter">Capítulo</option>
-			<option value="glossary">Glossário</option>
+			<option value="chapter">Capï¿½tulo</option>
+			<option value="glossary">Glossï¿½rio</option>
 			<option value="part">Parte</option>
-			<option value="refentry">Referência</option>
-			<option value="section">Seção</option>
+			<option value="refentry">Referï¿½ncia</option>
+			<option value="section">Seï¿½ï¿½o</option>
 		</param>
 	</params>
 </mosinstall>

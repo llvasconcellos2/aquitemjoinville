@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="charset=UTF-8"?>
 <mosinstall version="1.0.12" type="mambot" group="editors">
     <name>JCE Editor Mambot</name>
     <version>1.1.8</version>
@@ -616,7 +616,7 @@
             <option value="ltr">Left to Right</option>
             <option value="rtl">Right to Left</option>
         </param>
-        <param name="charset" type="text" default="iso-8859-1" label="Charset/Encoding" description="Charset/Encoding used for header when sending/retrieving data using ajax." />
+        <param name="charset" type="text" default="charset=UTF-8" label="Charset/Encoding" description="Charset/Encoding used for header when sending/retrieving data using ajax." />
         <param name="table_inline" type="list" default="0" label="Inline Table Editing" description="Allow inline editing of Tables.">
             <option value="0">No</option>
             <option value="1">Yes</option>

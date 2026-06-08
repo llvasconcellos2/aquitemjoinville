@@ -1,7 +1,7 @@
 <?php
 /**
 * @version $Id: offline.php 6020 2006-12-18 19:04:42Z robs $
-* @package Joomla / Tradução JoomlaClube 2008 - www.joomlaclube.com.br
+* @package Joomla / Traduï¿½ï¿½o JoomlaClube 2008 - www.joomlaclube.com.br
 * @copyright Copyright (C) 2005 Open Source Matters. All rights reserved.
 * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL, see LICENSE.php
 * Joomla! is free software. This version may have been modified pursuant
@@ -106,7 +106,13 @@ if (!defined( '_ADMIN_OFFLINE' ) || defined( '_INSTALL_CHECK' )) {
 ?>
 		<link rel="shortcut icon" href="<?php echo $icon; ?>" />
 		<meta http-equiv="Content-Type" content="text/html; <?php echo _ISO; ?>" />
-	</head>
+	<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head>
 	<body>
 
 		<p>&nbsp;</p>

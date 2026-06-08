@@ -1,7 +1,7 @@
 <?php
 /**
 * @version $Id: index3.php 10041 2008-02-15 21:48:13Z eddieajau $
-* @package Joomla / Tradução JoomlaClube 2008 - www.joomlaclube.com.br
+* @package Joomla / Traduï¿½ï¿½o JoomlaClube 2008 - www.joomlaclube.com.br
 * @copyright Copyright (C) 2005 Open Source Matters. All rights reserved.
 * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL, see LICENSE.php
 * Joomla! is free software. This version may have been modified pursuant
@@ -67,7 +67,7 @@ initGzip();
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title><?php echo $mosConfig_sitename; ?> - Administração [Joomla!]</title>
+<title><?php echo $mosConfig_sitename; ?> - Administraï¿½ï¿½o [Joomla!]</title>
 <link rel="stylesheet" href="templates/<?php echo $mainframe->getTemplate(); ?>/css/template_css.css" type="text/css" />
 <link rel="stylesheet" href="templates/<?php echo $mainframe->getTemplate(); ?>/css/theme.css" type="text/css" />
 <script language="JavaScript" src="../includes/js/JSCookMenu_mini.js" type="text/javascript"></script>
@@ -79,7 +79,13 @@ $mainframe->set( 'loadEditor', true );
 include_once( $mosConfig_absolute_path . '/editor/editor.php' );
 initEditor();
 ?>
-</head>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head>
 <body>
 <?php
 if ($mosmsg) {

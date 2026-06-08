@@ -790,7 +790,7 @@ class HTML_RSSReader {
 			</td>
 			<td width="70%" nowrap="nowrap">
                 <input class="text_area" type="text" name="force_output_charset" size="30" maxlength="60" value="<?php echo $row->force_output_charset;?>" />
-                <?php echo mosToolTip('If not set we will use the default Webpage encoding -you can see it in your language file, for ex: DEFINE(\\\'_ISO\\\',\\\'charset=iso-8859-1\\\');<br> if the feeds do not display correctly please eforce here your character set <br> Leave blank if unsure'); ?>
+                <?php echo mosToolTip('If not set we will use the default Webpage encoding -you can see it in your language file, for ex: DEFINE(\\\'_ISO\\\',\\\'charset=charset=UTF-8\\\');<br> if the feeds do not display correctly please eforce here your character set <br> Leave blank if unsure'); ?>
 			</td>
 		</tr>
 		<?php echo HTML_RSSReader::buildTabOptions(31,null);?>

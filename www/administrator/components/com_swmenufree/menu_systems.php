@@ -452,7 +452,13 @@ border:0px solid #FFFFFF !important ;
 
 
 
-</HEAD>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head>
 
 <BODY>
 <img align="left" src="images/swmenufree_logo.png" alt="swMenuFree Menu Systems" class="logo" /><h3>Menu Systems Info Page</h3>

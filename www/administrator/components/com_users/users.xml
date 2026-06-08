@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="charset=UTF-8"?>
 <mosinstall type="component" version="4.5.2">
-	<name>Usuários</name>
+	<name>Usuï¿½rios</name>
 	<author>Joomla! Project</author>
 	<creationDate>July 2004</creationDate>
 	<copyright>(C) 2005 Open Source Matters. All rights reserved.</copyright>
@@ -12,6 +12,6 @@
     <version>1.0.0</version>
 	<description>User Manager</description>
 	<params>
-		<param name="editor" type="editor_list" default="" label="Editor para usuário" description="Escolha um WYSYWYG editor para este Usuário" />
+		<param name="editor" type="editor_list" default="" label="Editor para usuï¿½rio" description="Escolha um WYSYWYG editor para este Usuï¿½rio" />
 	</params>
 </mosinstall>

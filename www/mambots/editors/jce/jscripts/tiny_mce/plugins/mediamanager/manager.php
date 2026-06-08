@@ -50,7 +50,13 @@ $jce->processAjax();
 		jce.set("flv_player_path", "<?php echo $params->get('flv_player_path', 'mambots/editors/jce/jscripts/tiny_mce/plugins/mediamanager');?>");
 		jce.set("flv_player", "<?php echo $params->get('flv_player', 'flvplayer.swf');?>");
 	</script>
-</head>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head>
 <body lang="<?php echo $jce->getPluginLanguage(); ?>" id="mediamanager" onLoad="init();" style="display: none">
     <form name="uploadForm" id="uploadForm" action="<?php echo $jce->getPluginFile('files.php');?>" target="manager" enctype="multipart/form-data" method="post">
     <input type="hidden" name="itemsList" id="itemsList" />

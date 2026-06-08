@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="charset=UTF-8"?>
 <mosinstall type="module" version="1.0.0">
 	<name>Artigos relacionados</name>
 	<author>Joomla! Project</author>
@@ -10,13 +10,13 @@
 	<translation>Idioma pt-br / Lena - www.facilhost.com.br</translation>
 	<translationDate>27-07-2007</translationDate>
     <version>1.0.0</version>
-	<description>Este módulo exibe outros Itens de Conteúdo que estão relacionados aos Item atualmente exibido. Este são baseados no critério de palavras-chave dos Metadados. Todas as palavras-chave do Item de Conteúdo atual são procuradas contra todas as palavras-chaves do outros itens publicados. Por exemplo, se você tem um Item sobre 'Instalando Joomla' e você tem outro sobre 'Configurando Joomla'. Se você incluir a palavra-chave 'Joomla' nos dois itens, então o Módulo de Itens Relacionados listará o item 'Instalando Joomla' quando exibindo 'Configurando Joomla' e vice-versa.</description>
+	<description>Este mï¿½dulo exibe outros Itens de Conteï¿½do que estï¿½o relacionados aos Item atualmente exibido. Este sï¿½o baseados no critï¿½rio de palavras-chave dos Metadados. Todas as palavras-chave do Item de Conteï¿½do atual sï¿½o procuradas contra todas as palavras-chaves do outros itens publicados. Por exemplo, se vocï¿½ tem um Item sobre 'Instalando Joomla' e vocï¿½ tem outro sobre 'Configurando Joomla'. Se vocï¿½ incluir a palavra-chave 'Joomla' nos dois itens, entï¿½o o Mï¿½dulo de Itens Relacionados listarï¿½ o item 'Instalando Joomla' quando exibindo 'Configurando Joomla' e vice-versa.</description>
 	<files>
 	<filename module="mod_related_items">mod_related_items.php</filename>
 	</files>
 	<params>
-		<param name="cache" type="radio" default="0" label="Habilitar Cache" description="Selecione se deseja realizar cache do conteúdo para este módulo">
-			<option value="0">Não</option>
+		<param name="cache" type="radio" default="0" label="Habilitar Cache" description="Selecione se deseja realizar cache do conteï¿½do para este mï¿½dulo">
+			<option value="0">Nï¿½o</option>
 			<option value="1">Sim</option>
 		</param>
 		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />

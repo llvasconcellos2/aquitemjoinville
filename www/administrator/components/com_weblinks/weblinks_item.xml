@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="charset=UTF-8"?>
 <mosinstall type="component" version="1.0.0">
 	<name>Weblinks</name>
 	<author>Joomla! Project</author>
@@ -12,10 +12,10 @@
     <version>1.0.0</version>
 	<description>Este componente mostra um listando de Weblinks</description>
 	<params>
-		<param name="target" type="list" default="0" label="Alvo" description="Janela alvo quando o link é clicado">
-			<option value="0">Mesma janela com botões de navegação</option>
-			<option value="1">Nova janela com botões de navegação</option>
-			<option value="2">Nova janela sem botões de navegação</option>
+		<param name="target" type="list" default="0" label="Alvo" description="Janela alvo quando o link ï¿½ clicado">
+			<option value="0">Mesma janela com botï¿½es de navegaï¿½ï¿½o</option>
+			<option value="1">Nova janela com botï¿½es de navegaï¿½ï¿½o</option>
+			<option value="2">Nova janela sem botï¿½es de navegaï¿½ï¿½o</option>
 		</param>
 	</params>
 </mosinstall>

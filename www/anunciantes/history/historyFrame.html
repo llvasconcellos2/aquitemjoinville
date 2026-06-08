@@ -1,12 +1,20 @@
 <html>
-    <head>
-        <META HTTP-EQUIV="Pragma" CONTENT="no-cache"> 
-        <META HTTP-EQUIV="Expires" CONTENT="-1"> 
-    </head>
-    <body>
+
+<head>
+    <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <META HTTP-EQUIV="Expires" CONTENT="-1">
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
     <script>
-        function processUrl()
-        {
+        window.RufflePlayer.config = {
+            autoplay: "on",
+            unmuteOverlay: "hidden"
+        };
+    </script>
+</head>
+
+<body>
+    <script>
+        function processUrl() {
 
             var pos = url.indexOf("?");
             url = pos != -1 ? url.substr(pos + 1) : "";
@@ -14,7 +22,7 @@
                 parent.BrowserHistory.setBrowserURL(url);
                 try {
                     parent.BrowserHistory.browserURLChange(url);
-                } catch(e) { }
+                } catch (e) { }
             } else {
                 parent._ie_firstload = false;
             }
@@ -25,5 +33,6 @@
         document.write(url);
     </script>
     Hidden frame for Browser History support.
-    </body>
+</body>
+
 </html>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="charset=UTF-8"?>
 <mosinstall type="menu" version="1.0.0">
 	<name>Component</name>
 	<group>Component</group>
@@ -11,6 +11,6 @@
 	<translation>Idioma pt-br / Lena - www.facilhost.com.br</translation>
 	<translationDate>27-07-2007</translationDate>
     <version>1.0.0</version>
-	<description>Exibe a interface do Site Público para um Componente</description>
+	<description>Exibe a interface do Site Pï¿½blico para um Componente</description>
 	<params/>
 </mosinstall>

@@ -207,7 +207,13 @@ class patTemplate_Dump_Html extends patTemplate_Dump
 		echo '	  tmpls.push( tmplName );';
 		echo '   }';
 		echo ' </script>';
-		echo ' </head>';
+		echo ' <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head>';
 		echo '<body>';
 		echo ' <div id="patTemplateContent">';
 		echo ' <h1 class="patTemplate">patTemplate Dump</h1>';

@@ -520,7 +520,7 @@ class FeedCreator extends HtmlDescribable {
 	 * This feed's character encoding.
 	 * @since 1.6.1
 	 **/
-	var $encoding = "ISO-8859-1";
+	var $encoding = "charset=UTF-8";
 
 
 	/**
@@ -1189,7 +1189,7 @@ class MBOXCreator extends FeedCreator {
 
 	function MBOXCreator() {
 		$this->contentType = "text/plain";
-		$this->encoding = "ISO-8859-15";
+		$this->encoding = "charset=UTF-85";
 	}
 
 	function qp_enc($input = "", $line_max = 76) {
@@ -1299,7 +1299,13 @@ class OPMLCreator extends FeedCreator {
 		if ($this->editorEmail!="") {
 			$feed.= "		 <ownerEmail>".$this->editorEmail."</ownerEmail>\n";
 		}
-		$feed.= "	</head>\n";
+		$feed.= "	<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head>\n";
 		$feed.= "	<body>\n";
 		for ($i=0;$i<count($this->items);$i++) {
 			$feed.= "	<outline type=\"rss\" ";

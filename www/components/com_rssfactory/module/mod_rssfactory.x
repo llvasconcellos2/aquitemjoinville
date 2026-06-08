@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="charset=UTF-8"?>
 <mosinstall type="module" version="4.5.2">
 	<name>RSSFactory Module</name>
 	<author>The Factory Team</author>

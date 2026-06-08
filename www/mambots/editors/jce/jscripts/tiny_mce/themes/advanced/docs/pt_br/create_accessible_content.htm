@@ -1,46 +1,77 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <HEAD>
-<TITLE>Botão de Inserção de Tabela</TITLE>
-<link href="style.css" rel="stylesheet" type="text/css">
-<meta http-equiv="content-type" content="text/html; charset=utf-8">
-</HEAD>
+  <TITLE>Botï¿½o de Inserï¿½ï¿½o de Tabela</TITLE>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+  <script>
+    window.RufflePlayer.config = {
+      autoplay: "on",
+      unmuteOverlay: "hidden"
+    };
+  </script>
+</head>
 
 <BODY>
 
-<table width="100%" border="0" cellpadding="1" cellspacing="3" class="pageheader">
-  <tr> 
-    <td><span class="title">Criando conteúdo acessível</span></td>
-    <td align="right"><a href="index.htm"><acronym title="Tabela de Conteúdo">TOC</acronym></a></td>
-  </tr>
-</table>
-<hr noshade>
-<p>TinyMCE pode criar conteúdo HTML que será acessível para todos usuários, incluindo aqueles com deficiências usando assistentes tecnológicos, assim como aqueles usando navegadores de texto puro, ou ainda aqueles usando navegadores com imagens desligadas. </p>
+  <table width="100%" border="0" cellpadding="1" cellspacing="3" class="pageheader">
+    <tr>
+      <td><span class="title">Criando conteï¿½do acessï¿½vel</span></td>
+      <td align="right"><a href="index.htm"><acronym title="Tabela de Conteï¿½do">TOC</acronym></a></td>
+    </tr>
+  </table>
+  <hr noshade>
+  <p>TinyMCE pode criar conteï¿½do HTML que serï¿½ acessï¿½vel para todos usuï¿½rios, incluindo aqueles com deficiï¿½ncias usando
+    assistentes tecnolï¿½gicos, assim como aqueles usando navegadores de texto puro, ou ainda aqueles usando navegadores
+    com imagens desligadas. </p>
 
-<p><strong>Coisas que você pode fazer para manter seu conteúdo acessível:</strong></p>
-<ol>
-<li><strong>Incluir uma Descrição na Imagem:</strong> usuários cegos, ou outros que não podem ver a imagem (ou ela não carregou), irão depender da Descrição da Imagem (ou Texto Alternativo) para substituí-la. Se uma imagem não tiver significado, como uma decoração ou uma imagem de espaçamento, deixe a Descrição da Imagem em branco. TinyMCE irá então inserir um atributo de texto Alternativo que irá forçar os assistentes tecnológicos a ignorar a imagem. <br /><br /></li>
+  <p><strong>Coisas que vocï¿½ pode fazer para manter seu conteï¿½do acessï¿½vel:</strong></p>
+  <ol>
+    <li><strong>Incluir uma Descriï¿½ï¿½o na Imagem:</strong> usuï¿½rios cegos, ou outros que nï¿½o podem ver a imagem (ou ela
+      nï¿½o carregou), irï¿½o depender da Descriï¿½ï¿½o da Imagem (ou Texto Alternativo) para substituï¿½-la. Se uma imagem nï¿½o
+      tiver significado, como uma decoraï¿½ï¿½o ou uma imagem de espaï¿½amento, deixe a Descriï¿½ï¿½o da Imagem em branco. TinyMCE
+      irï¿½ entï¿½o inserir um atributo de texto Alternativo que irï¿½ forï¿½ar os assistentes tecnolï¿½gicos a ignorar a imagem.
+      <br /><br /></li>
 
-<li> <strong>Adicione Escopo para células de cabeçalhos de tabelas de dados:</strong> Na janela do editor de célula de tabela, escolha um Escopo quando criando os cabeçalhos da tabela para que o rótulo da coluna ou linha naquela célula seja associada explicitamente  com as células de dados. Cabeçalhos de células de tabela serão então anunciados a cada célula de dados, permitindo que usuários cegos com um leitor de tela possa entender o conteúdo que cada célula representa.<br /><br /></li>
+    <li> <strong>Adicione Escopo para cï¿½lulas de cabeï¿½alhos de tabelas de dados:</strong> Na janela do editor de cï¿½lula
+      de tabela, escolha um Escopo quando criando os cabeï¿½alhos da tabela para que o rï¿½tulo da coluna ou linha naquela
+      cï¿½lula seja associada explicitamente com as cï¿½lulas de dados. Cabeï¿½alhos de cï¿½lulas de tabela serï¿½o entï¿½o
+      anunciados a cada cï¿½lula de dados, permitindo que usuï¿½rios cegos com um leitor de tela possa entender o conteï¿½do
+      que cada cï¿½lula representa.<br /><br /></li>
 
-<li><strong>Estruture própriamente o conteúdo com cabeçalhos embutidos:</strong> No menu de seleção de Formatação escolha entre o cabeçalho 1 ao 6 para representar os cabeçalhos de seu conteúdo ao invés de usar outras formatações de fonte.  Usuários cegos usando um leitor de tela poderão extrair o cabeçalho da página para gerar um resumo do conteúdo dela, e usar esses cabeçalhos para navegar rapidamente nas subseções da página.<br /><br /></li>
+    <li><strong>Estruture prï¿½priamente o conteï¿½do com cabeï¿½alhos embutidos:</strong> No menu de seleï¿½ï¿½o de Formataï¿½ï¿½o
+      escolha entre o cabeï¿½alho 1 ao 6 para representar os cabeï¿½alhos de seu conteï¿½do ao invï¿½s de usar outras
+      formataï¿½ï¿½es de fonte. Usuï¿½rios cegos usando um leitor de tela poderï¿½o extrair o cabeï¿½alho da pï¿½gina para gerar um
+      resumo do conteï¿½do dela, e usar esses cabeï¿½alhos para navegar rapidamente nas subseï¿½ï¿½es da pï¿½gina.<br /><br />
+    </li>
 
-<li><strong>Inclua conteúdo alternativo:</strong>Crie uma página alternativa para conteúdos não HTML como FLASH, JAVA e vídeos embutidos.  Pode ser uma imagem estática, com uma descrição da imagem e a descrição do conteúdo que teria aparecido em seu lugar. Uma página HTML alternativa pode ser criada e um link para ela incluída próxima ao objeto não HTML.  Isto permitirá que o conteúdo seja acessível para usuários de assistentes tecnológicos que podem visualizar o conteúdo, e ainda permitir que o conteúdo esteja disponível para que não possuí o plgunin instalado.<br /><br /></li>
+    <li><strong>Inclua conteï¿½do alternativo:</strong>Crie uma pï¿½gina alternativa para conteï¿½dos nï¿½o HTML como FLASH,
+      JAVA e vï¿½deos embutidos. Pode ser uma imagem estï¿½tica, com uma descriï¿½ï¿½o da imagem e a descriï¿½ï¿½o do conteï¿½do que
+      teria aparecido em seu lugar. Uma pï¿½gina HTML alternativa pode ser criada e um link para ela incluï¿½da prï¿½xima ao
+      objeto nï¿½o HTML. Isto permitirï¿½ que o conteï¿½do seja acessï¿½vel para usuï¿½rios de assistentes tecnolï¿½gicos que podem
+      visualizar o conteï¿½do, e ainda permitir que o conteï¿½do esteja disponï¿½vel para que nï¿½o possuï¿½ o plgunin
+      instalado.<br /><br /></li>
 
-<li><strong>Checagem de Acessibilidade: </strong>Quando o plugin de Checagem de Acessibilidade (AChecker) está instalado com o TinyMCE, clique no botão de Checagem de Acessibilidade para gerar um relatório de possíveis problemas de acessibilidade.<br /><br /></li>
+    <li><strong>Checagem de Acessibilidade: </strong>Quando o plugin de Checagem de Acessibilidade (AChecker) estï¿½
+      instalado com o TinyMCE, clique no botï¿½o de Checagem de Acessibilidade para gerar um relatï¿½rio de possï¿½veis
+      problemas de acessibilidade.<br /><br /></li>
 
-</ol>
+  </ol>
 
-<p>See the <a href="http://checker.atrc.utoronto.ca" target="_new">Web Site do Checagor de Acessibilidade (AChecker)</a> para maiores detalhes de como criar conteúdos que serão acessíveis para todos usuários.<br />
-</p>
+  <p>See the <a href="http://checker.atrc.utoronto.ca" target="_new">Web Site do Checagor de Acessibilidade
+      (AChecker)</a> para maiores detalhes de como criar conteï¿½dos que serï¿½o acessï¿½veis para todos usuï¿½rios.<br />
+  </p>
 
-<hr noshade>
-<table width="100%" border="0" cellpadding="1" cellspacing="3" class="pagefooter">
-  <tr> 
-    <td>Vai para: <a href="index.htm">Tabela de Conteúdo</a></td>
-    <td align="right"><a href="#">Topo</a></td>
-  </tr>
-</table>
+  <hr noshade>
+  <table width="100%" border="0" cellpadding="1" cellspacing="3" class="pagefooter">
+    <tr>
+      <td>Vai para: <a href="index.htm">Tabela de Conteï¿½do</a></td>
+      <td align="right"><a href="#">Topo</a></td>
+    </tr>
+  </table>
 
-<br>
+  <br>
 </BODY>
+
 </HTML>

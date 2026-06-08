@@ -37,7 +37,13 @@ require_once($mosConfig_absolute_path."/administrator/components/com_swmenufree/
 /*]]>*/
 </script>
 <script type="text/javascript" src="components/com_swmenufree/ImageManager/assets/manager.js"></script>
-</head>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head>
 <body>
 <div class="title">Insert Image</div>
 <form action="index3.php?option=com_swmenufree&task=imageFiles" id="uploadForm" method="post" enctype="multipart/form-data">

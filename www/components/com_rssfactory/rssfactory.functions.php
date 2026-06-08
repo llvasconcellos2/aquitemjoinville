@@ -114,7 +114,7 @@ function ParseRss_toCache2($rssid,$rssurl,$rss,$nrfeeds){
     require_once( $mosConfig_absolute_path . '/components/com_rssfactory/magpierss/rss_fetch.inc');
     if (!class_exists("MagpieRSS")) return;
     init();
-//   $resp = new MagpieRSS( $rss, 'ISO-8859-1',null, true );
+//   $resp = new MagpieRSS( $rss, 'charset=UTF-8',null, true );
    $resp = new MagpieRSS( $rss, 'UTF-8',null, true );
 //   var_dump($resp->source_encoding);
     // if RSS parsed successfully
@@ -593,7 +593,7 @@ function CleanRss(&$rss){
 
    if (!preg_match("/<\?xml.*?encoding\s*=\s*[\"'](.*?)[\"'].*?\?>/is", $rss, $matches)) {
         if(preg_match("/<\?xml(\s).*?\?>/is", $rss, $matches)) {
-            $rss = preg_replace("/<\?xml[\s](.*?)\?>/is", '<?xml $1 encoding="iso-8859-1"?>', $rss);
+            $rss = preg_replace("/<\?xml[\s](.*?)\?>/is", '<?xml $1 encoding="charset=UTF-8"?>', $rss);
         }
     }
 
@@ -618,11 +618,11 @@ function change_encoding($data, $input, $output)
 	{
 		return $return;
 	}
-	elseif ($input == 'ISO-8859-1' && $output == 'UTF-8')
+	elseif ($input == 'charset=UTF-8' && $output == 'UTF-8')
 	{
 		return utf8_encode($data);
 	}
-	elseif ($input == 'UTF-8' && $output == 'ISO-8859-1')
+	elseif ($input == 'UTF-8' && $output == 'charset=UTF-8')
 	{
 		return utf8_decode($data);
 	}
@@ -649,13 +649,13 @@ function encoding($encoding)
 		case 'ISO_8859-1:1987':
 		case 'ISO-IR-100':
 		case 'ISO_8859-1':
-		case 'ISO-8859-1':
+		case 'charset=UTF-8':
 		case 'LATIN1':
 		case 'L1':
 		case 'IBM819':
 		case 'CP819':
 		case 'CSISOLATIN1':
-			return 'ISO-8859-1';
+			return 'charset=UTF-8';
 
 		case 'ISO_8859-2:1987':
 		case 'ISO-IR-101':
@@ -730,13 +730,13 @@ function encoding($encoding)
 		case 'CSISOLATIN5':
 			return 'ISO-8859-9';
 
-		case 'ISO-8859-10':
+		case 'charset=UTF-80':
 		case 'ISO-IR-157':
 		case 'L6':
 		case 'ISO_8859-10:1992':
 		case 'CSISOLATIN6':
 		case 'LATIN6':
-			return 'ISO-8859-10';
+			return 'charset=UTF-80';
 
 		case 'ISO_6937-2-ADD':
 		case 'ISO-IR-142':
@@ -1257,30 +1257,30 @@ function encoding($encoding)
 		case 'UTF-8':
 			return 'UTF-8';
 
-		case 'ISO-8859-13':
-			return 'ISO-8859-13';
+		case 'charset=UTF-83':
+			return 'charset=UTF-83';
 
-		case 'ISO-8859-14':
+		case 'charset=UTF-84':
 		case 'ISO-IR-199':
 		case 'ISO_8859-14:1998':
 		case 'ISO_8859-14':
 		case 'LATIN8':
 		case 'ISO-CELTIC':
 		case 'L8':
-			return 'ISO-8859-14';
+			return 'charset=UTF-84';
 
-		case 'ISO-8859-15':
+		case 'charset=UTF-85':
 		case 'ISO_8859-15':
 		case 'LATIN-9':
-			return 'ISO-8859-15';
+			return 'charset=UTF-85';
 
-		case 'ISO-8859-16':
+		case 'charset=UTF-86':
 		case 'ISO-IR-226':
 		case 'ISO_8859-16:2001':
 		case 'ISO_8859-16':
 		case 'LATIN10':
 		case 'L10':
-			return 'ISO-8859-16';
+			return 'charset=UTF-86';
 
 		case 'GBK':
 		case 'CP936':
@@ -1388,13 +1388,13 @@ function encoding($encoding)
 		case 'CSBOCU-1':
 			return 'BOCU-1';
 
-		case 'ISO-8859-1-WINDOWS-3.0-LATIN-1':
+		case 'charset=UTF-8-WINDOWS-3.0-LATIN-1':
 		case 'CSWINDOWS30LATIN1':
-			return 'ISO-8859-1-Windows-3.0-Latin-1';
+			return 'charset=UTF-8-Windows-3.0-Latin-1';
 
-		case 'ISO-8859-1-WINDOWS-3.1-LATIN-1':
+		case 'charset=UTF-8-WINDOWS-3.1-LATIN-1':
 		case 'CSWINDOWS31LATIN1':
-			return 'ISO-8859-1-Windows-3.1-Latin-1';
+			return 'charset=UTF-8-Windows-3.1-Latin-1';
 
 		case 'ISO-8859-2-WINDOWS-LATIN-2':
 		case 'CSWINDOWS31LATIN2':

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="charset=UTF-8"?>
 <mosinstall version="1.0.0" type="mambot" group="search">
 	<name>RSSfactory searchbot</name>
 	<author>TheFactory</author>

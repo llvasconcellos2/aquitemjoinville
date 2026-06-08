@@ -46,7 +46,13 @@ var currentImageFile = "<?php if(count($imageInfo)>0) echo rawurlencode($imageIn
 
 </script>
 <script type="text/javascript" src="assets/editorFrame.js"></script>
-</head>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head>
 
 <body>
 <div id="status"></div>

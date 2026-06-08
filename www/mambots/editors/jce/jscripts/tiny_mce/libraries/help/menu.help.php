@@ -26,7 +26,13 @@ $jce = new JCE();
 	<link href="<?php echo $jce->getTinyUrl();?>/themes/advanced/css/editor_popup.css" rel="stylesheet" type="text/css" />
 	<?php echo $jce->printLibCss( 'common' );?>
 	<?php echo $jce->printLibCss( 'dtree' );?>
-</head>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head>
 <body>
 	<div id="helpTree"></div>
 <?php

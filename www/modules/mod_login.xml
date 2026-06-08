@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="charset=UTF-8"?>
 <mosinstall type="module" version="1.0.0">
-	<name>Autenticação</name>
+	<name>Autenticaï¿½ï¿½o</name>
 	<author>Joomla! Project</author>
 	<creationDate>July 2004</creationDate>
 	<copyright>(C) 2005 Open Source Matters. All rights reserved.</copyright>
@@ -10,16 +10,16 @@
 	<translation>Idioma pt-br / Lena - www.facilhost.com.br</translation>
 	<translationDate>27-07-2007</translationDate>
     <version>1.0.0</version>
-	<description>Este módulo exibe um formulário de Nome de Usuário e Senha. Que também exibe um link para recuperação de senhas esquecidas. Se o registro de usuário está habilidado, (consulte as configurações Globais), então outro link será exibido convidando os usuários a se auto-registrarem.</description>
+	<description>Este mï¿½dulo exibe um formulï¿½rio de Nome de Usuï¿½rio e Senha. Que tambï¿½m exibe um link para recuperaï¿½ï¿½o de senhas esquecidas. Se o registro de usuï¿½rio estï¿½ habilidado, (consulte as configuraï¿½ï¿½es Globais), entï¿½o outro link serï¿½ exibido convidando os usuï¿½rios a se auto-registrarem.</description>
 	<files>
 		<filename module="mod_login">mod_login.php</filename>
 	</files>
 	<params>
-		<param name="moduleclass_sfx" type="text" default="" label="Sufixo de Classe da Página" description="Um sufixo para ser aplicado à classe css da página, isto permite um estilo de página individual" />
-		<param name="pretext" type="textarea" cols="20" rows="5" default="" label="Pré-texto" description="Este é o texto ou html que é exibido acima do formulário de login" />
-		<param name="posttext" type="textarea" cols="20" rows="5" label="Pós-texto" description="Este é o texto ou html que é exibido abaixo do formulário de login" />
-		<param name="login" type="text" default="" label="URL de Redirecionamento do Login" description="Que página o login redirecionará após efetuar login, se deixado em branco será carregada a página principal" />
-		<param name="logout" type="text" default="" label="URL de Redirecionamento do Logout" description="Que página o logout redirecionará após efetuar logout, se deixado em branco será carregada a página principal" />
+		<param name="moduleclass_sfx" type="text" default="" label="Sufixo de Classe da Pï¿½gina" description="Um sufixo para ser aplicado ï¿½ classe css da pï¿½gina, isto permite um estilo de pï¿½gina individual" />
+		<param name="pretext" type="textarea" cols="20" rows="5" default="" label="Prï¿½-texto" description="Este ï¿½ o texto ou html que ï¿½ exibido acima do formulï¿½rio de login" />
+		<param name="posttext" type="textarea" cols="20" rows="5" label="Pï¿½s-texto" description="Este ï¿½ o texto ou html que ï¿½ exibido abaixo do formulï¿½rio de login" />
+		<param name="login" type="text" default="" label="URL de Redirecionamento do Login" description="Que pï¿½gina o login redirecionarï¿½ apï¿½s efetuar login, se deixado em branco serï¿½ carregada a pï¿½gina principal" />
+		<param name="logout" type="text" default="" label="URL de Redirecionamento do Logout" description="Que pï¿½gina o logout redirecionarï¿½ apï¿½s efetuar logout, se deixado em branco serï¿½ carregada a pï¿½gina principal" />
 		<param name="login_message" type="radio" default="0" label="Mensagem de Login" description="Exibir/Ocultar o pop-up javascript indicando login com sucesso">
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
@@ -28,12 +28,12 @@
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>
-		<param name="greeting" type="radio" default="1" label="Saudação" description="Exibir/Ocultar o texto de saudação">
-			<option value="0">Não</option>
+		<param name="greeting" type="radio" default="1" label="Saudaï¿½ï¿½o" description="Exibir/Ocultar o texto de saudaï¿½ï¿½o">
+			<option value="0">Nï¿½o</option>
 			<option value="1">Sim</option>
 		</param>
-		<param name="name" type="list" default="0" label="Nome/Nome de Usuário">
-			<option value="0">Nome de Usuário</option>
+		<param name="name" type="list" default="0" label="Nome/Nome de Usuï¿½rio">
+			<option value="0">Nome de Usuï¿½rio</option>
 			<option value="1">Nome</option>
 		</param>
 	</params>

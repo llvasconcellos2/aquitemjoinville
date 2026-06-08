@@ -30,7 +30,7 @@ require_once(dirname(__FILE__) . "/XmlSerializer.class.php");
  * 
  * we will get an xml of the following form
  * 
- * <?xml version="1.0" encoding="ISO-8859-1"?>
+ * <?xml version="1.0" encoding="charset=UTF-8"?>
  * <response>
  *   <data>
  *     <row>

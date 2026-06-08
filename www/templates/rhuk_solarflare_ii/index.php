@@ -41,7 +41,13 @@ if ( mosCountModules( 'right' ) and ( empty( $_REQUEST['task'] ) || $_REQUEST['t
 ?>
 <meta http-equiv="Content-Type" content="text/html; <?php echo _ISO; ?>" />
 <link href="<?php echo $mosConfig_live_site;?>/templates/rhuk_solarflare_ii/css/template_css.css" rel="stylesheet" type="text/css" />
-</head>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head>
 <body>
 
 <div align="center">

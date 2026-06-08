@@ -330,7 +330,7 @@ class XML_Parser extends PEAR
 
      */
 
-    var $_validEncodings = array('ISO-8859-1', 'UTF-8', 'US-ASCII');
+    var $_validEncodings = array('charset=UTF-8', 'UTF-8', 'US-ASCII');
 
 
 

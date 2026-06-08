@@ -48,7 +48,13 @@ $jce->processAjax();
 		jce.setPlugin('advlink');
 		jce.set('target', "<?php echo $params->get('target', '_self');?>");
 	</script>
-</head>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head>
 <body lang="<?php echo $jce->getPluginLanguage();?>" id="advlink" onLoad="tinyMCEPopup.executeOnLoad('init();');" style="display: none">
 	<form name="advlink_form" onSubmit="insertAction();return false;" action="#">
 	<div class="tabs">

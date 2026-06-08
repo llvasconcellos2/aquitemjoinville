@@ -3,12 +3,12 @@
 	<name>Brazilian Portuguese</name>
 	<version>1.1.5</version>
 	<creationDate>2007</creationDate>
-	<author>Raul Dias [convertido para iso-8859-1 por Marcelo Oliveira - www.iboletim.com.br]</author>
+	<author>Raul Dias [convertido para charset=UTF-8 por Marcelo Oliveira - www.iboletim.com.br]</author>
 	<authorEmail>raul@dias.com.br</authorEmail>
 	<authorUrl>http://www.dias.com.br</authorUrl>
 	<copyright>SWI Servi�os de Internet</copyright>
 	<license>LGPL</license>
-	<description>Brazilian Portuguese Language files for JCE (iso-8859-1)</description>
+	<description>Brazilian Portuguese Language files for JCE (charset=UTF-8)</description>
 	
 	<files>
 		<filename language="pt_br">langs/pt_br.js</filename>

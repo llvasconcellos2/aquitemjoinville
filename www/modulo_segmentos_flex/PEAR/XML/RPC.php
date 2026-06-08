@@ -174,7 +174,7 @@ $GLOBALS['XML_RPC_str'] = array(
 
 
 /**
- * Default XML encoding (ISO-8859-1, UTF-8 or US-ASCII)
+ * Default XML encoding (charset=UTF-8, UTF-8 or US-ASCII)
  * @global string $GLOBALS['XML_RPC_defencoding']
  */
 $GLOBALS['XML_RPC_defencoding'] = 'UTF-8';
@@ -1388,7 +1388,7 @@ class XML_RPC_Message extends XML_RPC_Base
     /**
      * Sets the XML declaration's encoding attribute
      *
-     * @param string $type  the encoding type (ISO-8859-1, UTF-8 or US-ASCII)
+     * @param string $type  the encoding type (charset=UTF-8, UTF-8 or US-ASCII)
      *
      * @return void
      *
@@ -1404,7 +1404,7 @@ class XML_RPC_Message extends XML_RPC_Base
      * Determine the XML's encoding via the encoding attribute
      * in the XML declaration
      *
-     * If the encoding parameter is not set or is not ISO-8859-1, UTF-8
+     * If the encoding parameter is not set or is not charset=UTF-8, UTF-8
      * or US-ASCII, $XML_RPC_defencoding will be returned.
      *
      * @param string $data  the XML that will be parsed
@@ -1423,7 +1423,7 @@ class XML_RPC_Message extends XML_RPC_Base
         {
             $match[1] = trim(strtoupper($match[1]));
             switch ($match[1]) {
-                case 'ISO-8859-1':
+                case 'charset=UTF-8':
                 case 'UTF-8':
                 case 'US-ASCII':
                     return $match[1];

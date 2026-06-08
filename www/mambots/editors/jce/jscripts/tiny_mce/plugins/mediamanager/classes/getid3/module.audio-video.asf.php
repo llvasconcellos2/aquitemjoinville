@@ -1583,24 +1583,24 @@ class getid3_asf
 	function WMpictureTypeLookup($WMpictureType) {
 		static $WMpictureTypeLookup = array();
 		if (empty($WMpictureTypeLookup)) {
-			$WMpictureTypeLookup[0x03] = getid3_lib::iconv_fallback('ISO-8859-1', 'UTF-16LE', 'Front Cover');
-			$WMpictureTypeLookup[0x04] = getid3_lib::iconv_fallback('ISO-8859-1', 'UTF-16LE', 'Back Cover');
-			$WMpictureTypeLookup[0x00] = getid3_lib::iconv_fallback('ISO-8859-1', 'UTF-16LE', 'User Defined');
-			$WMpictureTypeLookup[0x05] = getid3_lib::iconv_fallback('ISO-8859-1', 'UTF-16LE', 'Leaflet Page');
-			$WMpictureTypeLookup[0x06] = getid3_lib::iconv_fallback('ISO-8859-1', 'UTF-16LE', 'Media Label');
-			$WMpictureTypeLookup[0x07] = getid3_lib::iconv_fallback('ISO-8859-1', 'UTF-16LE', 'Lead Artist');
-			$WMpictureTypeLookup[0x08] = getid3_lib::iconv_fallback('ISO-8859-1', 'UTF-16LE', 'Artist');
-			$WMpictureTypeLookup[0x09] = getid3_lib::iconv_fallback('ISO-8859-1', 'UTF-16LE', 'Conductor');
-			$WMpictureTypeLookup[0x0A] = getid3_lib::iconv_fallback('ISO-8859-1', 'UTF-16LE', 'Band');
-			$WMpictureTypeLookup[0x0B] = getid3_lib::iconv_fallback('ISO-8859-1', 'UTF-16LE', 'Composer');
-			$WMpictureTypeLookup[0x0C] = getid3_lib::iconv_fallback('ISO-8859-1', 'UTF-16LE', 'Lyricist');
-			$WMpictureTypeLookup[0x0D] = getid3_lib::iconv_fallback('ISO-8859-1', 'UTF-16LE', 'Recording Location');
-			$WMpictureTypeLookup[0x0E] = getid3_lib::iconv_fallback('ISO-8859-1', 'UTF-16LE', 'During Recording');
-			$WMpictureTypeLookup[0x0F] = getid3_lib::iconv_fallback('ISO-8859-1', 'UTF-16LE', 'During Performance');
-			$WMpictureTypeLookup[0x10] = getid3_lib::iconv_fallback('ISO-8859-1', 'UTF-16LE', 'Video Screen Capture');
-			$WMpictureTypeLookup[0x12] = getid3_lib::iconv_fallback('ISO-8859-1', 'UTF-16LE', 'Illustration');
-			$WMpictureTypeLookup[0x13] = getid3_lib::iconv_fallback('ISO-8859-1', 'UTF-16LE', 'Band Logotype');
-			$WMpictureTypeLookup[0x14] = getid3_lib::iconv_fallback('ISO-8859-1', 'UTF-16LE', 'Publisher Logotype');
+			$WMpictureTypeLookup[0x03] = getid3_lib::iconv_fallback('charset=UTF-8', 'UTF-16LE', 'Front Cover');
+			$WMpictureTypeLookup[0x04] = getid3_lib::iconv_fallback('charset=UTF-8', 'UTF-16LE', 'Back Cover');
+			$WMpictureTypeLookup[0x00] = getid3_lib::iconv_fallback('charset=UTF-8', 'UTF-16LE', 'User Defined');
+			$WMpictureTypeLookup[0x05] = getid3_lib::iconv_fallback('charset=UTF-8', 'UTF-16LE', 'Leaflet Page');
+			$WMpictureTypeLookup[0x06] = getid3_lib::iconv_fallback('charset=UTF-8', 'UTF-16LE', 'Media Label');
+			$WMpictureTypeLookup[0x07] = getid3_lib::iconv_fallback('charset=UTF-8', 'UTF-16LE', 'Lead Artist');
+			$WMpictureTypeLookup[0x08] = getid3_lib::iconv_fallback('charset=UTF-8', 'UTF-16LE', 'Artist');
+			$WMpictureTypeLookup[0x09] = getid3_lib::iconv_fallback('charset=UTF-8', 'UTF-16LE', 'Conductor');
+			$WMpictureTypeLookup[0x0A] = getid3_lib::iconv_fallback('charset=UTF-8', 'UTF-16LE', 'Band');
+			$WMpictureTypeLookup[0x0B] = getid3_lib::iconv_fallback('charset=UTF-8', 'UTF-16LE', 'Composer');
+			$WMpictureTypeLookup[0x0C] = getid3_lib::iconv_fallback('charset=UTF-8', 'UTF-16LE', 'Lyricist');
+			$WMpictureTypeLookup[0x0D] = getid3_lib::iconv_fallback('charset=UTF-8', 'UTF-16LE', 'Recording Location');
+			$WMpictureTypeLookup[0x0E] = getid3_lib::iconv_fallback('charset=UTF-8', 'UTF-16LE', 'During Recording');
+			$WMpictureTypeLookup[0x0F] = getid3_lib::iconv_fallback('charset=UTF-8', 'UTF-16LE', 'During Performance');
+			$WMpictureTypeLookup[0x10] = getid3_lib::iconv_fallback('charset=UTF-8', 'UTF-16LE', 'Video Screen Capture');
+			$WMpictureTypeLookup[0x12] = getid3_lib::iconv_fallback('charset=UTF-8', 'UTF-16LE', 'Illustration');
+			$WMpictureTypeLookup[0x13] = getid3_lib::iconv_fallback('charset=UTF-8', 'UTF-16LE', 'Band Logotype');
+			$WMpictureTypeLookup[0x14] = getid3_lib::iconv_fallback('charset=UTF-8', 'UTF-16LE', 'Publisher Logotype');
 		}
 		return @$WMpictureTypeLookup[$WMpictureType];
 	}
@@ -1615,7 +1615,7 @@ class getid3_asf
 		}
 
 		// convert
-		return trim(getid3_lib::iconv_fallback('UTF-16LE', 'ISO-8859-1', $string), ' ');
+		return trim(getid3_lib::iconv_fallback('UTF-16LE', 'charset=UTF-8', $string), ' ');
 	}
 
 

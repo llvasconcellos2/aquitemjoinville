@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="charset=UTF-8"?>
 <mosinstall type="component" version="4.5.1">
 	<name>Mass Mail</name>
 	<author>Joomla! Project</author>
@@ -10,6 +10,6 @@
 	<translation>Idioma pt-br / Lena - www.facilhost.com.br</translation>
 	<translationDate>27-07-2007</translationDate>
 <version>4.5.1</version>
-	<description>Este componente permite-lhe enviar um e-mail em massa a determinados grupos de usuários</description>
+	<description>Este componente permite-lhe enviar um e-mail em massa a determinados grupos de usuï¿½rios</description>
 	<params/>
 </mosinstall>

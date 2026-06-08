@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="charset=UTF-8"?>
 <mosinstall version="1.0.0" type="mambot" group="content">
 	<name>Inserir Imagens</name>
 	<author>Joomla! Project</author>
@@ -15,7 +15,7 @@
 		<filename mambot="mosimage">mosimage.php</filename>
 	</files>
 	<params>
-		<param name="margin" type="text" default="5" size="5" label="Margem" description="Margem em px, das Div em volta da Imagem e da Legenda - aplicável apenas se for utilizada uma legenda" />
-		<param name="padding" type="text" default="0" size="5" label="Espaçamento" description="Espaçamento em px, das Div em volta da Imagem e da Legenda - aplicável apenas se for utilizada uma legenda" />
+		<param name="margin" type="text" default="5" size="5" label="Margem" description="Margem em px, das Div em volta da Imagem e da Legenda - aplicï¿½vel apenas se for utilizada uma legenda" />
+		<param name="padding" type="text" default="0" size="5" label="Espaï¿½amento" description="Espaï¿½amento em px, das Div em volta da Imagem e da Legenda - aplicï¿½vel apenas se for utilizada uma legenda" />
 	</params>
 </mosinstall>

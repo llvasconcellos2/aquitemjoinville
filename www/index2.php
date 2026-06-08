@@ -1,7 +1,7 @@
 <?php
 /**
 * @version $Id: index2.php 10041 2008-02-15 21:48:13Z eddieajau $
-* @package Joomla / Tradução JoomlaClube 2008 - www.joomlaclube.com.br
+* @package Joomla / Traduï¿½ï¿½o JoomlaClube 2008 - www.joomlaclube.com.br
 * @copyright Copyright (C) 2005 Open Source Matters. All rights reserved.
 * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL, see LICENSE.php
 * Joomla! is free software. This version may have been modified pursuant
@@ -106,7 +106,7 @@ if ($path = $mainframe->getPath( 'front' )) {
 		mosNotAuth();
 	}
 } else {
-	header("HTTP/1.0 404 Não Encontrado");
+	header("HTTP/1.0 404 Nï¿½o Encontrado");
 	echo _NOT_EXIST;
 }
 $_MOS_OPTION['buffer'] = ob_get_contents();
@@ -148,7 +148,13 @@ if ( $no_html == 0 ) {
 			<?php if ($my->id || $mainframe->get( 'joomlaJavascript' )) { ?>
 			<script language="JavaScript" src="<?php echo $mosConfig_live_site;?>/includes/js/joomla.javascript.js" type="text/javascript"></script>
 			<?php } ?>
-		</head>
+		<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head>
 		<body class="contentpane">
 			<?php mosMainBody(); ?>
 		</body>

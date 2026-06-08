@@ -41,7 +41,7 @@ class XmlSerializer {
 	function serialize(& $obj) {
 		$serializer_options = array (
 		   'addDecl' => TRUE,
-		   'encoding' => 'ISO-8859-1',
+		   'encoding' => 'charset=UTF-8',
 		   'indent' => '  ',
 		   'defaultTagName' => 'row', 
 		   'rootName' => 'response'

@@ -1572,14 +1572,14 @@ function embed_wmedia(width, height, link) {
 			{
 				$encoding = 'UTF-8';
 			}
-			// Fallback to the default (US-ASCII for text/xml, ISO-8859-1 for text/* MIME types, UTF-8 otherwise)
+			// Fallback to the default (US-ASCII for text/xml, charset=UTF-8 for text/* MIME types, UTF-8 otherwise)
 			elseif (isset($headers['content-type']) && strtolower(SimplePie_Misc::parse_mime($headers['content-type'])) == 'text/xml')
 			{
 				$encoding = 'US-ASCII';
 			}
 			elseif (isset($headers['content-type']) && SimplePie_Misc::stripos(SimplePie_Misc::parse_mime($headers['content-type']), 'text/') === 0)
 			{
-				$encoding = 'ISO-8859-1';
+				$encoding = 'charset=UTF-8';
 			}
 			else
 			{
@@ -7718,11 +7718,11 @@ class SimplePie_Misc
 		{
 			return $return;
 		}
-		elseif ($input == 'ISO-8859-1' && $output == 'UTF-8')
+		elseif ($input == 'charset=UTF-8' && $output == 'UTF-8')
 		{
 			return utf8_encode($data);
 		}
-		elseif ($input == 'UTF-8' && $output == 'ISO-8859-1')
+		elseif ($input == 'UTF-8' && $output == 'charset=UTF-8')
 		{
 			return utf8_decode($data);
 		}
@@ -7750,13 +7750,13 @@ class SimplePie_Misc
 			case 'ISO_8859-1:1987':
 			case 'ISO-IR-100':
 			case 'ISO_8859-1':
-			case 'ISO-8859-1':
+			case 'charset=UTF-8':
 			case 'LATIN1':
 			case 'L1':
 			case 'IBM819':
 			case 'CP819':
 			case 'CSISOLATIN1':
-				return 'ISO-8859-1';
+				return 'charset=UTF-8';
 
 			case 'ISO_8859-2:1987':
 			case 'ISO-IR-101':
@@ -7831,13 +7831,13 @@ class SimplePie_Misc
 			case 'CSISOLATIN5':
 				return 'ISO-8859-9';
 
-			case 'ISO-8859-10':
+			case 'charset=UTF-80':
 			case 'ISO-IR-157':
 			case 'L6':
 			case 'ISO_8859-10:1992':
 			case 'CSISOLATIN6':
 			case 'LATIN6':
-				return 'ISO-8859-10';
+				return 'charset=UTF-80';
 
 			case 'ISO_6937-2-ADD':
 			case 'ISO-IR-142':
@@ -8358,30 +8358,30 @@ class SimplePie_Misc
 			case 'UTF-8':
 				return 'UTF-8';
 
-			case 'ISO-8859-13':
-				return 'ISO-8859-13';
+			case 'charset=UTF-83':
+				return 'charset=UTF-83';
 
-			case 'ISO-8859-14':
+			case 'charset=UTF-84':
 			case 'ISO-IR-199':
 			case 'ISO_8859-14:1998':
 			case 'ISO_8859-14':
 			case 'LATIN8':
 			case 'ISO-CELTIC':
 			case 'L8':
-				return 'ISO-8859-14';
+				return 'charset=UTF-84';
 
-			case 'ISO-8859-15':
+			case 'charset=UTF-85':
 			case 'ISO_8859-15':
 			case 'LATIN-9':
-				return 'ISO-8859-15';
+				return 'charset=UTF-85';
 
-			case 'ISO-8859-16':
+			case 'charset=UTF-86':
 			case 'ISO-IR-226':
 			case 'ISO_8859-16:2001':
 			case 'ISO_8859-16':
 			case 'LATIN10':
 			case 'L10':
-				return 'ISO-8859-16';
+				return 'charset=UTF-86';
 
 			case 'GBK':
 			case 'CP936':
@@ -8489,13 +8489,13 @@ class SimplePie_Misc
 			case 'CSBOCU-1':
 				return 'BOCU-1';
 
-			case 'ISO-8859-1-WINDOWS-3.0-LATIN-1':
+			case 'charset=UTF-8-WINDOWS-3.0-LATIN-1':
 			case 'CSWINDOWS30LATIN1':
-				return 'ISO-8859-1-Windows-3.0-Latin-1';
+				return 'charset=UTF-8-Windows-3.0-Latin-1';
 
-			case 'ISO-8859-1-WINDOWS-3.1-LATIN-1':
+			case 'charset=UTF-8-WINDOWS-3.1-LATIN-1':
 			case 'CSWINDOWS31LATIN1':
-				return 'ISO-8859-1-Windows-3.1-Latin-1';
+				return 'charset=UTF-8-Windows-3.1-Latin-1';
 
 			case 'ISO-8859-2-WINDOWS-LATIN-2':
 			case 'CSWINDOWS31LATIN2':

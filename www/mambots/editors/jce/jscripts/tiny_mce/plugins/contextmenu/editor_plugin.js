@@ -2,7 +2,7 @@
  * $Id: editor_plugin_src.js 144 2006-11-14 21:42:06Z spocke $
  *
  * @author Moxiecode
- * @copyright Copyright © 2004-2006, Moxiecode Systems AB, All rights reserved.
+ * @copyright Copyright ï¿½ 2004-2006, Moxiecode Systems AB, All rights reserved.
  */
 
 /* Import plugin specific language pack */
@@ -260,7 +260,13 @@ function TinyMCE_ContextMenu(settings) {
 		this.pop = window.createPopup();
 		doc = this.pop.document;
 		doc.open();
-		doc.write('<html><head><link href="' + tinyMCE.baseURL + '/plugins/contextmenu/css/contextmenu.css" rel="stylesheet" type="text/css" /></head><body unselectable="yes" class="contextMenuIEPopup"></body></html>');
+		doc.write('<html><head><link href="' + tinyMCE.baseURL + '/plugins/contextmenu/css/contextmenu.css" rel="stylesheet" type="text/css" /><script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head><body unselectable="yes" class="contextMenuIEPopup"></body></html>');
 		doc.close();
 	}
 };

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="charset=UTF-8"?>
 <mosinstall type="module">
 	<name>Quick Icons</name>
 	<author>Joomla! Project</author>
@@ -8,12 +8,12 @@
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
 	    <version>1.0.0</version>
-	<description>Este módulo exibe os botões de atalho na página de Administração ou `Painel de Controlo`</description>
+	<description>Este mï¿½dulo exibe os botï¿½es de atalho na pï¿½gina de Administraï¿½ï¿½o ou `Painel de Controlo`</description>
 	<files>
 		<filename module="mod_quickicon">mod_quickicon.php</filename>
 	</files>
 	<params>
-		<param name="securitycheck" type="radio" default="1" label="Verificação de segurança" description="Selecionar para exibir a verificação de Avisos de Segurança">
+		<param name="securitycheck" type="radio" default="1" label="Verificaï¿½ï¿½o de seguranï¿½a" description="Selecionar para exibir a verificaï¿½ï¿½o de Avisos de Seguranï¿½a">
 			<option value="0">Ocultar</option>
 			<option value="1">Exibir</option>
 		</param>

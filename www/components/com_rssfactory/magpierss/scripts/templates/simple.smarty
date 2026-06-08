@@ -1,7 +1,13 @@
 <html>
 <head>
 <title>A Simple RSS Box:  I'm not a designer</title>
-</head>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head>
 <body>
 
 <form>

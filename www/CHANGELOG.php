@@ -1,7 +1,7 @@
 <?php
 /**
 * @version $Id: CHANGELOG.php 10052 2008-02-21 16:04:13Z willebil $
-* @package Joomla / Tradução JoomlaClube 2008 - www.joomlaclube.com.br
+* @package Joomla / Traduï¿½ï¿½o JoomlaClube 2008 - www.joomlaclube.com.br
 * @copyright Copyright (C) 2005 Open Source Matters. All rights reserved.
 * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL, see LICENSE.php
 * Joomla! is free software. This version may have been modified pursuant
@@ -1900,7 +1900,7 @@ Low Level Threat
  * SECURITY [ Critical Level ]: Hardened SEF against XSS injection
 
 19-Nov-2005 Levis Bisson
- # replaced charset=utf-8 to charset=iso-8859-1 in language file
+ # replaced charset=utf-8 to charset=charset=UTF-8 in language file
 
 19-Nov-2005 Andrew Eddie
  * SECURITY [ Critical Level ]: Fixed XSS injection of global variable through the _GET array
@@ -2203,7 +2203,13 @@ Low Level Threat
 25-Sep-2005 Emir Sakic
  # Fixed [artf1185] : globals.php-off breaks pathway
  # Fixed [artf1196] : undefined constant categoryid
- # Fixed [artf1216] : madeyourweb no </head> TAG
+ # Fixed [artf1216] : madeyourweb no <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head> TAG
 
 24-Sep-2005 Rey Gigataras
  ^ [artf1214] : pastarchives.jpg seems unintuitive.

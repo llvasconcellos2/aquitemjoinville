@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="charset=UTF-8"?>
 <mosinstall type="menu" version="1.0.0">
-	<name>Enviar - Conteúdo</name>
+	<name>Enviar - Conteï¿½do</name>
 	<group>Content|Submit</group>
 	<author>Jason407</author>
 	<creationDate>August 2005</creationDate>
@@ -11,8 +11,8 @@
 	<translation>Idioma pt-br / Lena - www.facilhost.com.br</translation>
 	<translationDate>27-07-2007</translationDate>
     <version>1.0.0</version>
-	<description>Cria um botão Enviar para Usuários enviarem Conteúdo</description>
+	<description>Cria um botï¿½o Enviar para Usuï¿½rios enviarem Conteï¿½do</description>
 	<params>
-		<param name="menu_image" type="imagelist" directory="/images/stories" hide_default="1" default="" label="Imagem de Menu" description="Uma pequena imagem para ser colocada à esquerda ou direita do item de menu. As imagens devem estar no diretório:  images/stories/" />
+		<param name="menu_image" type="imagelist" directory="/images/stories" hide_default="1" default="" label="Imagem de Menu" description="Uma pequena imagem para ser colocada ï¿½ esquerda ou direita do item de menu. As imagens devem estar no diretï¿½rio:  images/stories/" />
 	</params>
 </mosinstall>

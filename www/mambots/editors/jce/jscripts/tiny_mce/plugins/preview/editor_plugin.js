@@ -96,7 +96,13 @@ var TinyMCE_PreviewPlugin = {
 					html += '<base href="' + tinyMCE.settings['base_href'] + '" />';
 					html += '<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />';
 					html += '<link href="' + tinyMCE.getParam("content_css") + '" rel="stylesheet" type="text/css" />';
-					html += '</head>';
+					html += '<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head>';
 					html += '<body>';
                     html += '<table align="center" width="90%" cellspacing="2" cellpadding="2" border="0">';
 	                html += '<tr>';

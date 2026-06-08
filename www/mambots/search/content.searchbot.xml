@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="charset=UTF-8"?>
 <mosinstall version="1.0.0" type="mambot" group="search">
 	<name>Pesquisador de Artigos</name>
 	<author>Joomla! Project</author>
@@ -15,9 +15,9 @@
 		<filename mambot="content.searchbot">content.searchbot.php</filename>
 	</files>
 	<params>
-		<param name="search_limit" type="text" size="5" default="50" label="Limite de Pesquisa" description="Número de resultados a exibir"/>		
-		<param name="nonmenu" type="radio" default="1" label="Artigo estático fora de menus" description="Pesquisar Artigos estáticos não ligados a menus?">
-			<option value="0">Não</option>
+		<param name="search_limit" type="text" size="5" default="50" label="Limite de Pesquisa" description="Nï¿½mero de resultados a exibir"/>		
+		<param name="nonmenu" type="radio" default="1" label="Artigo estï¿½tico fora de menus" description="Pesquisar Artigos estï¿½ticos nï¿½o ligados a menus?">
+			<option value="0">Nï¿½o</option>
 			<option value="1">Sim</option>
 		</param>
 	</params>

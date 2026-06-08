@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="charset=UTF-8"?>
 <mosinstall version="1.0.0" type="mambot" group="content">
-	<name>Código formatado</name>
+	<name>Cï¿½digo formatado</name>
 	<author>Joomla! Project</author>
 	<creationDate>August 2004</creationDate>
 	<copyright>(C) 2005 Open Source Matters. All rights reserved.</copyright>
@@ -10,7 +10,7 @@
 	<translation>Idioma pt-br / Lena - www.facilhost.com.br</translation>
 	<translationDate>27-07-2007</translationDate>
     <version>1.0.0</version>
-	<description>Exibe código formatado em artigos</description>
+	<description>Exibe cï¿½digo formatado em artigos</description>
 	<files>
 		<filename mambot="moscode">moscode.php</filename>
 	</files>

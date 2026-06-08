@@ -34,7 +34,13 @@ $fullhelpurl = $helpurl . '/index2.php?option=com_content&amp;task=findkey&amp;p
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=<?php $cl['iso'];?>" />
 <title><?php echo $pl['title'].'&nbsp;'.$cl['help'];?></title>
-</head>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head>
 <frameset cols="260,*" frameborder="yes" border="3" framespacing="0">
 	<frame src="index2.php?option=com_jce&amp;no_html=1&amp;task=help&amp;plugin=<?php echo $plugin;?>&amp;file=menu.help.php" name="menuFrame" id="menuFrame" />
 	<frame src="<?php echo $fullhelpurl . urlencode( $plugin . '.about' );?>" name="helpFrame" id="helpFrame" scrolling="yes"/>

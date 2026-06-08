@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="charset=UTF-8"?>
 <mosinstall type="menu" version="1.0.0">
 	<name>Link - Component Item</name>
 	<group>Component|Link</group>
@@ -13,6 +13,6 @@
     <version>1.0.0</version>
 	<description>Cria um link a um componente existente do Joomla!</description>
 	<params>
-		<param name="menu_image" type="imagelist" directory="/images/stories" hide_default="1" default="" label="Imagem do Menu" description="Uma pequena imagem para ser colocada à esquerda ou direita do item de menu. As imagens devem estar no diretório: images/stories/" />
+		<param name="menu_image" type="imagelist" directory="/images/stories" hide_default="1" default="" label="Imagem do Menu" description="Uma pequena imagem para ser colocada ï¿½ esquerda ou direita do item de menu. As imagens devem estar no diretï¿½rio: images/stories/" />
 	</params>
 </mosinstall>

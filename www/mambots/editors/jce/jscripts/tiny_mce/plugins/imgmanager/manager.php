@@ -65,7 +65,13 @@ $jce->processAjax();
 		jce.set("hspace", "<?php echo $params->get( 'hspace', '5' );?>");
 		jce.set("vspace", "<?php echo $params->get( 'vspace', '5' );?>");
 	</script>
-</head>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head>
 <body lang="<?php echo $jce->getPluginLanguage(); ?>" id="imgmanager" onLoad="tinyMCEPopup.executeOnLoad('init();');" style="display: none">
     <form action="<?php echo $jce->getPluginFile('files.php');?>" target="manager" name="uploadForm" id="uploadForm" method="POST" enctype="multipart/form-data">
     <input type="hidden" name="itemsList" id="itemsList" />

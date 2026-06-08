@@ -1,6 +1,6 @@
 <?php
 //CharSet
-$cl['iso'] = 'iso-8859-1';
+$cl['iso'] = 'charset=UTF-8';
 
 //Labels
 $cl['help'] = 'Help';

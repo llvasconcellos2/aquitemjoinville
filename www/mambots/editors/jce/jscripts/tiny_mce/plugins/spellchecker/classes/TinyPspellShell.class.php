@@ -2,7 +2,7 @@
 /* * 
  * Tiny Spelling Interface for TinyMCE Spell Checking.
  *
- * Copyright © 2006 Moxiecode Systems AB
+ * Copyright ï¿½ 2006 Moxiecode Systems AB
  *
  */
 
@@ -72,7 +72,7 @@ class TinyPspellShell {
 	// Returns array with suggestions or false if failed.
 	function getSuggestion($word) {
         if (function_exists("mb_convert_encoding"))
-            $word = mb_convert_encoding($word, "ISO-8859-1", mb_detect_encoding($word, "UTF-8"));
+            $word = mb_convert_encoding($word, "charset=UTF-8", mb_detect_encoding($word, "UTF-8"));
         else
             $word = utf8_encode($word);
 

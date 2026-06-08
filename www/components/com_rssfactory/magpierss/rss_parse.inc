@@ -52,7 +52,7 @@ class MagpieRSS {
     // define some constants
     
     var $_CONTENT_CONSTRUCTS = array('content', 'summary', 'info', 'title', 'tagline', 'copyright');
-    var $_KNOWN_ENCODINGS    = array('UTF-8', 'US-ASCII', 'ISO-8859-1');
+    var $_KNOWN_ENCODINGS    = array('UTF-8', 'US-ASCII', 'charset=UTF-8');
 
     // parser variables, useless if you're not a parser, treat as private
     var $stack              = array(); // parser stack
@@ -77,7 +77,7 @@ class MagpieRSS {
      *
      *
      *  @param string $output_encoding  output the parsed RSS in this character 
-     *                                  set defaults to ISO-8859-1 as this is PHP's
+     *                                  set defaults to charset=UTF-8 as this is PHP's
      *                                  default.
      *
      *                                  NOTE: might be changed to UTF-8 in future
@@ -92,7 +92,7 @@ class MagpieRSS {
      *                                  source encoding. (caveat emptor)
      *
      */
-    function MagpieRSS ($source, $output_encoding='ISO-8859-1', 
+    function MagpieRSS ($source, $output_encoding='charset=UTF-8', 
                         $input_encoding=null, $detect_encoding=true) 
     {   
         # if PHP xml isn't compiled in, die
@@ -489,7 +489,7 @@ class MagpieRSS {
     * Unfortunately PHP4's support for character encodings
     * and especially XML and character encodings sucks.  As
     * long as the documents you parse only contain characters
-    * from the ISO-8859-1 character set (a superset of ASCII,
+    * from the charset=UTF-8 character set (a superset of ASCII,
     * and a subset of UTF-8) you're fine.  However once you
     * step out of that comfy little world things get mad, bad,
     * and dangerous to know.

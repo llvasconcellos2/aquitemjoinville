@@ -213,7 +213,13 @@ function noFiles()
 	}
 /*]]>*/
 </script>
-</head>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head>
 <body style="background-color:#FFFFFF" onLoad="init();">
 <div id="dirList" onselectstart="return false" class="div-list">
         <?php if( count( $dir_list ) > 0 ) drawDirs( $dir_list, $manager ); ?>

@@ -4,7 +4,7 @@
  * Moxiecode DHTML Windows script.
  *
  * @author Moxiecode
- * @copyright Copyright © 2004-2006, Moxiecode Systems AB, All rights reserved.
+ * @copyright Copyright ï¿½ 2004-2006, Moxiecode Systems AB, All rights reserved.
  */
 
 // Patch openWindow, closeWindow TinyMCE functions
@@ -281,7 +281,13 @@ TinyMCE_Windows.prototype.open = function(url, name, features) {
 	html += '<title>Wrapper iframe</title>';
 	html += '<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">';
 	html += '<link href="' + this.getParam("css_file") + '" rel="stylesheet" type="text/css" />';
-	html += '</head>';
+	html += '<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head>';
 	html += '<body onload="parent.mcWindows.onLoad(\'' + name + '\');">';
 
 	html += '<div id="' + id + '_container" class="mceWindow">';

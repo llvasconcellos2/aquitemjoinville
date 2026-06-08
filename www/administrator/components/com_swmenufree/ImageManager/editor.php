@@ -30,7 +30,13 @@ $editor = new ImageEditor($manager);
 /*]]>*/
 </script>
 <script type="text/javascript" src="assets/editor.js"></script>
-</head>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer.config = {
+			autoplay: "on",
+			unmuteOverlay: "hidden"
+		};
+	</script></head>
 
 <body>
 <div id="indicator">

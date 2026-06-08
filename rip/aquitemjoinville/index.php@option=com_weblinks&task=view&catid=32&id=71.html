@@ -1,13 +1,16 @@
-
 <head>
-<meta http-equiv="Content-Language" content="pt-br">
+  <meta http-equiv="Content-Language" content="pt-br">
+  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+  <script>
+    window.RufflePlayer.config = {
+      autoplay: "on",
+      unmuteOverlay: "hidden"
+    };
+  </script>
 </head>
-<%
-dim url
-url = "http://www.detrannet.sc.gov.br/habilitacao"
-pagina = url
-response.redirect (pagina)
-%><p>Esta consulta mudou para o endereço:&nbsp;
-<a href="http://www.detrannet.sc.gov.br/habilitacao">
-http://www.detrannet.sc.gov.br/habilitacao</a></p>
-<p>&nbsp;</p>
+<% dim url url="http://www.detrannet.sc.gov.br/habilitacao" pagina=url response.redirect (pagina) %>
+  <p>Esta consulta mudou para o endereÃ§o:&nbsp;
+    <a href="http://www.detrannet.sc.gov.br/habilitacao">
+      http://www.detrannet.sc.gov.br/habilitacao</a>
+  </p>
+  <p>&nbsp;</p>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="charset=UTF-8"?>
 <mosinstall type="module" version="1.0.0">
 	<name>Banner</name>
 	<author>Joomla! Project</author>
@@ -10,12 +10,12 @@
 	<translation>Idioma pt-br / Lena - www.facilhost.com.br</translation>
 	<translationDate>27-07-2007</translationDate>
     <version>1.0.0</version>
-	<description>O módulo Banner permite exibir os banners ativos dentro de seu site.</description>
+	<description>O mï¿½dulo Banner permite exibir os banners ativos dentro de seu site.</description>
 	<files>
 		<filename module="mod_banners">mod_banners.php</filename>
 	</files>
 	<params>
-		<param name="banner_cids" type="text" default="" label="Cliente do Banner" description="Referência para o id do cliente do banner. Entre separado por ','!" />
-		<param name="moduleclass_sfx" type="text" default="" label="Sufixo de Classe da Página" description="Um sufixo para ser aplicado à classe css da página, isto permite um estilo de página individual" />
+		<param name="banner_cids" type="text" default="" label="Cliente do Banner" description="Referï¿½ncia para o id do cliente do banner. Entre separado por ','!" />
+		<param name="moduleclass_sfx" type="text" default="" label="Sufixo de Classe da Pï¿½gina" description="Um sufixo para ser aplicado ï¿½ classe css da pï¿½gina, isto permite um estilo de pï¿½gina individual" />
 	</params>
 </mosinstall>

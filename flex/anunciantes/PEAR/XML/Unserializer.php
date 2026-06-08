@@ -129,7 +129,7 @@ define('XML_UNSERIALIZER_OPTION_FORCE_ENUM', 'forceEnum');
  *
  * Possible values:
  * - UTF-8
- * - ISO-8859-1
+ * - charset=UTF-8
  */
 define('XML_UNSERIALIZER_OPTION_ENCODING_SOURCE', 'encoding');
 
@@ -138,7 +138,7 @@ define('XML_UNSERIALIZER_OPTION_ENCODING_SOURCE', 'encoding');
  *
  * Possible values:
  * - UTF-8
- * - ISO-8859-1
+ * - charset=UTF-8
  */
 define('XML_UNSERIALIZER_OPTION_ENCODING_TARGET', 'targetEncoding');
 
