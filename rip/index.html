@@ -152,7 +152,7 @@
 								<td width="130" align="center"><b>ÁREA RESTRITA</b></td>
 								<td width="230">
 									<div class="moduletable">
-										<form action="http://localhost/aquitemjoinville/index.php" method="post" name="login">
+										<form action="index.php" method="post" name="login">
 											<input name="username" value="Login" id="mod_login_username" type="text" class="inputbox"
 												alt="username" size="10" onclick="this.value = ''" />
 
@@ -165,7 +165,7 @@
 			<label for="mod_login_remember">
 				Memorizar			</label>-->
 
-											<!--<a href="http://localhost/aquitemjoinville/index.php?option=com_registration&amp;task=lostPassword">
+											<!--<a href="index.php?option=com_registration&amp;task=lostPassword">
 				Esqueceu sua senha?</a>
 				-->
 
@@ -173,7 +173,7 @@
 											<input type="hidden" name="option" value="login" />
 											<input type="hidden" name="op2" value="login" />
 											<input type="hidden" name="lang" value="brazilian_portuguese" />
-											<input type="hidden" name="return" value="http://localhost/aquitemjoinville/index.php" />
+											<input type="hidden" name="return" value="index.php" />
 											<input type="hidden" name="message" value="0" />
 											<input type="hidden" name="force_session" value="1" />
 											<input type="hidden" name="jab3053775bdde2adff0656bd476ac25d" value="1" />
@@ -214,7 +214,7 @@
 					<div class="moduletable">
 						<h3>
 							Busca </h3>
-						<form action="http://localhost/aquitemjoinville/index.php?option=com_segmentos" method="get">
+						<form action="index.php?option=com_segmentos" method="get">
 							<div class="search">
 								<input name="busca" id="mod_search_searchword" maxlength="20" alt="busca" class="inputbox" size="17"
 									value="Pesquisar..." onblur="if(this.value=='') this.value='Pesquisar...';"
@@ -232,8 +232,7 @@
 										class="mainlevel">ANUNCIE AQUI</a></td>
 							</tr>
 							<tr align="left">
-								<td><a href="http://www.aquitemjoinville.com.br/index.php?option=com_registration&amp;task=register"
-										class="mainlevel">CADASTRO</a></td>
+								<td><a href="index.php@option=com_registration&task=register.html" class="mainlevel">CADASTRO</a></td>
 							</tr>
 							<tr align="left">
 								<td><a href="aquitemjoinville/index.php@option=com_adsmanager&amp;Itemid=6.html"
@@ -302,15 +301,15 @@
 							}
 						</style><!-- hwdRecommend Joomla! Module by Highwood Design, http://www.highwooddesign.co.uk -->
 						<script type="text/javascript">
-							<!-
-							function recommendvalidate(){
-								if ((document.recommend.recommend_from_email.value=='') || (document.recommend.recommend_to_email.value=='')){
-									alert('Por Favor, complete todos os campos.');
-									return false;
-								} else {
-									return true;
+							< !-
+								function recommendvalidate() {
+									if ((document.recommend.recommend_from_email.value == '') || (document.recommend.recommend_to_email.value == '')) {
+										alert('Por Favor, complete todos os campos.');
+										return false;
+									} else {
+										return true;
+									}
 								}
-							}
 							//-->
 						</script>
 						<style type="text/css">
@@ -378,11 +377,10 @@
 						<div id="masterdiv">
 							<div class="mod_reco_rounded">
 								<div class="padding"><span class="submenu" id="recommend">
-										<form name="recommend" method="post"
-											action="http://localhost/aquitemjoinville/index.php?modules/mod_recommend/mod_recommend.php"
+										<form name="recommend" method="post" action="index.php?modules/mod_recommend/mod_recommend.php"
 											onsubmit="return recommendvalidate()"><input name="recommend_option" type="hidden"
 												id="recommend_option" value="send" /><input name="recommend_url" type="hidden"
-												value="http://localhost/aquitemjoinville/index.php?" />
+												value="index.php?" />
 											<table border="0" cellspacing="0" cellpadding="0" width="100%"><input name="recommend_from_name"
 													type="hidden" value="Aquitemjoinville.com.br" /><input name="recommend_from_email"
 													type="hidden" value="nao.responda@aquitemjoinville.com.br" />
@@ -482,7 +480,7 @@
 
 
 
-								<form action="http://localhost/aquitemjoinville/index.php" method="get">
+								<form action="index.php" method="get">
 									<input type="hidden" name="option" value="com_adsmanager" />
 									<input type="hidden" name="Itemid" value="0" />
 									<input type="hidden" name="page" value="search" />
@@ -890,8 +888,7 @@
 										}
 									//-->
 								</script>
-								<form name="pollxtd1" method="post"
-									action="http://localhost/aquitemjoinville/index.php?option=com_poll">
+								<form name="pollxtd1" method="post" action="index.php?option=com_poll">
 
 									<table width="95%" border="0" cellspacing="0" cellpadding="1" align="center" class="poll-cinza">
 										<thead>
@@ -929,7 +926,7 @@
 												<div align="center">
 													<input type="button" onclick="submitbutton_Poll1();" name="task_button" class="button"
 														value="Votar" />&nbsp;<input type="button" name="option" class="button" value="Resultados"
-														onclick="document.location.href='http://localhost/aquitemjoinville/index.php?option=com_poll&amp;task=results&amp;id=4';" />
+														onclick="document.location.href='index.php?option=com_poll&amp;task=results&amp;id=4';" />
 												</div>
 											</td>
 										</tr>
@@ -994,8 +991,7 @@
 									href="aquitemjoinville/index.php@option=com_contact&amp;Itemid=19.html" class="mainlevel-rodape">Fale
 									Conosco</a><a
 									href="aquitemjoinville/index.php@option=com_content&amp;task=view&amp;id=36&amp;Itemid=8.html"
-									class="mainlevel-rodape">Publicidade</a><a
-									href="http://www.aquitemjoinville.com.br/index.php?option=com_registration&amp;task=register"
+									class="mainlevel-rodape">Publicidade</a><a href="index.php@option=com_registration&task=register.html"
 									class="mainlevel-rodape">Cadastro</a><a
 									href="aquitemjoinville/index.php@option=com_content&amp;task=view&amp;id=39&amp;Itemid=22.html"
 									class="mainlevel-rodape">Termos de Uso</a></td>

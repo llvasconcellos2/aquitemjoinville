@@ -21,30 +21,30 @@
 
 <body class="contentpane">
 	<script language="JavaScript" type="text/javascript">
-		<!-
-		function validate(){
-			if ( ( document.emailForm.text.value == "" ) || ( document.emailForm.email.value.search("@") == -1 ) || ( document.emailForm.email.value.search("[.*]" ) == -1 ) ) {
-				alert( "Por favor, certifique-se de que o formulário esteja corretamente preenchido." );
-			} else if ( ( document.emailForm.email.value.search(";") != -1 ) || ( document.emailForm.email.value.search(",") != -1 ) || ( document.emailForm.email.value.search(" ") != -1 ) ) {
-				alert( "Não pode indicar mais que um endereço de e-mail." );
-			} else {
-				document.emailForm.action = "http://localhost/aquitemjoinville/index.php?option=com_contact&Itemid=19"
-				document.emailForm.submit();
+		< !-
+			function validate() {
+				if ((document.emailForm.text.value == "") || (document.emailForm.email.value.search("@") == -1) || (document.emailForm.email.value.search("[.*]") == -1)) {
+					alert("Por favor, certifique-se de que o formulário esteja corretamente preenchido.");
+				} else if ((document.emailForm.email.value.search(";") != -1) || (document.emailForm.email.value.search(",") != -1) || (document.emailForm.email.value.search(" ") != -1)) {
+					alert("Não pode indicar mais que um endereço de e-mail.");
+				} else {
+					document.emailForm.action = "index.php?option=com_contact&Itemid=19"
+					document.emailForm.submit();
+				}
 			}
-		}
 		//-->
 	</script>
 	<script type="text/javascript">
-		<!-
-		function ViewCrossReference( selSelectObject ){
-			var links = new Array();
-			
-links[1]='http://localhost/aquitemjoinville/index.php?option=com_contact&task=view&contact_id=1&Itemid=19';
-			var sel = selSelectObject.options[selSelectObject.selectedIndex].value
-			if (sel != "") {
-				location.href = links[sel];
+			< !-
+			function ViewCrossReference(selSelectObject) {
+				var links = new Array();
+
+				links[1] = 'index.php?option=com_contact&task=view&contact_id=1&Itemid=19';
+				var sel = selSelectObject.options[selSelectObject.selectedIndex].value
+				if (sel != "") {
+					location.href = links[sel];
+				}
 			}
-		}
 		//-->
 	</script>
 	<div class="componentheading">
@@ -58,8 +58,8 @@ links[1]='http://localhost/aquitemjoinville/index.php?option=com_contact&task=vi
 						<td width="100%">
 							AquiTemJoinville.com.br </td>
 						<script language="javascript" type="text/javascript">
-							<!-
-							document.write('<td align="right" width="100%" class="buttonheading">');
+								< !-
+								document.write('<td align="right" width="100%" class="buttonheading">');
 							document.write('<a href="#" onclick="javascript:window.print(); return false;" title="Imprimir">');
 							document.write('<img src="http://localhost/aquitemjoinville/images/M_images/printButton.png"  alt="Imprimir" name="Imprimir" align="middle" border="0" />');
 							document.write('</a>');
@@ -121,8 +121,8 @@ links[1]='http://localhost/aquitemjoinville/index.php?option=com_contact&task=vi
 		</tr>
 	</table>
 	<script language="javascript" type="text/javascript">
-		<!-
-		document.write('<div align="center" style="margin-top: 30px; margin-bottom: 30px;">');
+		< !-
+			document.write('<div align="center" style="margin-top: 30px; margin-bottom: 30px;">');
 		document.write('<a href="#" onclick="javascript:window.close();"><span class="small">Fechar janela</span></a>');
 		document.write('</div>');
 		//-->

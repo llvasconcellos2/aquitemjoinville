@@ -81,62 +81,63 @@
 										</div>
 										<div id="subwrap">
 											<script type="text/javascript">
-												<!-
+												< !-
 												if (TransMenu.isSupported()) {
-												var ms = new TransMenuSet(TransMenu.direction.down, 0,0, TransMenu.reference.bottomLeft);
-												function init() {
-												if (TransMenu.isSupported()) {
-												TransMenu.initialize();
-												document.getElementById("menu1").onmouseover = function() {
-												ms.hideCurrent();
-												this.className = "hover";
+													var ms = new TransMenuSet(TransMenu.direction.down, 0, 0, TransMenu.reference.bottomLeft);
+													function init() {
+														if (TransMenu.isSupported()) {
+															TransMenu.initialize();
+															document.getElementById("menu1").onmouseover = function () {
+																ms.hideCurrent();
+																this.className = "hover";
+															}
+															document.getElementById("menu1").onmouseout = function () { this.className = ""; }
+															document.getElementById("menu2").onmouseover = function () {
+																ms.hideCurrent();
+																this.className = "hover";
+															}
+															document.getElementById("menu2").onmouseout = function () { this.className = ""; }
+															document.getElementById("menu8").onmouseover = function () {
+																ms.hideCurrent();
+																this.className = "hover";
+															}
+															document.getElementById("menu8").onmouseout = function () { this.className = ""; }
+														}
+													}
+													TransMenu.dingbatSize = 0;
+													TransMenu.spacerGif = "";
+													TransMenu.dingbatOn = "";
+													TransMenu.dingbatOff = "";
+													TransMenu.sub_indicator = false;
+													TransMenu.menuPadding = 0;
+													TransMenu.itemPadding = 0;
+													TransMenu.shadowSize = 2;
+													TransMenu.shadowOffset = 3;
+													TransMenu.shadowColor = "#888";
+													TransMenu.shadowPng = "http://localhost/aquitemjoinville/modules/mod_swmenufree/images/transmenu/grey-40.png";
+													TransMenu.backgroundColor = "#FFCC99";
+													TransMenu.backgroundPng = "http://localhost/aquitemjoinville/modules/mod_swmenufree/images/transmenu/white-90.png";
+													TransMenu.hideDelay = 600;
+													TransMenu.slideTime = 300;
+													TransMenu.selecthack = 0;
+													TransMenu.autoposition = 0;
+													TransMenu.renderAll();
+													if (typeof window.addEventListener != "undefined")
+														window.addEventListener("load", init, false);
+													else if (typeof window.attachEvent != "undefined") {
+														window.attachEvent("onload", init);
+													} else {
+														if (window.onload != null) {
+															var oldOnload = window.onload;
+															window.onload = function (e) {
+																oldOnload(e);
+																init();
+															}
+														} else
+															window.onload = init();
+													}
 												}
-												document.getElementById("menu1").onmouseout = function() { this.className = ""; }
-												document.getElementById("menu2").onmouseover = function() {
-												ms.hideCurrent();
-												this.className = "hover";
-												}
-												document.getElementById("menu2").onmouseout = function() { this.className = ""; }
-												document.getElementById("menu8").onmouseover = function() {
-												ms.hideCurrent();
-												this.className = "hover";
-												}
-												document.getElementById("menu8").onmouseout = function() { this.className = ""; }
-												}}
-												TransMenu.dingbatSize = 0;
-												TransMenu.spacerGif = "";
-												TransMenu.dingbatOn = "";
-												TransMenu.dingbatOff = ""; 
-												TransMenu.sub_indicator = false;
-												TransMenu.menuPadding = 0;
-												TransMenu.itemPadding = 0;
-												TransMenu.shadowSize = 2;
-												TransMenu.shadowOffset = 3;
-												TransMenu.shadowColor = "#888";
-												TransMenu.shadowPng = "http://localhost/aquitemjoinville/modules/mod_swmenufree/images/transmenu/grey-40.png";
-												TransMenu.backgroundColor = "#FFCC99";
-												TransMenu.backgroundPng = "http://localhost/aquitemjoinville/modules/mod_swmenufree/images/transmenu/white-90.png";
-												TransMenu.hideDelay = 600;
-												TransMenu.slideTime = 300;
-												TransMenu.selecthack = 0;
-												TransMenu.autoposition = 0;
-												TransMenu.renderAll();
-												if ( typeof window.addEventListener != "undefined" )
-												window.addEventListener( "load", init, false );
-												else if ( typeof window.attachEvent != "undefined" ) {
-												window.attachEvent( "onload", init);
-												}else{
-												if ( window.onload != null ) {
-												var oldOnload = window.onload;
-												window.onload = function ( e ) {
-												oldOnload( e );
-												init();
-												}
-												}else
-												window.onload = init();
-												}
-												}
-												 ->
+												->
 											</script>
 										</div>
 
@@ -147,7 +148,7 @@
 								<td width="130" align="center"><b>ÁREA RESTRITA</b></td>
 								<td width="230">
 									<div class="moduletable">
-										<form action="http://localhost/aquitemjoinville/index.php" method="post" name="login">
+										<form action="index.php" method="post" name="login">
 											<input name="username" value="Login" id="mod_login_username" type="text" class="inputbox"
 												alt="username" size="10" onclick="this.value = ''" />
 
@@ -160,7 +161,7 @@
 			<label for="mod_login_remember">
 				Memorizar			</label>-->
 
-											<!--<a href="http://localhost/aquitemjoinville/index.php?option=com_registration&amp;task=lostPassword">
+											<!--<a href="index.php?option=com_registration&amp;task=lostPassword">
 				Esqueceu sua senha?</a>
 				-->
 
@@ -169,7 +170,7 @@
 											<input type="hidden" name="op2" value="login" />
 											<input type="hidden" name="lang" value="brazilian_portuguese" />
 											<input type="hidden" name="return"
-												value="http://localhost/aquitemjoinville/index.php?option=com_adsmanager&amp;page=write_ad&amp;catid=9&amp;Itemid=6" />
+												value="index.php?option=com_adsmanager&amp;page=write_ad&amp;catid=9&amp;Itemid=6" />
 											<input type="hidden" name="message" value="0" />
 											<input type="hidden" name="force_session" value="1" />
 											<input type="hidden" name="jab3053775bdde2adff0656bd476ac25d" value="1" />
@@ -210,7 +211,7 @@
 					<div class="moduletable">
 						<h3>
 							Busca </h3>
-						<form action="http://localhost/aquitemjoinville/index.php?option=com_segmentos" method="get">
+						<form action="index.php?option=com_segmentos" method="get">
 							<div class="search">
 								<input name="busca" id="mod_search_searchword" maxlength="20" alt="busca" class="inputbox" size="17"
 									value="Pesquisar..." onblur="if(this.value=='') this.value='Pesquisar...';"
@@ -228,8 +229,7 @@
 								</td>
 							</tr>
 							<tr align="left">
-								<td><a href="http://www.aquitemjoinville.com.br/index.php?option=com_registration&amp;task=register"
-										class="mainlevel">CADASTRO</a></td>
+								<td><a href="index.php@option=com_registration&task=register.html" class="mainlevel">CADASTRO</a></td>
 							</tr>
 							<tr align="left">
 								<td><a href="index.php@option=com_adsmanager&amp;Itemid=6.html" class="mainlevel"
@@ -293,15 +293,15 @@
 							}
 						</style><!-- hwdRecommend Joomla! Module by Highwood Design, http://www.highwooddesign.co.uk -->
 						<script type="text/javascript">
-							<!--
-							function recommendvalidate(){
-								if ((document.recommend.recommend_from_email.value=='') || (document.recommend.recommend_to_email.value=='')){
-									alert('Por Favor, complete todos os campos.');
-									return false;
-								} else {
-									return true;
+												 < !-
+								function recommendvalidate() {
+									if ((document.recommend.recommend_from_email.value == '') || (document.recommend.recommend_to_email.value == '')) {
+										alert('Por Favor, complete todos os campos.');
+										return false;
+									} else {
+										return true;
+									}
 								}
-							}
 							//-->
 						</script>
 						<style type="text/css">
@@ -369,11 +369,10 @@
 						<div id="masterdiv">
 							<div class="mod_reco_rounded">
 								<div class="padding"><span class="submenu" id="recommend">
-										<form name="recommend" method="post"
-											action="http://localhost/aquitemjoinville/index.php?modules/mod_recommend/mod_recommend.php"
+										<form name="recommend" method="post" action="index.php?modules/mod_recommend/mod_recommend.php"
 											onsubmit="return recommendvalidate()"><input name="recommend_option" type="hidden"
 												id="recommend_option" value="send" /><input name="recommend_url" type="hidden"
-												value="http://localhost/aquitemjoinville/index.php?option=com_adsmanager&page=write_ad&catid=9&Itemid=6" />
+												value="index.php?option=com_adsmanager&page=write_ad&catid=9&Itemid=6" />
 											<table border="0" cellspacing="0" cellpadding="0" width="100%"><input name="recommend_from_name"
 													type="hidden" value="Aquitemjoinville.com.br" /><input name="recommend_from_email"
 													type="hidden" value="nao.responda@aquitemjoinville.com.br" />
@@ -435,10 +434,10 @@
 							</script>
 
 							<script type="text/javascript"><!--//-->
-							< ![CDATA[/ / >< !--
-									function submitbutton(mfrm) {
-										var me = mfrm.elements;
-										var r = new RegExp("[\<|\>|\"|\'|\%|\;|\(|\)|\&|\+|\-]", "i");
+							< ![CDATA[/ / >
+								< !-- function submitbutton(mfrm) {
+										var me = mfrm.elements; var r = new RegExp("[\<|\>
+											|\"|\'|\%|\;|\(|\)|\&|\+|\-]", "i");
 										var r_num = new RegExp("[^0-9\.,]", "i");
 										var r_email = new RegExp("^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]{2,}[.][a-zA-Z]{2,3}$", "i");
 
@@ -446,72 +445,44 @@
 										var iserror = 0;
 
 										if (mfrm.username && (r.exec(mfrm.username.value) || mfrm.username.value.length < 3)) {
-											errorMSG += mfrm.username.getAttribute('mosLabel').replace('&nbsp;', ' ') + ' : ADSMANAGER_VALID_AZ09\n';
-											mfrm.username.style.background = "red";
-											iserror = 1;
-										}
-										if (mfrm.password && r.exec(mfrm.password.value)) {
-											errorMSG += mfrm.password.getAttribute('mosLabel').replace('&nbsp;', ' ') + ' : ADSMANAGER_VALID_AZ09\n';
-											mfrm.password.style.background = "red";
-											iserror = 1;
-										}
-
-										if (mfrm.email && !r_email.exec(mfrm.email.value) && mfrm.email.getAttribute('mosReq')) {
-											errorMSG += mfrm.email.getAttribute('mosLabel').replace('&nbsp;', ' ') + ' : ADSMANAGER_REGWARN_MAIL\n';
-											mfrm.email.style.background = "red";
-											iserror = 1;
-										}
-
-										// loop through all input elements in form
-										for (var i = 0; i < me.length; i++) {
-
+											errorMSG
+											+= mfrm.username.getAttribute('mosLabel').replace('&nbsp;', ' ') + ' : ADSMANAGER_VALID_AZ09\n';
+											mfrm.username.style.background = "red"; iserror = 1;
+										} if (mfrm.password &&
+											r.exec(mfrm.password.value)) {
+												errorMSG
+												+= mfrm.password.getAttribute('mosLabel').replace('&nbsp;', ' ') + ' : ADSMANAGER_VALID_AZ09\n';
+											mfrm.password.style.background = "red"; iserror = 1;
+										} if (mfrm.email &&
+											!r_email.exec(mfrm.email.value) && mfrm.email.getAttribute('mosReq')) {
+												errorMSG
+												+= mfrm.email.getAttribute('mosLabel').replace('&nbsp;', ' ') + ' : ADSMANAGER_REGWARN_MAIL\n';
+											mfrm.email.style.background = "red"; iserror = 1;
+										} // loop through all input elements in form for (var
+										i = 0; i < me.length; i++) {
 											if ((me[i].getAttribute('test') == 'number') && (r_num.exec(me[i].value))) {
-												errorMSG += me[i].getAttribute('mosLabel').replace('&nbsp;', ' ') + ' : Apenas números neste campo\n';
-												iserror = 1;
-											}
-
-											// check if element is mandatory; here mosReq="1"
+												errorMSG += me[i].getAttribute('mosLabel').replace('&nbsp;', ' ')
+												+ ' : Apenas números neste campo\n'; iserror = 1;
+											} // check if element is mandatory; here mosReq="1"
 											if (me[i].getAttribute('mosReq') == 1) {
 												if (me[i].type == 'radio' || me[i].type == 'checkbox') {
-													var rOptions = me[me[i].getAttribute('name')];
-													var rChecked = 0;
-													if (rOptions.length > 1) {
-														for (var r = 0; r < rOptions.length; r++) {
-															if (rOptions[r].checked) {
-																rChecked = 1;
-															}
-														}
+													var
+													rOptions = me[me[i].getAttribute('name')]; var rChecked = 0; if (rOptions.length > 1) {
+														for (var r = 0; r < rOptions.length; r++) { if (rOptions[r].checked) { rChecked = 1; } }
 													} else {
-														if (me[i].checked) {
-															rChecked = 1;
-														}
+														if
+															(me[i].checked) { rChecked = 1; }
+													} if (rChecked == 0) { // add up all error messages errorMSG
+											+=me[i].getAttribute('mosLabel').replace('&nbsp;', ' ') + ' : Preencha esse campo\n'; // notify
+											user by changing background color, in this case to red me[i].style.background = "red"; iserror = 1;
 													}
-													if (rChecked == 0) {
-														// add up all error messages
-														errorMSG += me[i].getAttribute('mosLabel').replace('&nbsp;', ' ') + ' : Preencha esse campo\n';
-														// notify user by changing background color, in this case to red
-														me[i].style.background = "red";
-														iserror = 1;
-													}
-												}
-												if (me[i].value == '') {
-													// add up all error messages
-													errorMSG += me[i].getAttribute('mosLabel').replace('&nbsp;', ' ') + ' : Preencha esse campo\n';
-													// notify user by changing background color, in this case to red
-													me[i].style.background = "red";
-													iserror = 1;
+												} if (me[i].value == '') { // add up all error messages errorMSG
+											+=me[i].getAttribute('mosLabel').replace('&nbsp;', ' ') + ' : Preencha esse campo\n'; // notify
+											user by changing background color, in this case to red me[i].style.background = "red"; iserror = 1;
 												}
 											}
-										}
-
-										if (iserror == 1) {
-											alert(errorMSG);
-											return false;
-										} else {
-											return true;
-										}
-									}
-									//-->
+										} if (iserror == 1) { alert(errorMSG); return false; } else { return true; }
+									} //-->
 									< !]] >
 							</script>
 							<div id="adsmanager_writead_header">
@@ -526,46 +497,33 @@
 								<!-- form -->
 								<label for="ad_kindof">Categoria</label>
 								<select class='adsmanager_required' name='category_choose' onchange="jumpmenu('parent',this)">
-									<option
-										value="http://localhost/aquitemjoinville/index.php?option=com_adsmanager&amp;page=write_ad&amp;catid=1&amp;Itemid=6">
+									<option value="index.php?option=com_adsmanager&amp;page=write_ad&amp;catid=1&amp;Itemid=6">
 										Imóveis</option>
-									<option
-										value="http://localhost/aquitemjoinville/index.php?option=com_adsmanager&amp;page=write_ad&amp;catid=2&amp;Itemid=6">
+									<option value="index.php?option=com_adsmanager&amp;page=write_ad&amp;catid=2&amp;Itemid=6">
 										Veículos</option>
-									<option
-										value="http://localhost/aquitemjoinville/index.php?option=com_adsmanager&amp;page=write_ad&amp;catid=3&amp;Itemid=6">
+									<option value="index.php?option=com_adsmanager&amp;page=write_ad&amp;catid=3&amp;Itemid=6">
 										Diversos</option>
-									<option
-										value="http://localhost/aquitemjoinville/index.php?option=com_adsmanager&amp;page=write_ad&amp;catid=4&amp;Itemid=6">
+									<option value="index.php?option=com_adsmanager&amp;page=write_ad&amp;catid=4&amp;Itemid=6">
 										Animais</option>
-									<option
-										value="http://localhost/aquitemjoinville/index.php?option=com_adsmanager&amp;page=write_ad&amp;catid=5&amp;Itemid=6">
+									<option value="index.php?option=com_adsmanager&amp;page=write_ad&amp;catid=5&amp;Itemid=6">
 										Instrumentos Musicais</option>
-									<option
-										value="http://localhost/aquitemjoinville/index.php?option=com_adsmanager&amp;page=write_ad&amp;catid=6&amp;Itemid=6">
+									<option value="index.php?option=com_adsmanager&amp;page=write_ad&amp;catid=6&amp;Itemid=6">
 										Acessórios Automotivos</option>
-									<option
-										value="http://localhost/aquitemjoinville/index.php?option=com_adsmanager&amp;page=write_ad&amp;catid=7&amp;Itemid=6">
+									<option value="index.php?option=com_adsmanager&amp;page=write_ad&amp;catid=7&amp;Itemid=6">
 										Som Automotivo</option>
-									<option
-										value="http://localhost/aquitemjoinville/index.php?option=com_adsmanager&amp;page=write_ad&amp;catid=8&amp;Itemid=6">
+									<option value="index.php?option=com_adsmanager&amp;page=write_ad&amp;catid=8&amp;Itemid=6">
 										Náuticos</option>
-									<option
-										value="http://localhost/aquitemjoinville/index.php?option=com_adsmanager&amp;page=write_ad&amp;catid=9&amp;Itemid=6"
+									<option value="index.php?option=com_adsmanager&amp;page=write_ad&amp;catid=9&amp;Itemid=6"
 										selected='selected'>Telefonia</option>
-									<option
-										value="http://localhost/aquitemjoinville/index.php?option=com_adsmanager&amp;page=write_ad&amp;catid=10&amp;Itemid=6">
+									<option value="index.php?option=com_adsmanager&amp;page=write_ad&amp;catid=10&amp;Itemid=6">
 										Informática</option>
-									<option
-										value="http://localhost/aquitemjoinville/index.php?option=com_adsmanager&amp;page=write_ad&amp;catid=11&amp;Itemid=6">
+									<option value="index.php?option=com_adsmanager&amp;page=write_ad&amp;catid=11&amp;Itemid=6">
 										Empregos</option>
-									<option
-										value="http://localhost/aquitemjoinville/index.php?option=com_adsmanager&amp;page=write_ad&amp;catid=12&amp;Itemid=6">
+									<option value="index.php?option=com_adsmanager&amp;page=write_ad&amp;catid=12&amp;Itemid=6">
 										Para Ler, Pensar e Sentir</option>
 								</select>
-								<form
-									action="http://localhost/aquitemjoinville/index.php?option=com_adsmanager&amp;page=save_ad&amp;Itemid=6"
-									method="post" name="saveForm" enctype="multipart/form-data" onsubmit="return submitbutton(this)">
+								<form action="index.php?option=com_adsmanager&amp;page=save_ad&amp;Itemid=6" method="post"
+									name="saveForm" enctype="multipart/form-data" onsubmit="return submitbutton(this)">
 									<!-- category -->
 
 									<input type='hidden' name='category' value='9' />
@@ -666,8 +624,7 @@
 									class="mainlevel-rodape">Principal</a><a href="index.php@option=com_contact&amp;Itemid=19.html"
 									class="mainlevel-rodape">Fale Conosco</a><a
 									href="index.php@option=com_content&amp;task=view&amp;id=36&amp;Itemid=8.html"
-									class="mainlevel-rodape">Publicidade</a><a
-									href="http://www.aquitemjoinville.com.br/index.php?option=com_registration&amp;task=register"
+									class="mainlevel-rodape">Publicidade</a><a href="index.php@option=com_registration&task=register.html"
 									class="mainlevel-rodape">Cadastro</a><a
 									href="index.php@option=com_content&amp;task=view&amp;id=39&amp;Itemid=22.html"
 									class="mainlevel-rodape">Termos de Uso</a></td>
