@@ -1,11 +1,11 @@
-/*                                */
-/* Stylesheet for com_adsmanager  */
-/*                                */
-/*    (c) 2006 Thomas PAPIN       */
-/*         GPL License            */
-/*                                */
-/*     thomas.papin@free.fr       */
-/*                                */
+
+
+
+
+
+
+
+
 
 
 #adsmanager_fieldset form br {
@@ -189,7 +189,7 @@ table.adsmanager_header {
 	background-color: #FFFFFF;
 }
 table.adsmanager_select {
-	/* width: 100%; */
+	
 	color: #000000;
 	background-color: #F0F0F0;
 }
@@ -281,8 +281,8 @@ div.adsmanager_footer {
 fieldset.adsmanager {
 	color: #000000;
 	border: 1px solid #CCCCCC;
-	/* background_color: #555555; */
-	/* padding: 5; */
+	
+	
 }
 
 
@@ -290,7 +290,7 @@ legend.adsmanager {
 	color: #000000;
 	font-weight: bold;
 	border: 1px solid #CCCCCC;
-	/* background_color: #DDDDDD; */
+	
 	padding: 10px;
 }
 
@@ -311,7 +311,7 @@ legend.adsmanager {
 } 
 
 #adsmanager_fieldset label {
-	/* border: 1px solid #CCCCCC; */
+	
 	width: 15%;
 	float: left;
 	margin: 2px;
@@ -320,7 +320,7 @@ legend.adsmanager {
 }
 
 #adsmanager_fieldset label.right {
-	/* border: 1px solid #CCCCCC; */
+	
 	width: 14em;
 	float: left;
 	margin: 5px;
@@ -354,7 +354,7 @@ text-align:center;
 	padding: 2px;
 }
 
-/* v1.1.1 */
+
 .adsmanager_ver_list {
     list-style: none;
     text-align: left;

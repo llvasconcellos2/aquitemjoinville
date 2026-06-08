@@ -1,12 +1,12 @@
-// This function decodes the any string
-// that's been encoded using URL encoding technique
+
+
 
 
 function URLDecode(psEncodeString)
 {
-  // Create a regular expression to search all +s in the string
+  
   var lsRegExp = /\+/g;
-  // Return the decoded string
+  
   return unescape(String(psEncodeString).replace(lsRegExp, " "));
 }
 function openliks(url,img)

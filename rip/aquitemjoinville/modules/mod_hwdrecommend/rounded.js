@@ -1,9 +1,9 @@
-// Contributors
-// Ilkka Huotari at http://www.editsite.net
-// Mathieu 'p01' HENRI at http://www.p01.org/
-// http://seky.nahory.net/2005/04/rounded-corners/
-// Steven Wittens at http://www.acko.net/anti-aliased-nifty-corners
-// Original Nifty Corners by Alessandro Fulciniti at http://pro.html.it/esempio/nifty/
+
+
+
+
+
+
 function NiftyCheck() {
   if(!document.getElementById || !document.createElement) {
     return false;
@@ -66,42 +66,42 @@ function AddRounded(el, bk, color, sizex, sizey, top) {
   var lastarc = 0;
   for (i = 1; i <= sizey; i++) {
     var coverage, arc2, arc3;
-    // Find intersection of arc with bottom of pixel row
+    
     arc = Math.sqrt(1.0 - Math.sqr(1.0 - i / sizey)) * sizex;
-    // Calculate how many pixels are bg, fg and blended.
+    
     var n_bg = sizex - Math.ceil(arc);
     var n_fg = Math.floor(lastarc);
     var n_aa = sizex - n_bg - n_fg;
-    // Create pixel row wrapper
+    
     var x = document.createElement("div");
     var y = d;
     x.style.margin = "0px " + n_bg + "px";
 	x.style.height='1px';
 	x.style.overflow='hidden';
-    // Make a wrapper per anti-aliased pixel (at least one)
+    
     for (j = 1; j <= n_aa; j++) {
-      // Calculate coverage per pixel
-      // (approximates circle by a line within the pixel)
+      
+      
       if (j == 1) {
         if (j == n_aa) {
-          // Single pixel
+          
           coverage = ((arc + lastarc) * .5) - n_fg;
         }
         else {
-          // First in a run
+          
           arc2 = Math.sqrt(1.0 - Math.sqr((sizex - n_bg - j + 1) / sizex)) * sizey;
           coverage = (arc2 - (sizey - i)) * (arc - n_fg - n_aa + 1) * .5;
-          // Coverage is incorrect. Why?
+          
           coverage = 0;
         }
       }
       else if (j == n_aa) {
-        // Last in a run
+        
         arc2 = Math.sqrt(1.0 - Math.sqr((sizex - n_bg - j + 1) / sizex)) * sizey;
         coverage = 1.0 - (1.0 - (arc2 - (sizey - i))) * (1.0 - (lastarc - n_fg)) * .5;
       }
       else {
-        // Middle of a run
+        
         arc3 = Math.sqrt(1.0 - Math.sqr((sizex - n_bg - j) / sizex)) * sizey;
         arc2 = Math.sqrt(1.0 - Math.sqr((sizex - n_bg - j + 1) / sizex)) * sizey;
         coverage = ((arc2 + arc3) * .5) - (sizey - i);

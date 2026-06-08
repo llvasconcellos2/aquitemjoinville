@@ -1,643 +1,1484 @@
-<!DOCTYPE html
-	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="pt-BR">
+  <head>
+    <title>RÃ¡dio UDESC FM</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
 
-<head>
-	<title>RÃ¡dio UDESC FM</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
-	<!--<script type="text/javascript" src="https://getfirebug.com/firebug-lite.js"></script>-->
-	<link rel="stylesheet" href="http://www.udesc.br/templates/centro_udesc/css/cabecalho.css">
-	<link rel="stylesheet" href="http://www.udesc.br/templates/centro_udesc/css/cabecalho-cores.css">
-	<link rel="stylesheet" href="http://www.udesc.br/templates/centro_udesc/css/index.css">
-	<link rel="stylesheet" href="http://www.udesc.br/css/highslide.css">
-	<link rel="stylesheet" href="http://www.udesc.br/css/highslide-ie6.css">
-	<link href='http://fonts.googleapis.com/css?family=Titillium Web:400,300,700,200' rel='stylesheet' type='text/css'>
+    <link
+      rel="stylesheet"
+      href="http://www.udesc.br/templates/centro_udesc/css/cabecalho.css"
+    />
+    <link
+      rel="stylesheet"
+      href="http://www.udesc.br/templates/centro_udesc/css/cabecalho-cores.css"
+    />
+    <link
+      rel="stylesheet"
+      href="http://www.udesc.br/templates/centro_udesc/css/index.css"
+    />
+    <link rel="stylesheet" href="http://www.udesc.br/css/highslide.css" />
+    <link rel="stylesheet" href="http://www.udesc.br/css/highslide-ie6.css" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Titillium Web:400,300,700,200"
+      rel="stylesheet"
+      type="text/css"
+    />
 
+    <link
+      type="text/css"
+      href="http://www.udesc.br/templates/centro_udesc/css/smoothness/jquery-ui-1.8.18.custom.css"
+      rel="stylesheet"
+    />
+    <script
+      type="text/javascript"
+      src="http://www.udesc.br/gerenciador/js/edicao.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://www.udesc.br/templates/centro_udesc/js/jquery-1.7.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://www.udesc.br/templates/centro_udesc/js/jquery-ui-1.8.18.custom.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://www.udesc.br/templates/centro_udesc/js/jquery.cycle.all.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://www.udesc.br/templates/centro_udesc/js/conf.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://www.udesc.br/js/highslide-with-gallery.js"
+    ></script>
 
-	<link type="text/css" href="http://www.udesc.br/templates/centro_udesc/css/smoothness/jquery-ui-1.8.18.custom.css"
-		rel="stylesheet" />
-	<script type="text/javascript" src="http://www.udesc.br/gerenciador/js/edicao.js"></script>
-	<script type="text/javascript" src="http://www.udesc.br/templates/centro_udesc/js/jquery-1.7.1.min.js"></script>
-	<script type="text/javascript"
-		src="http://www.udesc.br/templates/centro_udesc/js/jquery-ui-1.8.18.custom.min.js"></script>
-	<script type="text/javascript" src="http://www.udesc.br/templates/centro_udesc/js/jquery.cycle.all.js"></script>
-	<script type="text/javascript" src="http://www.udesc.br/templates/centro_udesc/js/conf.js"></script>
-	<script type="text/javascript" src="http://www.udesc.br/js/highslide-with-gallery.js"></script>
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+    <script>
+      window.RufflePlayer.config = {
+        autoplay: "on",
+        unmuteOverlay: "hidden",
+      };
+    </script>
+  </head>
 
-	<!--[if IE 6]>
-		<link rel="stylesheet" href="templates/centro_udesc/css/cabecalho-ie6.css">
-		<link rel="stylesheet" href="templates/centro_udesc/css/index-ie6.css">
-		<script src="templates/centro_udesc/js/DD_belatedPNG.js" type="text/javascript"></script>
-		<script>
-		  /* Exemplo de utilizacao */
-		  DD_belatedPNG.fix('.*');
-		</script>
-		<![endif]-->
+  <body>
+    <div id="geral">
+      <div id="barraGoverno" style="float: left; overflow: hidden">
+        <iframe
+          align="right"
+          title="barra_governo_sc"
+          name="barra_governo_sc"
+          id="barra_governo_sc"
+          border="0"
+          width="800"
+          height="32"
+          frameborder="0"
+          src="http://www.sc.gov.br/barra_sc/barra_sc.html"
+          marginwidth="0"
+          marginheight="0"
+          scrolling="no"
+          description="Barra do Governo de Santa Cataria"
+        >
+          <noframes>Se navegador nÃ£o suporta FRAMES!</noframes>
+        </iframe>
+      </div>
+      <noscript>
+        <iframe
+          src="http://www.googletagmanager.com/ns.html?id=GTM-TJFLRC"
+          height="0"
+          width="0"
+          style="display: none; visibility: hidden"
+        ></iframe>
+      </noscript>
 
-	<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-	<script>
-		window.RufflePlayer.config = {
-			autoplay: "on",
-			unmuteOverlay: "hidden"
-		};
-	</script>
-</head>
+      <script>
+        (function (w, d, s, l, i) {
+          w[l] = w[l] || [];
+          w[l].push({
+            "gtm.start": new Date().getTime(),
+            event: "gtm.js",
+          });
+          var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != "dataLayer" ? "&l=" + l : "";
+          j.async = true;
+          j.src = "//www.googletagmanager.com/gtm.js?id=" + i + dl;
+          f.parentNode.insertBefore(j, f);
+        })(window, document, "script", "dataLayer", "GTM-TJFLRC");
+      </script>
 
-<body>
-	<div id="geral">
+      <img
+        height="1"
+        width="1"
+        style="border-style: none"
+        alt=""
+        src="http://insight.adsrvr.org/track/evnt/?adv=h0izclx&ct=0:oydutg7x&fmt=3"
+      />
+      <div id="superior">
+        <div class="logo">
+          <a href="http://www.udesc.br/"
+            ><img
+              class="logo_udesc"
+              src="http://www.udesc.br/templates/centro_udesc/imagens/logo_cabecalho.png"
+          /></a>
+        </div>
+        <div class="links">
+          <h1>UNIVERSIDADE DO ESTADO DE SANTA CATARINA - UDESC</h1>
+          <a
+            href="http://www.udesc.br/english"
+            alt="ir para UDESC Internacional"
+            title="ir para UDESC Internacional"
+            ><img
+              src="http://www.udesc.br/templates/centro_udesc/imagens/bandeira_ingles.jpg"
+              alt="ir para UDESC Internacional"
+              title="ir para UDESC Internacional" /></a
+          ><br />
+          <a href="http://www.udesc.br/?id=229" id="link_avaliacao"
+            >AvaliaÃ§Ã£o Institucional</a
+          ><br />
+          <div id="area_links">
+            <a href="http://www.udesc.br/?id=850">UDESC FM</a>
+            <span class="separador">|</span>
+            <a href="http://www.udesc.br/indice">ÃNDICE A-Z</a>
+            <span class="separador">|</span>
+            <a href="http://expresso.udesc.br/"
+              >EXPRESSO
+              <img
+                src="http://www.udesc.br/templates/centro_udesc/imagens/icone_email.png"
+              />
+              UDESC</a
+            >
+            <span class="separador">|</span>
+            <a href="http://www.udesc.br/contato"
+              >TELEFONES E ENDERE&Ccedil;OS</a
+            >
+          </div>
+          <div id="pesquisa">
+            <div
+              style="
+                font-size: 10px;
+                border: 1px #d6d6d6 solid;
+                background: #ffffff;
+                padding-left: 5px;
+              "
+            >
+              <a href="http://www.udesc.br/busca" style="color: #666666">
+                <span style="float: left; margin-top: 2px"
+                  >PESQUISAR NO SITE&nbsp;</span
+                >
+                <img
+                  src="http://www.udesc.br/templates/centro_udesc/imagens/botao_pesquisar.jpg"
+                  align="top"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-		<div id="barraGoverno" style="float:left;overflow: hidden">
-			<iframe align="right" title="barra_governo_sc" name="barra_governo_sc" id="barra_governo_sc" border="0"
-				width='800' height='32' frameborder="0" src="http://www.sc.gov.br/barra_sc/barra_sc.html" marginwidth="0"
-				marginheight="0" scrolling='no' description="Barra do Governo de Santa Cataria">
-				<noframes>Se navegador nÃ£o suporta FRAMES!</noframes>
-			</iframe>
-		</div>
-		<noscript>
-			<iframe src="http://www.googletagmanager.com/ns.html?id=GTM-TJFLRC" height="0" width="0"
-				style="display:none;visibility:hidden"></iframe>
-		</noscript>
+      <div id="nav">
+        <ul>
+          <li>
+            <a href="http://www.udesc.br" title="Ir para o Portal da UDESC"
+              >Portal UDESC</a
+            >
+          </li>
+          <li>
+            <a
+              href="index.php@option=com_weblinks&task=view&catid=31&id=68.html#2"
+              title="Menu Administrativo"
+              >Administrativo</a
+            >
+          </li>
+          <li>
+            <a
+              href="index.php@option=com_weblinks&task=view&catid=31&id=68.html#3"
+              title="Menu Ensino"
+              >Ensino</a
+            >
+          </li>
+          <li>
+            <a
+              href="index.php@option=com_weblinks&task=view&catid=31&id=68.html#4"
+              title="Menu ExtensÃ£o"
+              >ExtensÃ£o</a
+            >
+          </li>
+          <li>
+            <a
+              href="index.php@option=com_weblinks&task=view&catid=31&id=68.html#5"
+              title="Menu Pesquisa"
+              >Pesquisa</a
+            >
+          </li>
+          <li>
+            <a href="http://vestibular.udesc.br" title="Menu Vestibular"
+              >Vestibular / SISU</a
+            >
+          </li>
+          <li>
+            <a
+              href="index.php@option=com_weblinks&task=view&catid=31&id=68.html#75"
+              title="Menu Concursos"
+              >Concursos</a
+            >
+          </li>
+          <li>
+            <a
+              href="index.php@option=com_weblinks&task=view&catid=31&id=68.html#7"
+              title="Menu ServiÃ§os"
+              >ServiÃ§os</a
+            >
+          </li>
+        </ul>
+      </div>
 
-		<script>
-			(function (w, d, s, l, i) {
-				w[l] = w[l] || [];
-				w[l].push({
-					'gtm.start': new Date().getTime(),
-					event: 'gtm.js'
-				});
-				var f = d.getElementsByTagName(s)[0],
+      <div id="nav2">
+        <div id="submenus_1" style="display: none"></div>
+        <div id="submenus_2" style="display: none">
+          <ul>
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=229"
+                title="AvaliaÃ§Ã£o Institucional"
+                >AvaliaÃ§Ã£o Institucional</a
+              >
+            </li>
 
-					j = d.createElement(s),
-					dl = l != 'dataLayer' ? '&l=' + l : '';
-				j.async = true;
-				j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
-				f.parentNode.insertBefore(j, f);
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=6"
+                title="Biblioteca UniversitÃ¡ria da udesc"
+                >Biblioteca UniversitÃ¡ria</a
+              >
+            </li>
 
-			})(window, document, 'script', 'dataLayer', 'GTM-TJFLRC'); 
-		</script>
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=229"
+                title="Coordenadoria de AvaliaÃ§Ã£o Institucional "
+                >Coordenadoria de AvaliaÃ§Ã£o Institucional</a
+              >
+            </li>
 
-		<img height="1" width="1" style="border-style:none;" alt=""
-			src="http://insight.adsrvr.org/track/evnt/?adv=h0izclx&ct=0:oydutg7x&fmt=3" />
-		<div id="superior">
-			<div class="logo">
-				<a href="http://www.udesc.br/"><img class="logo_udesc"
-						src="http://www.udesc.br/templates/centro_udesc/imagens/logo_cabecalho.png" /></a>
-				<!--h2>Centro de EducaÃ§Ã£o Superior da RegiÃ£o Sul</h2-->
-			</div>
-			<div class="links">
-				<h1>UNIVERSIDADE DO ESTADO DE SANTA CATARINA - UDESC</h1>
-				<a href="http://www.udesc.br/english" alt="ir para UDESC Internacional" title="ir para UDESC Internacional"><img
-						src="http://www.udesc.br/templates/centro_udesc/imagens/bandeira_ingles.jpg"
-						alt="ir para UDESC Internacional" title="ir para UDESC Internacional" /></a><br />
-				<a href="http://www.udesc.br/?id=229" id="link_avaliacao">AvaliaÃ§Ã£o Institucional</a><br />
-				<div id="area_links">
-					<a href="http://www.udesc.br/?id=850">UDESC FM</a> <span class="separador">|</span>
-					<a href="http://www.udesc.br/indice">ÃNDICE A-Z</a> <span class="separador">|</span>
-					<a href="http://expresso.udesc.br/">EXPRESSO <img
-							src="http://www.udesc.br/templates/centro_udesc/imagens/icone_email.png" /> UDESC</a> <span
-						class="separador">|</span>
-					<a href="http://www.udesc.br/contato">TELEFONES E ENDERE&Ccedil;OS</a>
-				</div>
-				<div id="pesquisa">
-					<div style="font-size: 10px;border: 1px #d6d6d6 solid;background: #FFFFFF;padding-left: 5px">
-						<a href="http://www.udesc.br/busca" style="color: #666666">
-							<span style="float:left;margin-top: 2px">PESQUISAR NO SITE&nbsp;</span>
-							<img src="http://www.udesc.br/templates/centro_udesc/imagens/botao_pesquisar.jpg" align="top" />
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=230"
+                title="Coordenadoria de Projetos e InovaÃ§Ã£o"
+                >Coordenadoria de Projetos e InovaÃ§Ã£o</a
+              >
+            </li>
 
-		<!-- MENUS PRINCIPAIS -->
-		<div id="nav">
-			<ul>
-				<li><a href="http://www.udesc.br" title="Ir para o Portal da UDESC">Portal UDESC</a></li>
-				<li><a href="index.php@option=com_weblinks&amp;task=view&amp;catid=31&amp;id=68.html#2"
-						title="Menu Administrativo">Administrativo</a></li>
-				<li><a href="index.php@option=com_weblinks&amp;task=view&amp;catid=31&amp;id=68.html#3"
-						title="Menu Ensino">Ensino</a></li>
-				<li><a href="index.php@option=com_weblinks&amp;task=view&amp;catid=31&amp;id=68.html#4"
-						title="Menu ExtensÃ£o">ExtensÃ£o</a></li>
-				<li><a href="index.php@option=com_weblinks&amp;task=view&amp;catid=31&amp;id=68.html#5"
-						title="Menu Pesquisa">Pesquisa</a></li>
-				<li><a href="http://vestibular.udesc.br" title="Menu Vestibular">Vestibular / SISU</a></li>
-				<li><a href="index.php@option=com_weblinks&amp;task=view&amp;catid=31&amp;id=68.html#75"
-						title="Menu Concursos">Concursos</a></li>
-				<li><a href="index.php@option=com_weblinks&amp;task=view&amp;catid=31&amp;id=68.html#7"
-						title="Menu ServiÃ§os">ServiÃ§os</a></li>
-			</ul>
-		</div>
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=240"
+                title="Coordenadoria de Vestibular"
+                >Coordenadoria de Vestibular</a
+              >
+            </li>
 
-		<!-- SUBMENUS -->
-		<div id="nav2">
-			<div id="submenus_1" style="display: none"></div>
-			<div id="submenus_2" style="display: none">
-				<ul>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=229" title="AvaliaÃ§Ã£o Institucional">AvaliaÃ§Ã£o Institucional</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=6" title="Biblioteca UniversitÃ¡ria da udesc">Biblioteca UniversitÃ¡ria</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=229" title="Coordenadoria de AvaliaÃ§Ã£o Institucional ">Coordenadoria de
-							AvaliaÃ§Ã£o Institucional</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=230" title="Coordenadoria de Projetos e InovaÃ§Ã£o">Coordenadoria de
-							Projetos e InovaÃ§Ã£o</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=240" title="Coordenadoria de Vestibular">Coordenadoria de Vestibular</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=1085" title="Editora UniversitÃ¡ria">Editora UniversitÃ¡ria</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=772" title="Gabinete do Reitor">Gabinete do Reitor</a>
-				</ul>
-				<ul class="meio">
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=426" title="Institucional">Institucional</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=832" title="Coordenadoria de LicitaÃ§Ãµes e Compras">LicitaÃ§Ãµes</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=2006" title="Museu da Escola Catarinense">Museu da Escola Catarinense</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=431" title="Procuradoria JurÃ­dica">Procuradoria JurÃ­dica</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=60" title="PrÃ³-Reitoria de AdministraÃ§Ã£o">PrÃ³-Reitoria de
-							AdministraÃ§Ã£o</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=61" title="PrÃ³-Reitoria de Ensino">PrÃ³-Reitoria de Ensino</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=62" title="PrÃ³-Reitoria de ExtensÃ£o, Cultura e Comunidade">PrÃ³-Reitoria
-							de ExtensÃ£o, Cultura e Comunidade</a>
-				</ul>
-				<ul class="meio">
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=63" title="PrÃ³-Reitoria de Pesquisa e PÃ³s-GraduaÃ§Ã£o">PrÃ³-Reitoria de
-							Pesquisa e PÃ³s-GraduaÃ§Ã£o</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=64" title="PrÃ³-Reitoria de Planejamento">PrÃ³-Reitoria de Planejamento</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=233" title=" Secretaria de Tecnologia da InformaÃ§Ã£o e ComunicaÃ§Ã£o">Sec.
-							de Tecnologia da InformaÃ§Ã£o e ComunicaÃ§Ã£o</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=1504" title="Secretaria de ComunicaÃ§Ã£o">Secretaria de ComunicaÃ§Ã£o</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=232" title="Secretaria de Controle Interno">Secretaria de Controle
-							Interno</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=477"
-							title="Secretaria de CooperaÃ§Ã£o Interinstitucional e Internacional">Secretaria de CooperaÃ§Ã£o
-							Interinstitucional e Internacional</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=420" title="Secretaria dos Conselhos Superiores">Secretaria dos Conselhos
-							Superiores</a>
-				</ul>
-				<ul class="meio">
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=787" title="TransparÃªncia UDESC">TransparÃªncia UDESC</a>
-				</ul>
-			</div>
-			<div id="submenus_3" style="display: none">
-				<ul>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=229" title="AvaliaÃ§Ã£o Institucional">AvaliaÃ§Ã£o Institucional</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=523" title="CalendÃ¡rio AcadÃªmico">CalendÃ¡rio AcadÃªmico</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=477"
-							title="Secretaria de CooperaÃ§Ã£o Interinstitucional e Internacional">CooperaÃ§Ã£o Internacional</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=515" title="GraduaÃ§Ã£o">GraduaÃ§Ã£o</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=1528" title="LaboratÃ³rios">LaboratÃ³rios</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=537" title="PÃ³s-GraduaÃ§Ã£o">PÃ³s-GraduaÃ§Ã£o</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=61" title="PrÃ³-Reitoria de Ensino">PrÃ³-Reitoria de Ensino</a>
-				</ul>
-				<ul class="meio">
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=63" title="PrÃ³-Reitoria de Pesquisa e PÃ³s-GraduaÃ§Ã£o">PrÃ³-Reitoria de
-							Pesquisa e PÃ³s-GraduaÃ§Ã£o</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.revistas.udesc.br/index.php/index/index"
-							title="O Portal de PeriÃ³dicos da Universidade do Estado de Santa Catarina - UDESC Ã© uma iniciativa da SET">Portal
-							de PeriÃ³dicos UDESC</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=1349" title="Portal do Egresso">Portal do Egresso</a>
-				</ul>
-				<ul class="meio">
-					<li>&nbsp;</li>
-				</ul>
-				<ul class="meio">
-					<li>&nbsp;</li>
-				</ul>
-			</div>
-			<div id="submenus_4" style="display: none">
-				<ul>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=157" title="AÃ§Ãµes de ExtensÃ£o">AÃ§Ãµes de ExtensÃ£o</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=229" title="AvaliaÃ§Ã£o Institucional">AvaliaÃ§Ã£o Institucional</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=158" title="Boletim Informativo">Boletim Informativo</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?idFormulario=201"
-							title="Cadastro para Bolsista de Apoio Discente-Reitoria">Cadastro para Bolsista de Apoio Discente
-							-Reitoria</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=523" title="CalendÃ¡rio AcadÃªmico">CalendÃ¡rio AcadÃªmico</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=477" title="CooperaÃ§Ã£o Internacional">CooperaÃ§Ã£o Internacional</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=160" title="GestÃ£o de Riscos para EmergÃªncias e Desastres">GestÃ£o de
-							Riscos para EmergÃªncias e Desastres</a>
-				</ul>
-				<ul class="meio">
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=1528" title="LaboratÃ³rios">LaboratÃ³rios</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=62" title="PrÃ³-Reitoria de ExtensÃ£o, Cultura e Comunidade">PrÃ³-Reitoria
-							de ExtensÃ£o, Cultura e Comunidade</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=916" title="Revistas PÃºblicadas">Revistas PÃºblicadas</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.revistas.udesc.br/index.php/index/index"
-							title="O Portal de PeriÃ³dicos da Universidade do Estado de Santa Catarina - UDESC Ã© uma iniciativa da SET">Portal
-							de PeriÃ³dicos UDESC</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=1349" title="Portal do Egresso">Portal do Egresso</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=1447" title="NÃºcleo Extensionista Rondon - NER/UDESC">NÃºcleo Extensionista
-							Rondon - NER/UDESC</a>
-				</ul>
-				<ul class="meio">
-					<li>&nbsp;</li>
-				</ul>
-				<ul class="meio">
-					<li>&nbsp;</li>
-				</ul>
-			</div>
-			<div id="submenus_5" style="display: none">
-				<ul>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=229" title="AvaliaÃ§Ã£o Institucional">AvaliaÃ§Ã£o Institucional</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=677"
-							title="ApresentaÃ§Ã£o do Comite de Ãtica e Pesquisa em Seres Humanos">Comite de Ãtica e Pesquisa em
-							Seres Humanos</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=477"
-							title="Secretaria de CooperaÃ§Ã£o Interinstitucional e Internacional">CooperaÃ§Ã£o Internacional</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=539" title="Doutorado">Doutorado</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=1528" title="LaboratÃ³rios">LaboratÃ³rios</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=538" title="Mestrado">Mestrado</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.revistas.udesc.br/index.php/index/index"
-							title="O Portal de PeriÃ³dicos da Universidade do Estado de Santa Catarina - UDESC Ã© uma iniciativa da SET">Portal
-							de PeriÃ³dicos UDESC</a>
-				</ul>
-				<ul class="meio">
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=63" title="PrÃ³-Reitoria de Pesquisa e PÃ³s-GraduaÃ§Ã£o">PrÃ³-Reitoria de
-							Pesquisa e PÃ³s-GraduaÃ§Ã£o</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=1349" title="Portal do Egresso">Portal do Egresso</a>
-				</ul>
-				<ul class="meio">
-					<li>&nbsp;</li>
-				</ul>
-				<ul class="meio">
-					<li>&nbsp;</li>
-				</ul>
-			</div>
-			<div id="submenus_6" style="display: none"></div>
-			<div id="submenus_75" style="display: none">
-				<ul>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=441" title="Concurso PÃºblico - UDESC">Concurso PÃºblico - UDESC</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=1197" title="Concurso PÃºblico - Outras InstituiÃ§Ãµes">Concurso PÃºblico -
-							Outras InstituiÃ§Ãµes</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=452" title="Processo Seletivo">Processo Seletivo</a>
-				</ul>
-				<ul class="meio">
-					<li>&nbsp;</li>
-				</ul>
-				<ul class="meio">
-					<li>&nbsp;</li>
-				</ul>
-				<ul class="meio">
-					<li>&nbsp;</li>
-				</ul>
-			</div>
-			<div id="submenus_7" style="display: none">
-				<ul>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://aprudesc.com.br/" title="AssociaÃ§Ã£o de Professores da UDESC">APRUDESC</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.asudesc.com.br"
-							title="AssociaÃ§Ã£o dos Servidores da Universidade do Estado de Santa Catarina">ASUDESC</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=229" title="AvaliaÃ§Ã£o Institucional">AvaliaÃ§Ã£o Institucional</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=6" title="Biblioteca UniversitÃ¡ria">Biblioteca UniversitÃ¡ria</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.intranet.udesc.br/classificados" title="Classificados">Classificados</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=817" title="Contato">Contato</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=714" title="EscritÃ³rio de Direitos Autoriais - EDA">EscritÃ³rio de Direitos
-							Autoriais</a>
-				</ul>
-				<ul class="meio">
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=816" title="Ãndice A-Z">Ãndice A-Z</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=817" title="InformaÃ§Ãµes para Contato">InformaÃ§Ãµes para Contato</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=832" title="Coordenadoria de LicitaÃ§Ãµes e Compras">LicitaÃ§Ãµes</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=899" title="Marca UDESC">Marca UDESC</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.ouvidoria.sc.gov.br/cidadao/" title="Ouvidoria ">Ouvidoria</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.intranet.udesc.br/portal/" title="Portal Corporativo">Portal Corporativo</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.revistas.udesc.br/index.php/index/index"
-							title="O Portal de PeriÃ³dicos da Universidade do Estado de Santa Catarina - UDESC Ã© uma iniciativa da SET">Portal
-							de PeriÃ³dicos UDESC</a>
-				</ul>
-				<ul class="meio">
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=1349" title="Portal do Egresso">Portal do Egresso</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/https://sgpe.sea.sc.gov.br/atendimento/"
-							title="Processos Administrativos">Processos Administrativos</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=850" title="RÃ¡dio Educativa UDESC ">RÃ¡dio Educativa UDESC</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?idFormulario=203" title="Recibo de Pagamento a AutÃ´nomo - RPA">Recibo de
-							Pagamento a AutÃ´nomo - RPA</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.sicop.sc.gov.br/mapavivo/" title="SICOP">SICOP</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://siga.udesc.br" title="Sistema de GestÃ£o AcadÃªmico">SIGA - Sistema de GestÃ£o AcadÃªmico</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://sigmaweb.cav.udesc.br/sw/sigmaweb.php" title="Sigmaweb">Sigmaweb</a>
-				</ul>
-				<ul class="meio">
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.sintudesc.com.br/" title="Sindicado dos TÃ©cnicos da UDESC">SINTUDESC</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=817" title="Telefones e EndereÃ§os">Telefones e EndereÃ§os</a>
-					<li><img alt="Ãcone seta expansÃ­vel"
-							src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"> <a
-							href="http://www.udesc.br/?id=787" title="TransparÃªncia UDESC">TransparÃªncia UDESC</a>
-				</ul>
-			</div>
-		</div>
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=1085"
+                title="Editora UniversitÃ¡ria"
+                >Editora UniversitÃ¡ria</a
+              >
+            </li>
 
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a href="http://www.udesc.br/?id=772" title="Gabinete do Reitor"
+                >Gabinete do Reitor</a
+              >
+            </li>
+          </ul>
+          <ul class="meio">
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a href="http://www.udesc.br/?id=426" title="Institucional"
+                >Institucional</a
+              >
+            </li>
 
-		<!-- COMO CHEGAR AQUI -->
-		<div id="area_2">
-			<p>
-				Como chegar aqui: <span id="caminhoPagina"> </span>
-			</p>
-		</div>
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=832"
+                title="Coordenadoria de LicitaÃ§Ãµes e Compras"
+                >LicitaÃ§Ãµes</a
+              >
+            </li>
 
-		<!-- CABECALHO CURSO -->
-		<div id="cabecalho_curso">
-			<h3>RÃ¡dio UDESC FM</h3>
-			<!--<img src="templates/centro_udesc/imagens/cabecalho_linha.png" />-->
-		</div>
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=2006"
+                title="Museu da Escola Catarinense"
+                >Museu da Escola Catarinense</a
+              >
+            </li>
 
-		<div id="meio">
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=431"
+                title="Procuradoria JurÃ­dica"
+                >Procuradoria JurÃ­dica</a
+              >
+            </li>
 
-			<!-- MENUS DO CONTEÃDO -->
-			<div id="area_3">
-				<ul>
-					<li><a href="http://www.udesc.br/?id=1283" title="" class="expansivel" target="_self">Udesc Fm
-							FlorianÃ³polis</a></li>
-					<li><a href="http://www.udesc.br/?id=850" title="" class=" selecionado" target="_self">ApresentaÃ§Ã£o</a></li>
-					<li><a href="http://www.udesc.br/?id=1346" title="" class="expansivel" target="_self">Programas
-							FlorianÃ³polis</a></li>
-					<li><a href="http://midia.udesc.br/radiofloripa" title="" class="" target="_self">RÃ¡dio Educativa UDESC
-							FlorianÃ³polis</a></li>
-					<li><a href="http://midia.udesc.br/radiojoinville" title="" class="" target="_self">RÃ¡dio Educativa UDESC
-							Joinville</a></li>
-					<li><a href="http://paginas.cav.udesc.br/radio/" title="" class="" target="_self">RÃ¡dio Educativa UDESC
-							Lages</a></li>
-				</ul>
-				<script type="text/javascript">
-					$("#caminhoPagina").html(" <a href="http://www.udesc.br/\&quot;/\&quot;" title=\"Reitoria\">Reitoria</a>  >  <a href="http://www.udesc.br/\&quot;?id=849\&quot;" title=\"RÃ¡dio UDESC FM\">RÃ¡dio UDESC FM</a>  >  <a href="http://www.udesc.br/\&quot;?id=850\&quot;" title=\"ApresentaÃ§Ã£o\">ApresentaÃ§Ã£o</a> ");
-						$(".menuConteudo").each(function () {
-							$(this).attr("title", $(this).next().outerHTML);
-							$(this).tooltip({ position: "bottom right" });
-						});
-				</script>
-			</div>
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=60"
+                title="PrÃ³-Reitoria de AdministraÃ§Ã£o"
+                >PrÃ³-Reitoria de AdministraÃ§Ã£o</a
+              >
+            </li>
 
-			<!-- CONTEÃDO -->
-			<div id="area_4">
-				<div id="conteudo">
-					<h3 style="text-align: center;">
-						<span style="display: none;"><img height="80"
-								src="http://www.udesc.br/imagens/id_submenu/850/nomesite_udesc.jpg"
-								width="80" />ffddddddddddddddddddddddddddddddddddddddddddddddddddddddffffffeddRErRrswd</span><img
-							src="http://www.udesc.br/imagens/id_submenu/850/outdoor_1.jpg" style="width: 550px; height: 150px;" />
-					</h3>
-					<p class="conteudo">
-						A Universidade do Estado de Santa Catarina (Udesc) possui tr&ecirc;s emissoras de r&aacute;dio em
-						Florian&oacute;polis, Joinville e Lages. Voc&ecirc; pode apreci&aacute;-las sintonizando em seu r&aacute;dio
-						ou por meio da internet.</p>
-					<h4>
-						Ou&ccedil;a ao vivo nos links abaixo</h4>
-					<table border="1" cellpadding="0" cellspacing="0"
-						summary="Esta tabela possui informaÃ§Ãµes que auxiliam localizaÃ§Ã£o e sintonia das emissoras da RÃ¡dio Educativa UDESC."
-						width="100%">
-						<caption align="top">
-							&nbsp;</caption>
-						<tbody>
-							<tr>
-								<th scope="col">
-									Emissora</th>
-								<th scope="col">
-									Freq&uuml;&ecirc;ncia</th>
-								<!--th scope="col">Real Player </th--><!--th scope="col">UDESC Player </th-->
-							</tr>
-							<tr>
-								<td class="conteudo_tabela">
-									<a class="ligacao" href="http://midia.udesc.br/radiofloripa" target="_blank">UDESC FM
-										Florian&oacute;polis</a>
-								</td>
-								<td class="conteudo_tabela">
-									FM 100,1 M</td>
-							</tr>
-							<tr>
-								<td class="conteudo_tabela">
-									<a class="ligacao" href="http://midia.udesc.br/radiojoinville" target="_blank">UDESC FM Joinville</a>
-								</td>
-								<td class="conteudo_tabela">
-									FM 91,9 MHz</td>
-							</tr>
-							<tr>
-								<td class="conteudo_tabela">
-									<a class="ligacao" href="http://radio.cav.udesc.br" target="_blank">UDESC&nbsp;FM&nbsp;Lages</a>
-								</td>
-								<td class="conteudo_tabela">
-									FM 106,9 MHz</td>
-							</tr>
-						</tbody>
-					</table>
-					<p class="subtitulo">
-						&nbsp;</p>
-					<h4>
-						&nbsp;Acesse os sites</h4>
-					<a href="http://www.udesc.br/radio?id=1283" target="_self"><img
-							src="http://www.udesc.br/imagens/id_submenu/850/floripacorte.jpg"
-							style="width: 150px; height: 49px; margin-right: 10px; margin-left: 10px;" /></a><a
-						href="http://www2.joinville.udesc.br/~radio/index.html" target="_blank"><img
-							src="http://www.udesc.br/imagens/id_submenu/850/joinvilecorte.jpg"
-							style="width: 150px; height: 49px; margin-right: 20px; margin-left: 20px;" /></a><a
-						href="http://www.cav.udesc.br/main_2.php?conexao=c17b69d178e472cec921d48e8a78cf26&amp;zona=26"
-						target="_blank"><img src="http://www.udesc.br/imagens/id_submenu/850/lagescorte.jpg"
-							style="width: 150px; height: 49px; margin-right: 10px; margin-left: 10px;" /></a>
-				</div>
-			</div>
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=61"
+                title="PrÃ³-Reitoria de Ensino"
+                >PrÃ³-Reitoria de Ensino</a
+              >
+            </li>
 
-			<div id="area_5">
-				<div id="area_5_1">
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=62"
+                title="PrÃ³-Reitoria de ExtensÃ£o, Cultura e Comunidade"
+                >PrÃ³-Reitoria de ExtensÃ£o, Cultura e Comunidade</a
+              >
+            </li>
+          </ul>
+          <ul class="meio">
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=63"
+                title="PrÃ³-Reitoria de Pesquisa e PÃ³s-GraduaÃ§Ã£o"
+                >PrÃ³-Reitoria de Pesquisa e PÃ³s-GraduaÃ§Ã£o</a
+              >
+            </li>
 
-					<!-- Espaco inicial para centralizacao dos icones --- -->
-					<div style="width: 70px;float:left">&nbsp;</div>
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=64"
+                title="PrÃ³-Reitoria de Planejamento"
+                >PrÃ³-Reitoria de Planejamento</a
+              >
+            </li>
 
-					<!-- TWITTER ---------------------------------------- -->
-					<div style="width: 120px;float:left">
-						<a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-lang="pt"
-							data-text="[ Portal UDESC ] - PÃ¡gina RÃ¡dio UDESC FM / ApresentaÃ§Ã£o">Tweet</a>
-						<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-					</div>
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=233"
+                title=" Secretaria de Tecnologia da InformaÃ§Ã£o e ComunicaÃ§Ã£o"
+                >Sec. de Tecnologia da InformaÃ§Ã£o e ComunicaÃ§Ã£o</a
+              >
+            </li>
 
-					<!-- GOOGLE+ ---------------------------------------- -->
-					<div style="width: 90px;float:left">
-						<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
-							{ lang: 'pt-BR' }
-						</script>
-						<g:plusone size="medium" width="450"></g:plusone>
-					</div>
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=1504"
+                title="Secretaria de ComunicaÃ§Ã£o"
+                >Secretaria de ComunicaÃ§Ã£o</a
+              >
+            </li>
 
-					<!-- FACEBOOK --------------------------------------- -->
-					<div style="width: 152px;;margin-left: 15px;float:left">
-						<span id="fb-root"></span>
-						<script>(function (d, s, id) {
-								var js, fjs = d.getElementsByTagName(s)[0];
-								if (d.getElementById(id)) { return; }
-								js = d.createElement(s); js.id = id;
-								js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
-								fjs.parentNode.insertBefore(js, fjs);
-							}(document, 'script', 'facebook-jssdk'));</script>
-						<div class="fb-like" data-send="true" data-layout="button_count" data-show-faces="false"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div id="rodape">
-			Universidade do Estado de Santa Catarina - UDESC / Av. Madre Benvenuta, 2007 - Itacorubi - FlorianÃ³polis - SC
-			<br />
-			CEP: 88.035-901 / Telefone: (48) 3664-8000
-			<div style="height: 8px"> </div>
-			<a title="CrÃ©ditos" alt="CrÃ©ditos" href="http://www.udesc.br/creditos">&copy; 2010-2012 SETIC - UDESC</a>
-		</div>
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=232"
+                title="Secretaria de Controle Interno"
+                >Secretaria de Controle Interno</a
+              >
+            </li>
 
-	</div>
-</body>
-<script type="text/javascript" src="http://www.udesc.br/js/awstats_misc_tracker.js"></script>
-<noscript><img src="http://www.udesc.br/js/awstats_misc_tracker.js?nojs=y" height="0" width="0" border="0"
-		style="display: none"></noscript>
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=477"
+                title="Secretaria de CooperaÃ§Ã£o Interinstitucional e Internacional"
+                >Secretaria de CooperaÃ§Ã£o Interinstitucional e
+                Internacional</a
+              >
+            </li>
 
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=420"
+                title="Secretaria dos Conselhos Superiores"
+                >Secretaria dos Conselhos Superiores</a
+              >
+            </li>
+          </ul>
+          <ul class="meio">
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a href="http://www.udesc.br/?id=787" title="TransparÃªncia UDESC"
+                >TransparÃªncia UDESC</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div id="submenus_3" style="display: none">
+          <ul>
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=229"
+                title="AvaliaÃ§Ã£o Institucional"
+                >AvaliaÃ§Ã£o Institucional</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=523"
+                title="CalendÃ¡rio AcadÃªmico"
+                >CalendÃ¡rio AcadÃªmico</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=477"
+                title="Secretaria de CooperaÃ§Ã£o Interinstitucional e Internacional"
+                >CooperaÃ§Ã£o Internacional</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a href="http://www.udesc.br/?id=515" title="GraduaÃ§Ã£o"
+                >GraduaÃ§Ã£o</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a href="http://www.udesc.br/?id=1528" title="LaboratÃ³rios"
+                >LaboratÃ³rios</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a href="http://www.udesc.br/?id=537" title="PÃ³s-GraduaÃ§Ã£o"
+                >PÃ³s-GraduaÃ§Ã£o</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=61"
+                title="PrÃ³-Reitoria de Ensino"
+                >PrÃ³-Reitoria de Ensino</a
+              >
+            </li>
+          </ul>
+          <ul class="meio">
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=63"
+                title="PrÃ³-Reitoria de Pesquisa e PÃ³s-GraduaÃ§Ã£o"
+                >PrÃ³-Reitoria de Pesquisa e PÃ³s-GraduaÃ§Ã£o</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.revistas.udesc.br/index.php/index/index"
+                title="O Portal de PeriÃ³dicos da Universidade do Estado de Santa Catarina - UDESC Ã© uma iniciativa da SET"
+                >Portal de PeriÃ³dicos UDESC</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a href="http://www.udesc.br/?id=1349" title="Portal do Egresso"
+                >Portal do Egresso</a
+              >
+            </li>
+          </ul>
+          <ul class="meio">
+            <li>&nbsp;</li>
+          </ul>
+          <ul class="meio">
+            <li>&nbsp;</li>
+          </ul>
+        </div>
+        <div id="submenus_4" style="display: none">
+          <ul>
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a href="http://www.udesc.br/?id=157" title="AÃ§Ãµes de ExtensÃ£o"
+                >AÃ§Ãµes de ExtensÃ£o</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=229"
+                title="AvaliaÃ§Ã£o Institucional"
+                >AvaliaÃ§Ã£o Institucional</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a href="http://www.udesc.br/?id=158" title="Boletim Informativo"
+                >Boletim Informativo</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?idFormulario=201"
+                title="Cadastro para Bolsista de Apoio Discente-Reitoria"
+                >Cadastro para Bolsista de Apoio Discente -Reitoria</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=523"
+                title="CalendÃ¡rio AcadÃªmico"
+                >CalendÃ¡rio AcadÃªmico</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=477"
+                title="CooperaÃ§Ã£o Internacional"
+                >CooperaÃ§Ã£o Internacional</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=160"
+                title="GestÃ£o de Riscos para EmergÃªncias e Desastres"
+                >GestÃ£o de Riscos para EmergÃªncias e Desastres</a
+              >
+            </li>
+          </ul>
+          <ul class="meio">
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a href="http://www.udesc.br/?id=1528" title="LaboratÃ³rios"
+                >LaboratÃ³rios</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=62"
+                title="PrÃ³-Reitoria de ExtensÃ£o, Cultura e Comunidade"
+                >PrÃ³-Reitoria de ExtensÃ£o, Cultura e Comunidade</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a href="http://www.udesc.br/?id=916" title="Revistas PÃºblicadas"
+                >Revistas PÃºblicadas</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.revistas.udesc.br/index.php/index/index"
+                title="O Portal de PeriÃ³dicos da Universidade do Estado de Santa Catarina - UDESC Ã© uma iniciativa da SET"
+                >Portal de PeriÃ³dicos UDESC</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a href="http://www.udesc.br/?id=1349" title="Portal do Egresso"
+                >Portal do Egresso</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=1447"
+                title="NÃºcleo Extensionista Rondon - NER/UDESC"
+                >NÃºcleo Extensionista Rondon - NER/UDESC</a
+              >
+            </li>
+          </ul>
+          <ul class="meio">
+            <li>&nbsp;</li>
+          </ul>
+          <ul class="meio">
+            <li>&nbsp;</li>
+          </ul>
+        </div>
+        <div id="submenus_5" style="display: none">
+          <ul>
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=229"
+                title="AvaliaÃ§Ã£o Institucional"
+                >AvaliaÃ§Ã£o Institucional</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=677"
+                title="ApresentaÃ§Ã£o do Comite de Ãtica e Pesquisa em Seres Humanos"
+                >Comite de Ãtica e Pesquisa em Seres Humanos</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=477"
+                title="Secretaria de CooperaÃ§Ã£o Interinstitucional e Internacional"
+                >CooperaÃ§Ã£o Internacional</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a href="http://www.udesc.br/?id=539" title="Doutorado"
+                >Doutorado</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a href="http://www.udesc.br/?id=1528" title="LaboratÃ³rios"
+                >LaboratÃ³rios</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a href="http://www.udesc.br/?id=538" title="Mestrado"
+                >Mestrado</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.revistas.udesc.br/index.php/index/index"
+                title="O Portal de PeriÃ³dicos da Universidade do Estado de Santa Catarina - UDESC Ã© uma iniciativa da SET"
+                >Portal de PeriÃ³dicos UDESC</a
+              >
+            </li>
+          </ul>
+          <ul class="meio">
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=63"
+                title="PrÃ³-Reitoria de Pesquisa e PÃ³s-GraduaÃ§Ã£o"
+                >PrÃ³-Reitoria de Pesquisa e PÃ³s-GraduaÃ§Ã£o</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a href="http://www.udesc.br/?id=1349" title="Portal do Egresso"
+                >Portal do Egresso</a
+              >
+            </li>
+          </ul>
+          <ul class="meio">
+            <li>&nbsp;</li>
+          </ul>
+          <ul class="meio">
+            <li>&nbsp;</li>
+          </ul>
+        </div>
+        <div id="submenus_6" style="display: none"></div>
+        <div id="submenus_75" style="display: none">
+          <ul>
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=441"
+                title="Concurso PÃºblico - UDESC"
+                >Concurso PÃºblico - UDESC</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=1197"
+                title="Concurso PÃºblico - Outras InstituiÃ§Ãµes"
+                >Concurso PÃºblico - Outras InstituiÃ§Ãµes</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a href="http://www.udesc.br/?id=452" title="Processo Seletivo"
+                >Processo Seletivo</a
+              >
+            </li>
+          </ul>
+          <ul class="meio">
+            <li>&nbsp;</li>
+          </ul>
+          <ul class="meio">
+            <li>&nbsp;</li>
+          </ul>
+          <ul class="meio">
+            <li>&nbsp;</li>
+          </ul>
+        </div>
+        <div id="submenus_7" style="display: none">
+          <ul>
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://aprudesc.com.br/"
+                title="AssociaÃ§Ã£o de Professores da UDESC"
+                >APRUDESC</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.asudesc.com.br"
+                title="AssociaÃ§Ã£o dos Servidores da Universidade do Estado de Santa Catarina"
+                >ASUDESC</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=229"
+                title="AvaliaÃ§Ã£o Institucional"
+                >AvaliaÃ§Ã£o Institucional</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=6"
+                title="Biblioteca UniversitÃ¡ria"
+                >Biblioteca UniversitÃ¡ria</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.intranet.udesc.br/classificados"
+                title="Classificados"
+                >Classificados</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a href="http://www.udesc.br/?id=817" title="Contato">Contato</a>
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=714"
+                title="EscritÃ³rio de Direitos Autoriais - EDA"
+                >EscritÃ³rio de Direitos Autoriais</a
+              >
+            </li>
+          </ul>
+          <ul class="meio">
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a href="http://www.udesc.br/?id=816" title="Ãndice A-Z"
+                >Ãndice A-Z</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=817"
+                title="InformaÃ§Ãµes para Contato"
+                >InformaÃ§Ãµes para Contato</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=832"
+                title="Coordenadoria de LicitaÃ§Ãµes e Compras"
+                >LicitaÃ§Ãµes</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a href="http://www.udesc.br/?id=899" title="Marca UDESC"
+                >Marca UDESC</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.ouvidoria.sc.gov.br/cidadao/"
+                title="Ouvidoria "
+                >Ouvidoria</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.intranet.udesc.br/portal/"
+                title="Portal Corporativo"
+                >Portal Corporativo</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.revistas.udesc.br/index.php/index/index"
+                title="O Portal de PeriÃ³dicos da Universidade do Estado de Santa Catarina - UDESC Ã© uma iniciativa da SET"
+                >Portal de PeriÃ³dicos UDESC</a
+              >
+            </li>
+          </ul>
+          <ul class="meio">
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a href="http://www.udesc.br/?id=1349" title="Portal do Egresso"
+                >Portal do Egresso</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/https://sgpe.sea.sc.gov.br/atendimento/"
+                title="Processos Administrativos"
+                >Processos Administrativos</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=850"
+                title="RÃ¡dio Educativa UDESC "
+                >RÃ¡dio Educativa UDESC</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?idFormulario=203"
+                title="Recibo de Pagamento a AutÃ´nomo - RPA"
+                >Recibo de Pagamento a AutÃ´nomo - RPA</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a href="http://www.sicop.sc.gov.br/mapavivo/" title="SICOP"
+                >SICOP</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://siga.udesc.br"
+                title="Sistema de GestÃ£o AcadÃªmico"
+                >SIGA - Sistema de GestÃ£o AcadÃªmico</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://sigmaweb.cav.udesc.br/sw/sigmaweb.php"
+                title="Sigmaweb"
+                >Sigmaweb</a
+              >
+            </li>
+          </ul>
+          <ul class="meio">
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.sintudesc.com.br/"
+                title="Sindicado dos TÃ©cnicos da UDESC"
+                >SINTUDESC</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a
+                href="http://www.udesc.br/?id=817"
+                title="Telefones e EndereÃ§os"
+                >Telefones e EndereÃ§os</a
+              >
+            </li>
+
+            <li>
+              <img
+                alt="Ãcone seta expansÃ­vel"
+                src="http://www.udesc.br/templates/centro_udesc/imagens/menu-expansivel-a-bg.gif"
+              />
+              <a href="http://www.udesc.br/?id=787" title="TransparÃªncia UDESC"
+                >TransparÃªncia UDESC</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="area_2">
+        <p>Como chegar aqui: <span id="caminhoPagina"> </span></p>
+      </div>
+
+      <div id="cabecalho_curso">
+        <h3>RÃ¡dio UDESC FM</h3>
+      </div>
+
+      <div id="meio">
+        <div id="area_3">
+          <ul>
+            <li>
+              <a
+                href="http://www.udesc.br/?id=1283"
+                title=""
+                class="expansivel"
+                target="_self"
+                >Udesc Fm FlorianÃ³polis</a
+              >
+            </li>
+            <li>
+              <a
+                href="http://www.udesc.br/?id=850"
+                title=""
+                class="selecionado"
+                target="_self"
+                >ApresentaÃ§Ã£o</a
+              >
+            </li>
+            <li>
+              <a
+                href="http://www.udesc.br/?id=1346"
+                title=""
+                class="expansivel"
+                target="_self"
+                >Programas FlorianÃ³polis</a
+              >
+            </li>
+            <li>
+              <a
+                href="http://midia.udesc.br/radiofloripa"
+                title=""
+                class=""
+                target="_self"
+                >RÃ¡dio Educativa UDESC FlorianÃ³polis</a
+              >
+            </li>
+            <li>
+              <a
+                href="http://midia.udesc.br/radiojoinville"
+                title=""
+                class=""
+                target="_self"
+                >RÃ¡dio Educativa UDESC Joinville</a
+              >
+            </li>
+            <li>
+              <a
+                href="http://paginas.cav.udesc.br/radio/"
+                title=""
+                class=""
+                target="_self"
+                >RÃ¡dio Educativa UDESC Lages</a
+              >
+            </li>
+          </ul>
+          <script type="text/javascript">
+            $("#caminhoPagina").html(" <a href="http://www.udesc.br/\&quot;/\&quot;" title=\"Reitoria\">Reitoria</a>  >  <a href="http://www.udesc.br/\&quot;?id=849\&quot;" title=\"RÃ¡dio UDESC FM\">RÃ¡dio UDESC FM</a>  >  <a href="http://www.udesc.br/\&quot;?id=850\&quot;" title=\"ApresentaÃ§Ã£o\">ApresentaÃ§Ã£o</a> ");
+            	$(".menuConteudo").each(function () {
+            		$(this).attr("title", $(this).next().outerHTML);
+            		$(this).tooltip({ position: "bottom right" });
+            	});
+          </script>
+        </div>
+
+        <div id="area_4">
+          <div id="conteudo">
+            <h3 style="text-align: center">
+              <span style="display: none"
+                ><img
+                  height="80"
+                  src="http://www.udesc.br/imagens/id_submenu/850/nomesite_udesc.jpg"
+                  width="80"
+                />ffddddddddddddddddddddddddddddddddddddddddddddddddddddddffffffeddRErRrswd</span
+              ><img
+                src="http://www.udesc.br/imagens/id_submenu/850/outdoor_1.jpg"
+                style="width: 550px; height: 150px"
+              />
+            </h3>
+            <p class="conteudo">
+              A Universidade do Estado de Santa Catarina (Udesc) possui
+              tr&ecirc;s emissoras de r&aacute;dio em Florian&oacute;polis,
+              Joinville e Lages. Voc&ecirc; pode apreci&aacute;-las sintonizando
+              em seu r&aacute;dio ou por meio da internet.
+            </p>
+            <h4>Ou&ccedil;a ao vivo nos links abaixo</h4>
+            <table
+              border="1"
+              cellpadding="0"
+              cellspacing="0"
+              summary="Esta tabela possui informaÃ§Ãµes que auxiliam localizaÃ§Ã£o e sintonia das emissoras da RÃ¡dio Educativa UDESC."
+              width="100%"
+            >
+              <caption align="top">
+                &nbsp;
+              </caption>
+              <tbody>
+                <tr>
+                  <th scope="col">Emissora</th>
+                  <th scope="col">Freq&uuml;&ecirc;ncia</th>
+                </tr>
+                <tr>
+                  <td class="conteudo_tabela">
+                    <a
+                      class="ligacao"
+                      href="http://midia.udesc.br/radiofloripa"
+                      target="_blank"
+                      >UDESC FM Florian&oacute;polis</a
+                    >
+                  </td>
+                  <td class="conteudo_tabela">FM 100,1 M</td>
+                </tr>
+                <tr>
+                  <td class="conteudo_tabela">
+                    <a
+                      class="ligacao"
+                      href="http://midia.udesc.br/radiojoinville"
+                      target="_blank"
+                      >UDESC FM Joinville</a
+                    >
+                  </td>
+                  <td class="conteudo_tabela">FM 91,9 MHz</td>
+                </tr>
+                <tr>
+                  <td class="conteudo_tabela">
+                    <a
+                      class="ligacao"
+                      href="http://radio.cav.udesc.br"
+                      target="_blank"
+                      >UDESC&nbsp;FM&nbsp;Lages</a
+                    >
+                  </td>
+                  <td class="conteudo_tabela">FM 106,9 MHz</td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="subtitulo">&nbsp;</p>
+            <h4>&nbsp;Acesse os sites</h4>
+            <a href="http://www.udesc.br/radio?id=1283" target="_self"
+              ><img
+                src="http://www.udesc.br/imagens/id_submenu/850/floripacorte.jpg"
+                style="
+                  width: 150px;
+                  height: 49px;
+                  margin-right: 10px;
+                  margin-left: 10px;
+                " /></a
+            ><a
+              href="http://www2.joinville.udesc.br/~radio/index.html"
+              target="_blank"
+              ><img
+                src="http://www.udesc.br/imagens/id_submenu/850/joinvilecorte.jpg"
+                style="
+                  width: 150px;
+                  height: 49px;
+                  margin-right: 20px;
+                  margin-left: 20px;
+                " /></a
+            ><a
+              href="http://www.cav.udesc.br/main_2.php?conexao=c17b69d178e472cec921d48e8a78cf26&zona=26"
+              target="_blank"
+              ><img
+                src="http://www.udesc.br/imagens/id_submenu/850/lagescorte.jpg"
+                style="
+                  width: 150px;
+                  height: 49px;
+                  margin-right: 10px;
+                  margin-left: 10px;
+                "
+            /></a>
+          </div>
+        </div>
+
+        <div id="area_5">
+          <div id="area_5_1">
+            <div style="width: 70px; float: left">&nbsp;</div>
+
+            <div style="width: 120px; float: left">
+              <a
+                href="https://twitter.com/share"
+                class="twitter-share-button"
+                data-count="horizontal"
+                data-lang="pt"
+                data-text="[ Portal UDESC ] - PÃ¡gina RÃ¡dio UDESC FM / ApresentaÃ§Ã£o"
+                >Tweet</a
+              >
+              <script
+                type="text/javascript"
+                src="http://platform.twitter.com/widgets.js"
+              ></script>
+            </div>
+
+            <div style="width: 90px; float: left">
+              <script
+                type="text/javascript"
+                src="https://apis.google.com/js/plusone.js"
+              >
+                { lang: 'pt-BR' }
+              </script>
+              <g:plusone size="medium" width="450"></g:plusone>
+            </div>
+
+            <div style="width: 152px; margin-left: 15px; float: left">
+              <span id="fb-root"></span>
+              <script>
+                (function (d, s, id) {
+                  var js,
+                    fjs = d.getElementsByTagName(s)[0];
+                  if (d.getElementById(id)) {
+                    return;
+                  }
+                  js = d.createElement(s);
+                  js.id = id;
+                  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+                  fjs.parentNode.insertBefore(js, fjs);
+                })(document, "script", "facebook-jssdk");
+              </script>
+              <div
+                class="fb-like"
+                data-send="true"
+                data-layout="button_count"
+                data-show-faces="false"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="rodape">
+        Universidade do Estado de Santa Catarina - UDESC / Av. Madre Benvenuta,
+        2007 - Itacorubi - FlorianÃ³polis - SC
+        <br />
+        CEP: 88.035-901 / Telefone: (48) 3664-8000
+        <div style="height: 8px"></div>
+        <a title="CrÃ©ditos" alt="CrÃ©ditos" href="http://www.udesc.br/creditos"
+          >&copy; 2010-2012 SETIC - UDESC</a
+        >
+      </div>
+    </div>
+  </body>
+  <script
+    type="text/javascript"
+    src="http://www.udesc.br/js/awstats_misc_tracker.js"
+  ></script>
+  <noscript
+    ><img
+      src="http://www.udesc.br/js/awstats_misc_tracker.js?nojs=y"
+      height="0"
+      width="0"
+      border="0"
+      style="display: none"
+  /></noscript>
 </html>

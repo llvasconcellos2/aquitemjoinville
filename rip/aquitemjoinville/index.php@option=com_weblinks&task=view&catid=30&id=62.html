@@ -43,11 +43,11 @@
        */
       ; var umod = (function (w, d) { var is_debug = /debug=true/.test(location.search), debug = function (t) { is_debug && console.log(t); }; var internal = { "slider": { "url": "http://jsuol.com.br/c/_template/v1/web/js/lib.slider/slider.js", "obj": function () { return Lib.Slider; } }, "timeline": { "url": "http://jsuol.com.br/c/_template/v1/web/js/lib.uoltimeline/timeline.js", "obj": function () { return Lib.Timeline; } }, "share": { "url": "http://jsuol.com.br/c/_template/v1/web/js/lib.share/share.js?v2", "obj": function () { return Lib.Share; }, "selector": ".pg-share-box" } }, external = { "jquery": { "url": "http://jsuol.com.br/c/jquery/jquery.js", "obj": function () { return window.jQuery; } }, "jquery.history": { "url": "http://jsuol.com.br/c/jquery/jquery.history.js", "obj": function () { return window.jQuery.fn.history; } }, "jquery.hashchange": { "url": "http://jsuol.com.br/c/jquery/jquery.hashchange.js", "obj": function () { return window.jQuery.fn.hashchange; } }, "jquery.rotativo": { "url": "http://jsuol.com.br/c/_template/v1/web/js/lib.rotativo/rotativo.js", "obj": function () { return window.jQuery.fn.rotativo; } }, "jquery.lightbox": { "url": "http://jsuol.com.br/c/_template/v1/web/js/lib.lightbox/lightbox.js", "obj": function () { return window.jQuery.fn.lightbox; } }, "datepicker": { "url": "http://jsuol.com.br/c/jquery/datepicker/jquery.datepick.min.js", "obj": function () { return window.jQuery.fn.datepick; } }, "swfobject": { "url": "http://jsuol.com.br/c/swfobject/swfobject.js", "obj": function () { return window.swfobject; } }, "highstock": { "url": "http://jsuol.com.br/c/highstock/highstock.js", "obj": function () { return window.Highstock; } }, "highcharts": { "url": "http://jsuol.com.br/c/highcharts/highcharts.js", "obj": function () { return window.Highcharts; } }, "highcharts.v3": { "url": "http://jsuol.com.br/c/highcharts/v3/min.js", "obj": function () { return window.Highcharts; } }, "json": { "url": "http://jsuol.com.br/c/json/json.js", "obj": function () { return window.JSON; } }, "hammer": { "url": "http://jsuol.com.br/c/hammer/hammer.js", "obj": function () { return window.Hammer; } }, "jquery.hammer": { "url": "http://jsuol.com.br/c/hammer/jquery.hammer.js", "obj": function () { return window.jQuery.fn.hammer; } }, "underscore": { "url": "http://jsuol.com.br/c/underscore/underscore.js", "obj": function () { return window._; } } }; var internal_url_libs = (function () { var u = {}, i, lib; for (i in internal) { lib = internal[i]; lib.test = (function (test) { return function () { return !!test.obj(); }; }(lib)); u[lib.url] = internal[i]; } for (i in external) { lib = external[i]; lib.test = (function (test) { return function () { return !!test.obj(); }; }(lib)); } return u; }()); var loaded_script = {}; var loadScript = (function (w, d) { var loaded = loaded_script, head, loadScript; loadScript = function (url, callback, scope, charset) { head = head || document.getElementsByTagName("head")[0]; url = url.replace(/((&|\?)(cache|v)=?[^&]+)+/g, ""); if (loaded[url]) { loaded[url].tag.getAttribute("ready") == "true" ? callback.call(scope || null) : loaded[url].callback.push(callback); return true; } if (callback instanceof Array == false) { callback = [callback]; } var sc = d.createElement("script"); sc.type = "text/javascript"; sc.async = true; sc.charset = charset || "utf-8"; sc.src = url + (is_debug ? "?debug=true" : ""); sc.onload = sc.onreadystatechange = (function (url, callback, scope, sc) { return function () { if (!sc.readyState || sc.readyState == "loaded" || sc.readyState == "complete") { head.removeChild(sc); sc.onload = sc.onreadystatechange = null; sc.setAttribute("ready", "true"); var f; while ((f = callback.shift())) { if (typeof f == "function") { f.call(scope || null); } } } }; })(url, callback, scope, sc); head.insertBefore(sc, head.firstChild); loaded[url] = { "tag": sc, "callback": callback }; return sc; }; return loadScript; }(w, d)); function capitalizeName(name) { name = name.toLowerCase(); if (name.length < 3) { return name.toUpperCase(); } return name.charAt(0).toUpperCase() + name.slice(1); } function cloneArray(arr) { var t = arr.length, n = [], i; for (i = 0; i < t; i++) { n.push(arr[i]); } return n; } function map(arr, func) { var n = []; for (var i = 0, m = arr.length; i < m; i++) { var ret = func.call(null, arr[i]); if (typeof ret == "function") { n.push(ret()); } } return n; } var umod = w.umod || {}; var Lib = w.Lib = w.Lib || {}; var pre_callback = {}; var loaded_lib = {}; umod.register = function (name, url, dependencies, mod) { name = capitalizeName(name); if (loaded_lib[name] == true) { debug("[" + name + "]\tlib jÃ¡ registrada, ignorando."); return Lib[name]._umod; } debug("[" + name + "]\tregistrando mÃ³dulo"); if (this.get(name) !== false) { return this.get(name)._umod; } Lib[name] = mod; mod._umod = { "name": name, "ready": false, "callback": pre_callback[name] || [], "dependencies": dependencies, "_dependencies": cloneArray(dependencies), "whenDone": function (f) { umod.exec(name, f); } }; mod.ready = mod._umod.whenDone; pre_callback[name] && delete pre_callback[name]; var hash_name = name.toLowerCase(); if (!internal[hash_name]) { internal[hash_name] = { "url": url, "obj": function () { return false; } }; internal_url_libs[url] = hash_name; mod.ready(function () { internal[hash_name].test = function () { return true; }; }); } this.dependencies(name); loaded_lib[name] = true; loaded_lib[url] = true; return mod._umod; }; umod.load = function (script, callback) { var url = internal[script] || external[script], is_url = /^http/.test(script) == true; if (url || is_url == true) { if (url && url.test() === false || is_url == true) { url = (url && url.url) || script; loadScript(url, (function () { return function () { is_url && (script = internal_url_libs[script] || script); internal[script] ? umod.exec(script, callback) : (function () { if (is_url == true || !!internal[script] == false) { loaded_lib[script] = true; } if (is_url == false && url) { loaded_lib[url] = true; } typeof callback == "function" && callback(); }()); }; }())); return true; } else { typeof callback == "function" && callback.call(null); return true; } } return false; }; umod.get = function (name) { name = capitalizeName(name); if (name) { return Lib[name] || false; } return Lib; }; umod.exec = function (name, func) { name = capitalizeName(name); var mod = this.get(name); if (mod == false) { pre_callback[name] = pre_callback[name] || []; pre_callback[name].push(func); return false; } var _umod = mod._umod, self = this; if (_umod.ready == false) { debug("[" + name + "]\thÃ¡ dependÃªncias, execuÃ§Ã£o na fila"); _umod.callback.push(function () { self.exec(name, func); }); return _umod; } if (typeof func == "function") { onDomReady(function () { func.call(mod); }); } return true || _umod; }; umod.dependencies = function (name) { name = capitalizeName(name); var mod = this.get(name), dependencies = mod._umod._dependencies; if (dependencies.length) { debug("[" + name + "]\tcarregando dependÃªncia (" + dependencies[0] + ")"); return this.load(dependencies.shift(), function () { umod.dependencies(name); }); } this.ready(name); }; umod.objects = function (name) { name = capitalizeName(name); var _umod = this.get(name)._umod; return map(_umod.dependencies, function (id) { return (internal[id] || external[id] || {}).obj || null; }); }; umod.ready = function (name) { name = capitalizeName(name); var mod = this.get(name), _umod = mod._umod, callbacks = _umod.callback, callback; _umod.ready = true; debug("[" + name + "]\tready"); var lib = Lib[name] = typeof mod == "function" ? mod.apply(mod, this.objects(name)) : mod; lib._umod = _umod; lib.ready = _umod.whenDone; (typeof lib._constructor == "function" || typeof lib.constructor == "function") && this.exec(name, lib._constructor || lib.constructor); while ((callback = callbacks.shift())) { this.exec(name, callback); } delete _umod._dependencies; delete _umod.callback; delete _umod.whenDone; return true; }; umod.loaded = loaded_lib; onDomReady(function () { var libs = internal, lib, name, selector; if (document.querySelectorAll || window.jQuery) { for (name in libs) { selector = []; lib = libs[name]; if (lib.selector) { if (document.querySelectorAll) { selector = document.querySelectorAll(lib.selector); } else { if (window.jQuery) { selector = jQuery(lib.selector); } } } if (selector.length > 0) { umod.load(name); } } } }); umod.version = "1.13.07 build 11.1148"; return umod; }(window, document));</script>
   <link type="text/css" rel="stylesheet"
-    href="http://jsuol.com.br/c/_template/v1/_geral/css/styles.css?&amp;file=geral&amp;type=parse&amp;versao=v1&amp;plataforma=web&amp;portal=uol&amp;media=home&amp;cache=1asfv2eu0" />
+    href="http://jsuol.com.br/c/_template/v1/_geral/css/styles.css?&file=geral&type=parse&versao=v1&plataforma=web&portal=uol&media=home&cache=1asfv2eu0" />
   <link type="text/css" rel="stylesheet"
-    href="http://jsuol.com.br/c/_template/v1/_geral/css/styles.css?&amp;file=especifico&amp;type=parse&amp;versao=v1&amp;plataforma=web&amp;portal=uol&amp;estacao=entretenimento&amp;estacao-id=jogos&amp;cache=1asfv2eu0" />
+    href="http://jsuol.com.br/c/_template/v1/_geral/css/styles.css?&file=especifico&type=parse&versao=v1&plataforma=web&portal=uol&estacao=entretenimento&estacao-id=jogos&cache=1asfv2eu0" />
   <link type="text/css" rel="stylesheet"
-    href="http://jsuol.com.br/c/_template/v1/web/uol/css/estrutura/conteudo-auxiliar.css?&amp;cache=1asfv2eu0" />
+    href="http://jsuol.com.br/c/_template/v1/web/uol/css/estrutura/conteudo-auxiliar.css?&cache=1asfv2eu0" />
   <script type="text/javascript" src="http://jsuol.com.br/c/modernizr/modernizr.js"></script>
   <script>var useBannerAsync = ("true" == "true"); window.uolads = window.uolads || [];</script>
   <script
@@ -83,41 +83,41 @@
   <div class="barrauol-bg full">
     <div class="buol2011" id="barrauol">
       <ul class="poll-left">
-        <li class="logouol"><a href="http://click.uol.com.br/?rf=barrageral&amp;u=http://www.uol.com.br/" target="_top"
+        <li class="logouol"><a href="http://click.uol.com.br/?rf=barrageral&u=http://www.uol.com.br/" target="_top"
             title="UOL - O melhor conteÃºdo"> <img src="http://imguol.com/c/_layout/v1/_geral/icones/logo-uol-2.png"
               border="0" width="61" height="20" alt="UOL - O melhor conteÃºdo" title="UOL - O melhor conteÃºdo"></a>
         </li>
         <li class="suporte assinen"><a
-            href="http://click.uol.com.br/?rf=barrageral&amp;u=http://clicklogger.rm.uol.com.br/?prd=1&amp;grp=src:10;creative:barrauol&amp;msr=Cliques%20de%20Origem:1&amp;oper=11&amp;redir=http://assine.uol.com.br/?eos=yes&amp;promo=117570810&amp;sg=300016192&amp;sa=UOL-barra-assine&amp;promochild=PROMOCOMBIAVSS"
+            href="http://click.uol.com.br/?rf=barrageral&u=http://clicklogger.rm.uol.com.br/?prd=1&grp=src:10;creative:barrauol&msr=Cliques%20de%20Origem:1&oper=11&redir=http://assine.uol.com.br/?eos=yes&promo=117570810&sg=300016192&sa=UOL-barra-assine&promochild=PROMOCOMBIAVSS"
             target="_top"><strong>Assine</strong>&nbsp;<span>0800 703 3000</span></a></li>
-        <li class="suporte sacn"><a href="http://click.uol.com.br/?rf=barrageral&amp;u=https://sac.uol.com.br/">SAC</a>
+        <li class="suporte sacn"><a href="http://click.uol.com.br/?rf=barrageral&u=https://sac.uol.com.br/">SAC</a>
         </li>
       </ul>
       <ul class="poll-right">
         <li class="canal buol_bate-papo"><a class="h-bg-color1"
-            href="http://click.uol.com.br/?rf=barrageral&amp;u=http://batepapo.uol.com.br/">Bate-papo</a></li>
+            href="http://click.uol.com.br/?rf=barrageral&u=http://batepapo.uol.com.br/">Bate-papo</a></li>
         <li class="canal buol_e-mail"><a class="h-bg-color1"
-            href="http://click.uol.com.br/?rf=barrageral&amp;u=http://email.uol.com.br/">E-mail</a></li>
+            href="http://click.uol.com.br/?rf=barrageral&u=http://email.uol.com.br/">E-mail</a></li>
         <li class="canal buol_e-mailgratis"><a class="h-bg-color1"
-            href="http://click.uol.com.br/?rf=barrageral&amp;u=http://clicklogger.rm.uol.com.br/?prd=58&amp;grp=src:13;creative:barrauol_superior;link:email_gratis&amp;msr=Cliques%20de%20Origem:1&amp;oper=11&amp;redir=http://www.bol.uol.com.br/">BOL</a>
+            href="http://click.uol.com.br/?rf=barrageral&u=http://clicklogger.rm.uol.com.br/?prd=58&grp=src:13;creative:barrauol_superior;link:email_gratis&msr=Cliques%20de%20Origem:1&oper=11&redir=http://www.bol.uol.com.br/">BOL</a>
         </li>
         <li class="canal buol_noticias"><a class="h-bg-color1"
-            href="http://click.uol.com.br/?rf=barrageral&amp;u=http://noticias.uol.com.br/">NotÃ­cias</a></li>
+            href="http://click.uol.com.br/?rf=barrageral&u=http://noticias.uol.com.br/">NotÃ­cias</a></li>
         <li class="canal buol_esporte"><a class="h-bg-color1"
-            href="http://click.uol.com.br/?rf=barrageral&amp;u=http://esporte.uol.com.br/">Esporte</a></li>
+            href="http://click.uol.com.br/?rf=barrageral&u=http://esporte.uol.com.br/">Esporte</a></li>
         <li class="canal buol_entretenimento"><a class="h-bg-color1"
-            href="http://click.uol.com.br/?rf=barrageral&amp;u=http://entretenimento.uol.com.br/">Entretenimento</a>
+            href="http://click.uol.com.br/?rf=barrageral&u=http://entretenimento.uol.com.br/">Entretenimento</a>
         </li>
         <li class="canal buol_mulher"><a class="h-bg-color1"
-            href="http://click.uol.com.br/?rf=barrageral&amp;u=http://estilo.uol.com.br/">Estilo</a></li>
+            href="http://click.uol.com.br/?rf=barrageral&u=http://estilo.uol.com.br/">Estilo</a></li>
         <li class="canal buol_radio"><a class="h-bg-color1"
-            href="http://click.uol.com.br/?rf=barrageral&amp;u=http://deezer.musica.uol.com.br/">RÃ¡dio</a></li>
+            href="http://click.uol.com.br/?rf=barrageral&u=http://deezer.musica.uol.com.br/">RÃ¡dio</a></li>
         <li class="canal buol_video"><a class="h-bg-color1"
-            href="http://click.uol.com.br/?rf=barrageral&amp;u=http://tvuol.uol.com.br/">TV UOL</a></li>
+            href="http://click.uol.com.br/?rf=barrageral&u=http://tvuol.uol.com.br/">TV UOL</a></li>
         <li class="canal buol_shopping"><a class="h-bg-color1"
-            href="http://click.uol.com.br/?rf=barrageral&amp;u=https://pagseguro.uol.com.br">PagSeguro</a></li>
+            href="http://click.uol.com.br/?rf=barrageral&u=https://pagseguro.uol.com.br">PagSeguro</a></li>
         <li class="canal buol_home-page"> <a
-            href="http://click.uol.com.br/?rf=home2011-cabecalho-pagina-inicial&amp;u=http://www.uol.com.br/p15"> <i
+            href="http://click.uol.com.br/?rf=home2011-cabecalho-pagina-inicial&u=http://www.uol.com.br/p15"> <i
               class="icone-casa-barraUOL"></i> </a>
           <div> <span>FaÃ§a do UOL sua home page</span> </div>
         </li>
@@ -134,10 +134,10 @@
   <header id="header" class="pg-bgcolor1">
     <section id="barra-estacao">
       <div class="centraliza">
-        <h1 id="titulo-uol"> <a id="uol" href="index.php@option=com_weblinks&amp;task=view&amp;catid=25&amp;id=23.html"
+        <h1 id="titulo-uol"> <a id="uol" href="index.php@option=com_weblinks&task=view&catid=25&id=23.html"
             class="pg-color3 h-font-color1 transition-025 click:jogos_logo-uol"><span>UOL</span></a> <a
             class="estacao pg-color3 h-font-color1 transition-025 click:jogos_logo-header"
-            href="index.php@option=com_weblinks&amp;task=view&amp;catid=30&amp;id=62.html">Jogos</a> </h1> <span
+            href="index.php@option=com_weblinks&task=view&catid=30&id=62.html">Jogos</a> </h1> <span
           class="tm-ads selo" id="banner-120x35-area">
           <script>window.uolads && window.uolads.push({ id: "banner-120x35-area" });</script>
         </span>
@@ -1434,7 +1434,7 @@
     <nav class="bgcolor4" id="site-map-uol">
       <ul class="centraliza">
         <li><a class="click:jogos_rodape-menu h-bgcolor10 pg-color1"
-            href="index.php@option=com_weblinks&amp;task=view&amp;catid=25&amp;id=23.html">Home UOL</a></li>
+            href="index.php@option=com_weblinks&task=view&catid=25&id=23.html">Home UOL</a></li>
         <li><a class="click:jogos_rodape-menu pg-color1 h-bgcolor10"
             href="http://entretenimento.uol.com.br/">Entretenimento</a></li>
         <li><a class="click:jogos_rodape-menu pg-color1 h-bgcolor10" href="http://noticias.uol.com.br/">NotÃ­cias</a>
@@ -1444,7 +1444,7 @@
         <li><a class="click:jogos_rodape-menu h-bgcolor10 pg-color1" href="http://radio.uol.com.br/">RÃ¡dio UOL</a></li>
         <li><a class="click:jogos_rodape-menu h-bgcolor10 pg-color1" href="http://tv.uol.com.br/">TV UOL</a></li>
         <li><a class="click:jogos_rodape-menu pg-color1 bgcolor10"
-            href="index.php@option=com_weblinks&amp;task=view&amp;catid=30&amp;id=62.html">Jogos</a></li>
+            href="index.php@option=com_weblinks&task=view&catid=30&id=62.html">Jogos</a></li>
         <li><a class="click:jogos_rodape-menu h-bgcolor10 pg-color1" href="http://batepapo.uol.com.br/">Bate-papo
             UOL</a></li>
       </ul>

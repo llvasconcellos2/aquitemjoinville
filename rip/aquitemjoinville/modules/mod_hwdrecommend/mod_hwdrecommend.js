@@ -1,11 +1,7 @@
-/***********************************************
-* Switch Menu script- by Martial B of http://getElementById.com/
-* Modified by Dynamic Drive for format & NS4/IE4 compatibility
-* Visit http://www.dynamicdrive.com/ for full source code
-***********************************************/
 
-var persistmenu="yes" //"yes" or "no". Make sure each SPAN content contains an incrementing ID starting at 1 (id="sub1", id="sub2", etc)
-var persisttype="sitewide" //enter "sitewide" for menu to persist across site, "local" for this page only
+
+var persistmenu="yes" 
+var persisttype="sitewide" 
 
 if (document.getElementById){
 }
@@ -13,10 +9,10 @@ if (document.getElementById){
 function SwitchMenu(obj){
 	if(document.getElementById){
 	var el = document.getElementById(obj);
-	var ar = document.getElementById("masterdiv").getElementsByTagName("span"); //DynamicDrive.com change
-		if(el.style.display != "block"){ //DynamicDrive.com change
+	var ar = document.getElementById("masterdiv").getElementsByTagName("span"); 
+		if(el.style.display != "block"){ 
 			for (var i=0; i<ar.length; i++){
-				if (ar[i].className=="submenu") //DynamicDrive.com change
+				if (ar[i].className=="submenu") 
 				ar[i].style.display = "none";
 			}
 			el.style.display = "block";
