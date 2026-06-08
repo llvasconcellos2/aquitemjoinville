@@ -1,0 +1,4497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <data>
+    <row>
+      <idTipo>1</idTipo>
+      <tipo>Dentistas</tipo>
+    </row>
+    <row>
+      <idTipo>2</idTipo>
+      <tipo>Abrasivos</tipo>
+    </row>
+    <row>
+      <idTipo>3</idTipo>
+      <tipo>Abrigos para veículos</tipo>
+    </row>
+    <row>
+      <idTipo>4</idTipo>
+      <tipo>Academias Desportivas</tipo>
+    </row>
+    <row>
+      <idTipo>5</idTipo>
+      <tipo>Aço</tipo>
+    </row>
+    <row>
+      <idTipo>6</idTipo>
+      <tipo>Açougues</tipo>
+    </row>
+    <row>
+      <idTipo>7</idTipo>
+      <tipo>Acrílicos</tipo>
+    </row>
+    <row>
+      <idTipo>8</idTipo>
+      <tipo>Acupuntura</tipo>
+    </row>
+    <row>
+      <idTipo>9</idTipo>
+      <tipo>Acústica</tipo>
+    </row>
+    <row>
+      <idTipo>10</idTipo>
+      <tipo>Adesivos</tipo>
+    </row>
+    <row>
+      <idTipo>11</idTipo>
+      <tipo>Administração</tipo>
+    </row>
+    <row>
+      <idTipo>12</idTipo>
+      <tipo>Adubos e Fertilizantes</tipo>
+    </row>
+    <row>
+      <idTipo>13</idTipo>
+      <tipo>Advogados</tipo>
+    </row>
+    <row>
+      <idTipo>14</idTipo>
+      <tipo>Afiação Industrial</tipo>
+    </row>
+    <row>
+      <idTipo>15</idTipo>
+      <tipo>Agricultura e Pecuária</tipo>
+    </row>
+    <row>
+      <idTipo>16</idTipo>
+      <tipo>Água - Analises</tipo>
+    </row>
+    <row>
+      <idTipo>17</idTipo>
+      <tipo>Água - Fornecedores</tipo>
+    </row>
+    <row>
+      <idTipo>18</idTipo>
+      <tipo>Água Mineral</tipo>
+    </row>
+    <row>
+      <idTipo>19</idTipo>
+      <tipo>Água - Tratamento</tipo>
+    </row>
+    <row>
+      <idTipo>20</idTipo>
+      <tipo>Advogados - Causas Ambientais</tipo>
+    </row>
+    <row>
+      <idTipo>21</idTipo>
+      <tipo>Advogados - Causas Bancárias</tipo>
+    </row>
+    <row>
+      <idTipo>22</idTipo>
+      <tipo>Advogados - Causas Cíveis</tipo>
+    </row>
+    <row>
+      <idTipo>23</idTipo>
+      <tipo>Advogados - Causas Comerciais</tipo>
+    </row>
+    <row>
+      <idTipo>24</idTipo>
+      <tipo>Advogados - Causas Criminais</tipo>
+    </row>
+    <row>
+      <idTipo>25</idTipo>
+      <tipo>Advogados - Causas de Família</tipo>
+    </row>
+    <row>
+      <idTipo>26</idTipo>
+      <tipo>Advogados - Causas Fiscais e Tributárias</tipo>
+    </row>
+    <row>
+      <idTipo>27</idTipo>
+      <tipo>Advogados - Causas Médicas</tipo>
+    </row>
+    <row>
+      <idTipo>28</idTipo>
+      <tipo>Advogados - Causas Previdenciárias</tipo>
+    </row>
+    <row>
+      <idTipo>29</idTipo>
+      <tipo>Advogados - Causas Trabalhistas</tipo>
+    </row>
+    <row>
+      <idTipo>30</idTipo>
+      <tipo>Alambrados</tipo>
+    </row>
+    <row>
+      <idTipo>31</idTipo>
+      <tipo>Alarmes</tipo>
+    </row>
+    <row>
+      <idTipo>32</idTipo>
+      <tipo>Alarmes contra Fogo</tipo>
+    </row>
+    <row>
+      <idTipo>33</idTipo>
+      <tipo>Alarmes para Veículos</tipo>
+    </row>
+    <row>
+      <idTipo>34</idTipo>
+      <tipo>Alfaiates</tipo>
+    </row>
+    <row>
+      <idTipo>35</idTipo>
+      <tipo>Alimentos Congelados</tipo>
+    </row>
+    <row>
+      <idTipo>36</idTipo>
+      <tipo>Alimentos Dietéticos e Naturais</tipo>
+    </row>
+    <row>
+      <idTipo>37</idTipo>
+      <tipo>Alinhadores de Direção</tipo>
+    </row>
+    <row>
+      <idTipo>38</idTipo>
+      <tipo>Alto Falantes</tipo>
+    </row>
+    <row>
+      <idTipo>39</idTipo>
+      <tipo>Alumínio</tipo>
+    </row>
+    <row>
+      <idTipo>40</idTipo>
+      <tipo>Alumínio - Artef. e Ligas</tipo>
+    </row>
+    <row>
+      <idTipo>42</idTipo>
+      <tipo>Amortecedores p/ Veículos</tipo>
+    </row>
+    <row>
+      <idTipo>43</idTipo>
+      <tipo>Andaimes</tipo>
+    </row>
+    <row>
+      <idTipo>44</idTipo>
+      <tipo>Antenas</tipo>
+    </row>
+    <row>
+      <idTipo>45</idTipo>
+      <tipo>Antenas Parabólicas</tipo>
+    </row>
+    <row>
+      <idTipo>46</idTipo>
+      <tipo>Antiquários</tipo>
+    </row>
+    <row>
+      <idTipo>47</idTipo>
+      <tipo>Aparelhos Elétricos e Eletrônicos</tipo>
+    </row>
+    <row>
+      <idTipo>48</idTipo>
+      <tipo>Aparelhos p/ Surdez</tipo>
+    </row>
+    <row>
+      <idTipo>50</idTipo>
+      <tipo>Aquários - Peixes Ornamentais e Art p/ Criadores</tipo>
+    </row>
+    <row>
+      <idTipo>51</idTipo>
+      <tipo>Aquecedores</tipo>
+    </row>
+    <row>
+      <idTipo>52</idTipo>
+      <tipo>Aquecedores a gás</tipo>
+    </row>
+    <row>
+      <idTipo>53</idTipo>
+      <tipo>Aquecedores - Conserto</tipo>
+    </row>
+    <row>
+      <idTipo>54</idTipo>
+      <tipo>Aquecedores Solares</tipo>
+    </row>
+    <row>
+      <idTipo>55</idTipo>
+      <tipo>Arame</tipo>
+    </row>
+    <row>
+      <idTipo>56</idTipo>
+      <tipo>Arame - Telas</tipo>
+    </row>
+    <row>
+      <idTipo>57</idTipo>
+      <tipo>Arbitragem</tipo>
+    </row>
+    <row>
+      <idTipo>58</idTipo>
+      <tipo>Ar Comprimido - Equip.</tipo>
+    </row>
+    <row>
+      <idTipo>59</idTipo>
+      <tipo>Ar Condicionado</tipo>
+    </row>
+    <row>
+      <idTipo>60</idTipo>
+      <tipo>Ar Condicionado - Conserto</tipo>
+    </row>
+    <row>
+      <idTipo>61</idTipo>
+      <tipo>Ar Condicionado - Locação, Projetos e Instalações</tipo>
+    </row>
+    <row>
+      <idTipo>62</idTipo>
+      <tipo>Ar Condicionado p/ Veículos</tipo>
+    </row>
+    <row>
+      <idTipo>63</idTipo>
+      <tipo>Areia e Pedregulho</tipo>
+    </row>
+    <row>
+      <idTipo>64</idTipo>
+      <tipo>Argamassa</tipo>
+    </row>
+    <row>
+      <idTipo>65</idTipo>
+      <tipo>Armarinhos</tipo>
+    </row>
+    <row>
+      <idTipo>66</idTipo>
+      <tipo>Armas e Munições - Conserto e Restauração</tipo>
+    </row>
+    <row>
+      <idTipo>67</idTipo>
+      <tipo>Arquitetos</tipo>
+    </row>
+    <row>
+      <idTipo>68</idTipo>
+      <tipo>Aço - Chapas</tipo>
+    </row>
+    <row>
+      <idTipo>69</idTipo>
+      <tipo>Aço Inoxidável</tipo>
+    </row>
+    <row>
+      <idTipo>70</idTipo>
+      <tipo>Acoplamento</tipo>
+    </row>
+    <row>
+      <idTipo>73</idTipo>
+      <tipo>Aeroporto</tipo>
+    </row>
+    <row>
+      <idTipo>74</idTipo>
+      <tipo>Agência de Matrimônio</tipo>
+    </row>
+    <row>
+      <idTipo>75</idTipo>
+      <tipo>Alcoolismo - Tratamento</tipo>
+    </row>
+    <row>
+      <idTipo>77</idTipo>
+      <tipo>Aluguel de Equipamentos</tipo>
+    </row>
+    <row>
+      <idTipo>78</idTipo>
+      <tipo>Aparelhos Elétricos e Eletrônicos - Conserto</tipo>
+    </row>
+    <row>
+      <idTipo>79</idTipo>
+      <tipo>Arquivos - Sistemas de Organizção</tipo>
+    </row>
+    <row>
+      <idTipo>80</idTipo>
+      <tipo>Arroz</tipo>
+    </row>
+    <row>
+      <idTipo>81</idTipo>
+      <tipo>Artesanato - Artigos Regionais</tipo>
+    </row>
+    <row>
+      <idTipo>82</idTipo>
+      <tipo>Artigos Religiosos</tipo>
+    </row>
+    <row>
+      <idTipo>83</idTipo>
+      <tipo>Artistas - Materiais</tipo>
+    </row>
+    <row>
+      <idTipo>84</idTipo>
+      <tipo>Artistas Plásticos</tipo>
+    </row>
+    <row>
+      <idTipo>85</idTipo>
+      <tipo>Asilos e Abrigos</tipo>
+    </row>
+    <row>
+      <idTipo>86</idTipo>
+      <tipo>Assessoria Fiscal e Tributária</tipo>
+    </row>
+    <row>
+      <idTipo>87</idTipo>
+      <tipo>Assessoria de Imprensa</tipo>
+    </row>
+    <row>
+      <idTipo>88</idTipo>
+      <tipo>Assistência Médica e Odontológica</tipo>
+    </row>
+    <row>
+      <idTipo>89</idTipo>
+      <tipo>Assoalhos - Venda e Conservação</tipo>
+    </row>
+    <row>
+      <idTipo>90</idTipo>
+      <tipo>Associações Beneficentes e de Classe</tipo>
+    </row>
+    <row>
+      <idTipo>91</idTipo>
+      <tipo>Associações Comerciais</tipo>
+    </row>
+    <row>
+      <idTipo>92</idTipo>
+      <tipo>Associações Culturais, Desportivas e Sociais</tipo>
+    </row>
+    <row>
+      <idTipo>93</idTipo>
+      <tipo>Atacado - Produtos</tipo>
+    </row>
+    <row>
+      <idTipo>94</idTipo>
+      <tipo>Atelier de Costura</tipo>
+    </row>
+    <row>
+      <idTipo>95</idTipo>
+      <tipo>Audiovisuais - Sistemas e produtos</tipo>
+    </row>
+    <row>
+      <idTipo>96</idTipo>
+      <tipo>Auditores</tipo>
+    </row>
+    <row>
+      <idTipo>97</idTipo>
+      <tipo>Aulas Particulares</tipo>
+    </row>
+    <row>
+      <idTipo>98</idTipo>
+      <tipo>Auto-Elétricas</tipo>
+    </row>
+    <row>
+      <idTipo>99</idTipo>
+      <tipo>Auto-Escolas</tipo>
+    </row>
+    <row>
+      <idTipo>100</idTipo>
+      <tipo>Automação Comercial</tipo>
+    </row>
+    <row>
+      <idTipo>101</idTipo>
+      <tipo>Automação Industrial</tipo>
+    </row>
+    <row>
+      <idTipo>102</idTipo>
+      <tipo>Automóveis - Peças e Assessórios</tipo>
+    </row>
+    <row>
+      <idTipo>103</idTipo>
+      <tipo>Automóveis - Alinhamento e Balanceamento</tipo>
+    </row>
+    <row>
+      <idTipo>104</idTipo>
+      <tipo>Automóveis - Aluguel</tipo>
+    </row>
+    <row>
+      <idTipo>105</idTipo>
+      <tipo>Automóveis - Concessionárias e Revendedores</tipo>
+    </row>
+    <row>
+      <idTipo>106</idTipo>
+      <tipo>Automóveis - Escapamentos</tipo>
+    </row>
+    <row>
+      <idTipo>107</idTipo>
+      <tipo>Automóveis - Financiamento</tipo>
+    </row>
+    <row>
+      <idTipo>108</idTipo>
+      <tipo>Automóveis - Freios</tipo>
+    </row>
+    <row>
+      <idTipo>109</idTipo>
+      <tipo>Automóveis - Inspeção</tipo>
+    </row>
+    <row>
+      <idTipo>110</idTipo>
+      <tipo>Automóveis - Lataria e Pintura</tipo>
+    </row>
+    <row>
+      <idTipo>111</idTipo>
+      <tipo>Automóveis - Lavação e Polimento</tipo>
+    </row>
+    <row>
+      <idTipo>112</idTipo>
+      <tipo>Automóveis - Peças Usadas e Recondicionadas</tipo>
+    </row>
+    <row>
+      <idTipo>113</idTipo>
+      <tipo>Automóveis - Radiadores</tipo>
+    </row>
+    <row>
+      <idTipo>114</idTipo>
+      <tipo>Automóveis - Pára-choque</tipo>
+    </row>
+    <row>
+      <idTipo>115</idTipo>
+      <tipo>Automóveis - Suspensão</tipo>
+    </row>
+    <row>
+      <idTipo>116</idTipo>
+      <tipo>Automóveis - Travas de Segurança</tipo>
+    </row>
+    <row>
+      <idTipo>117</idTipo>
+      <tipo>Automóveis - Vidros</tipo>
+    </row>
+    <row>
+      <idTipo>118</idTipo>
+      <tipo>Aviamentos</tipo>
+    </row>
+    <row>
+      <idTipo>119</idTipo>
+      <tipo>Azulejos</tipo>
+    </row>
+    <row>
+      <idTipo>120</idTipo>
+      <tipo>Balanças</tipo>
+    </row>
+    <row>
+      <idTipo>121</idTipo>
+      <tipo>Balanças - Conserto</tipo>
+    </row>
+    <row>
+      <idTipo>122</idTipo>
+      <tipo>Balas e Bombons</tipo>
+    </row>
+    <row>
+      <idTipo>123</idTipo>
+      <tipo>Balcões Frigoríficos</tipo>
+    </row>
+    <row>
+      <idTipo>124</idTipo>
+      <tipo>Balões</tipo>
+    </row>
+    <row>
+      <idTipo>125</idTipo>
+      <tipo>Banca p/ Jornais e Revistas</tipo>
+    </row>
+    <row>
+      <idTipo>126</idTipo>
+      <tipo>Bancos</tipo>
+    </row>
+    <row>
+      <idTipo>127</idTipo>
+      <tipo>Bancos p/ Veículos</tipo>
+    </row>
+    <row>
+      <idTipo>128</idTipo>
+      <tipo>Bancos de Sangue</tipo>
+    </row>
+    <row>
+      <idTipo>129</idTipo>
+      <tipo>Bandas Musicais</tipo>
+    </row>
+    <row>
+      <idTipo>130</idTipo>
+      <tipo>Bandeiras e Estandartes</tipo>
+    </row>
+    <row>
+      <idTipo>131</idTipo>
+      <tipo>Bandejas de Proteção</tipo>
+    </row>
+    <row>
+      <idTipo>132</idTipo>
+      <tipo>Banheiras</tipo>
+    </row>
+    <row>
+      <idTipo>133</idTipo>
+      <tipo>Banheiros - Artigos</tipo>
+    </row>
+    <row>
+      <idTipo>134</idTipo>
+      <tipo>Banners</tipo>
+    </row>
+    <row>
+      <idTipo>135</idTipo>
+      <tipo>Barcos</tipo>
+    </row>
+    <row>
+      <idTipo>136</idTipo>
+      <tipo>Barcos - Conserto e Manutenção</tipo>
+    </row>
+    <row>
+      <idTipo>137</idTipo>
+      <tipo>Bares</tipo>
+    </row>
+    <row>
+      <idTipo>138</idTipo>
+      <tipo>Baterias</tipo>
+    </row>
+    <row>
+      <idTipo>139</idTipo>
+      <tipo>Bazares</tipo>
+    </row>
+    <row>
+      <idTipo>140</idTipo>
+      <tipo>Bebedouros</tipo>
+    </row>
+    <row>
+      <idTipo>141</idTipo>
+      <tipo>Bebidas</tipo>
+    </row>
+    <row>
+      <idTipo>142</idTipo>
+      <tipo>Betoneiras</tipo>
+    </row>
+    <row>
+      <idTipo>143</idTipo>
+      <tipo>Bibliotecas</tipo>
+    </row>
+    <row>
+      <idTipo>144</idTipo>
+      <tipo>Bicicletas - Peças e Assessórios</tipo>
+    </row>
+    <row>
+      <idTipo>145</idTipo>
+      <tipo>Bijuterias</tipo>
+    </row>
+    <row>
+      <idTipo>146</idTipo>
+      <tipo>Bilhar e Sinuca - Art. e Equip.</tipo>
+    </row>
+    <row>
+      <idTipo>147</idTipo>
+      <tipo>Bingos - Promoções</tipo>
+    </row>
+    <row>
+      <idTipo>148</idTipo>
+      <tipo>Biquínis e Maiôs</tipo>
+    </row>
+    <row>
+      <idTipo>149</idTipo>
+      <tipo>Blocos Cerâmicos</tipo>
+    </row>
+    <row>
+      <idTipo>150</idTipo>
+      <tipo>Blocos de Concreto</tipo>
+    </row>
+    <row>
+      <idTipo>151</idTipo>
+      <tipo>Boates</tipo>
+    </row>
+    <row>
+      <idTipo>152</idTipo>
+      <tipo>Boliche</tipo>
+    </row>
+    <row>
+      <idTipo>153</idTipo>
+      <tipo>Bolsas</tipo>
+    </row>
+    <row>
+      <idTipo>154</idTipo>
+      <tipo>Bombas - Consertos</tipo>
+    </row>
+    <row>
+      <idTipo>155</idTipo>
+      <tipo>Bombas Hidráulicas</tipo>
+    </row>
+    <row>
+      <idTipo>156</idTipo>
+      <tipo>Bombas Injetoras</tipo>
+    </row>
+    <row>
+      <idTipo>157</idTipo>
+      <tipo>Bombas e Motobombas</tipo>
+    </row>
+    <row>
+      <idTipo>158</idTipo>
+      <tipo>Bombas de Vácuo</tipo>
+    </row>
+    <row>
+      <idTipo>159</idTipo>
+      <tipo>Bonés</tipo>
+    </row>
+    <row>
+      <idTipo>160</idTipo>
+      <tipo>Bordados</tipo>
+    </row>
+    <row>
+      <idTipo>161</idTipo>
+      <tipo>Borracha - Artefatos</tipo>
+    </row>
+    <row>
+      <idTipo>162</idTipo>
+      <tipo>Borracheiros</tipo>
+    </row>
+    <row>
+      <idTipo>163</idTipo>
+      <tipo>Bottons</tipo>
+    </row>
+    <row>
+      <idTipo>164</idTipo>
+      <tipo>Boutiques</tipo>
+    </row>
+    <row>
+      <idTipo>165</idTipo>
+      <tipo>Box p/ Banheiros</tipo>
+    </row>
+    <row>
+      <idTipo>166</idTipo>
+      <tipo>Brechós</tipo>
+    </row>
+    <row>
+      <idTipo>167</idTipo>
+      <tipo>Brindes</tipo>
+    </row>
+    <row>
+      <idTipo>168</idTipo>
+      <tipo>Brinquedos</tipo>
+    </row>
+    <row>
+      <idTipo>169</idTipo>
+      <tipo>Britadores</tipo>
+    </row>
+    <row>
+      <idTipo>170</idTipo>
+      <tipo>Buffet</tipo>
+    </row>
+    <row>
+      <idTipo>171</idTipo>
+      <tipo>Cabeleireiros e Institutos de Beleza</tipo>
+    </row>
+    <row>
+      <idTipo>172</idTipo>
+      <tipo>Cabos de Aço</tipo>
+    </row>
+    <row>
+      <idTipo>173</idTipo>
+      <tipo>Cabos Elétricos</tipo>
+    </row>
+    <row>
+      <idTipo>174</idTipo>
+      <tipo>Caça e Pesca</tipo>
+    </row>
+    <row>
+      <idTipo>175</idTipo>
+      <tipo>Cadeiras</tipo>
+    </row>
+    <row>
+      <idTipo>176</idTipo>
+      <tipo>Cadeiras de Rodas</tipo>
+    </row>
+    <row>
+      <idTipo>177</idTipo>
+      <tipo>Café</tipo>
+    </row>
+    <row>
+      <idTipo>178</idTipo>
+      <tipo>Café Colonial</tipo>
+    </row>
+    <row>
+      <idTipo>179</idTipo>
+      <tipo>Caixas Registradoras</tipo>
+    </row>
+    <row>
+      <idTipo>180</idTipo>
+      <tipo>Calandras</tipo>
+    </row>
+    <row>
+      <idTipo>181</idTipo>
+      <tipo>Calçados</tipo>
+    </row>
+    <row>
+      <idTipo>182</idTipo>
+      <tipo>Caldeirarias</tipo>
+    </row>
+    <row>
+      <idTipo>183</idTipo>
+      <tipo>Caldeiras</tipo>
+    </row>
+    <row>
+      <idTipo>184</idTipo>
+      <tipo>Calhas e Rufos</tipo>
+    </row>
+    <row>
+      <idTipo>185</idTipo>
+      <tipo>Calibradores - Calibragem</tipo>
+    </row>
+    <row>
+      <idTipo>186</idTipo>
+      <tipo>Câmaras Frigoríficas</tipo>
+    </row>
+    <row>
+      <idTipo>187</idTipo>
+      <tipo>Câmeras de Segurança</tipo>
+    </row>
+    <row>
+      <idTipo>188</idTipo>
+      <tipo>Caminhão Pipa</tipo>
+    </row>
+    <row>
+      <idTipo>189</idTipo>
+      <tipo>Caminhões - Agências e Revendedores</tipo>
+    </row>
+    <row>
+      <idTipo>190</idTipo>
+      <tipo>Caminhões - Conserto</tipo>
+    </row>
+    <row>
+      <idTipo>191</idTipo>
+      <tipo>Caminhões - Lanternagem e Pintura</tipo>
+    </row>
+    <row>
+      <idTipo>192</idTipo>
+      <tipo>Caminhões - Peças e Acessórios</tipo>
+    </row>
+    <row>
+      <idTipo>193</idTipo>
+      <tipo>Caminhonetes</tipo>
+    </row>
+    <row>
+      <idTipo>194</idTipo>
+      <tipo>Camisetas Promocionais</tipo>
+    </row>
+    <row>
+      <idTipo>195</idTipo>
+      <tipo>Camping - Art. e Equip.</tipo>
+    </row>
+    <row>
+      <idTipo>196</idTipo>
+      <tipo>Canis</tipo>
+    </row>
+    <row>
+      <idTipo>197</idTipo>
+      <tipo>Capachos</tipo>
+    </row>
+    <row>
+      <idTipo>198</idTipo>
+      <tipo>Capotas para Veículos</tipo>
+    </row>
+    <row>
+      <idTipo>199</idTipo>
+      <tipo>Cargas e Encomendas</tipo>
+    </row>
+    <row>
+      <idTipo>200</idTipo>
+      <tipo>Cargas - Movimentação e Amarração</tipo>
+    </row>
+    <row>
+      <idTipo>201</idTipo>
+      <tipo>Carimbos</tipo>
+    </row>
+    <row>
+      <idTipo>202</idTipo>
+      <tipo>Carnes Assadas</tipo>
+    </row>
+    <row>
+      <idTipo>203</idTipo>
+      <tipo>Carnes - Atacado</tipo>
+    </row>
+    <row>
+      <idTipo>204</idTipo>
+      <tipo>Carpetes</tipo>
+    </row>
+    <row>
+      <idTipo>205</idTipo>
+      <tipo>Carpetes - Lavação e Limpeza</tipo>
+    </row>
+    <row>
+      <idTipo>206</idTipo>
+      <tipo>Carrinhos p/ Industrias e Armazens</tipo>
+    </row>
+    <row>
+      <idTipo>207</idTipo>
+      <tipo>Carrocerias</tipo>
+    </row>
+    <row>
+      <idTipo>208</idTipo>
+      <tipo>Cartão de Identificação</tipo>
+    </row>
+    <row>
+      <idTipo>209</idTipo>
+      <tipo>Cartão de Crédito - Administração</tipo>
+    </row>
+    <row>
+      <idTipo>210</idTipo>
+      <tipo>Cartão de Crédito e Magnético - Fab</tipo>
+    </row>
+    <row>
+      <idTipo>211</idTipo>
+      <tipo>Cartomante, Quiromante, Búzios e Tarô</tipo>
+    </row>
+    <row>
+      <idTipo>212</idTipo>
+      <tipo>Cartórios e Tabeliães</tipo>
+    </row>
+    <row>
+      <idTipo>213</idTipo>
+      <tipo>Cartuchos e Tonners</tipo>
+    </row>
+    <row>
+      <idTipo>214</idTipo>
+      <tipo>Carvão e Derivados</tipo>
+    </row>
+    <row>
+      <idTipo>215</idTipo>
+      <tipo>Casamento - Organização e Decoração</tipo>
+    </row>
+    <row>
+      <idTipo>216</idTipo>
+      <tipo>Casa de Câmbio</tipo>
+    </row>
+    <row>
+      <idTipo>217</idTipo>
+      <tipo>Casas Noturnas</tipo>
+    </row>
+    <row>
+      <idTipo>218</idTipo>
+      <tipo>Casas Pré-fabricadas</tipo>
+    </row>
+    <row>
+      <idTipo>219</idTipo>
+      <tipo>Catracas</tipo>
+    </row>
+    <row>
+      <idTipo>220</idTipo>
+      <tipo>CD's e DVD's</tipo>
+    </row>
+    <row>
+      <idTipo>221</idTipo>
+      <tipo>Cemitérios</tipo>
+    </row>
+    <row>
+      <idTipo>222</idTipo>
+      <tipo>Cerâmica</tipo>
+    </row>
+    <row>
+      <idTipo>223</idTipo>
+      <tipo>Cerca de Alumínio</tipo>
+    </row>
+    <row>
+      <idTipo>224</idTipo>
+      <tipo>Cercas - Eletrificação</tipo>
+    </row>
+    <row>
+      <idTipo>225</idTipo>
+      <tipo>Cercas e Mourões</tipo>
+    </row>
+    <row>
+      <idTipo>226</idTipo>
+      <tipo>Cercas de PVC</tipo>
+    </row>
+    <row>
+      <idTipo>227</idTipo>
+      <tipo>Cereais</tipo>
+    </row>
+    <row>
+      <idTipo>228</idTipo>
+      <tipo>Cerimonial</tipo>
+    </row>
+    <row>
+      <idTipo>229</idTipo>
+      <tipo>Cestas de Café da Manhã</tipo>
+    </row>
+    <row>
+      <idTipo>230</idTipo>
+      <tipo>Chaveiros</tipo>
+    </row>
+    <row>
+      <idTipo>231</idTipo>
+      <tipo>Chocolates</tipo>
+    </row>
+    <row>
+      <idTipo>232</idTipo>
+      <tipo>Choperias e Cervejarias</tipo>
+    </row>
+    <row>
+      <idTipo>233</idTipo>
+      <tipo>Churrascarias</tipo>
+    </row>
+    <row>
+      <idTipo>234</idTipo>
+      <tipo>Churrascos - Organização</tipo>
+    </row>
+    <row>
+      <idTipo>235</idTipo>
+      <tipo>Churrasqueiras</tipo>
+    </row>
+    <row>
+      <idTipo>236</idTipo>
+      <tipo>Cilindros de Aço</tipo>
+    </row>
+    <row>
+      <idTipo>237</idTipo>
+      <tipo>Cilindros Hidráulicos e Pneumáticos</tipo>
+    </row>
+    <row>
+      <idTipo>238</idTipo>
+      <tipo>Cimentos - Artef</tipo>
+    </row>
+    <row>
+      <idTipo>239</idTipo>
+      <tipo>Cinemas</tipo>
+    </row>
+    <row>
+      <idTipo>240</idTipo>
+      <tipo>Cintas de Poliéster</tipo>
+    </row>
+    <row>
+      <idTipo>241</idTipo>
+      <tipo>Cirurgia - Art. Equip e Instrumental</tipo>
+    </row>
+    <row>
+      <idTipo>242</idTipo>
+      <tipo>Cirurgiões - Dentistas</tipo>
+    </row>
+    <row>
+      <idTipo>243</idTipo>
+      <tipo>Cirurgiões - Dentistas - Cirurgia Traumatologia Buco-Maxilo Facial</tipo>
+    </row>
+    <row>
+      <idTipo>244</idTipo>
+      <tipo>Cirurgiões - Dentistas - Dentística Restauradora</tipo>
+    </row>
+    <row>
+      <idTipo>245</idTipo>
+      <tipo>Cirurgiões - Dentistas - DTM e Dor Orofacial</tipo>
+    </row>
+    <row>
+      <idTipo>246</idTipo>
+      <tipo>Cirurgiões - Dentistas - Endodontia</tipo>
+    </row>
+    <row>
+      <idTipo>247</idTipo>
+      <tipo>Cirurgiões - Dentistas - Implantodontia</tipo>
+    </row>
+    <row>
+      <idTipo>248</idTipo>
+      <tipo>Cirurgiões - Dentistas - Odontopediatria</tipo>
+    </row>
+    <row>
+      <idTipo>249</idTipo>
+      <tipo>Cirurgiões - Dentistas - Ortodontia</tipo>
+    </row>
+    <row>
+      <idTipo>250</idTipo>
+      <tipo>Cirurgiões - Dentistas - Ortopedia Funcional dos Maxilares</tipo>
+    </row>
+    <row>
+      <idTipo>251</idTipo>
+      <tipo>Cirurgiões - Dentistas - Patologia Bucal</tipo>
+    </row>
+    <row>
+      <idTipo>252</idTipo>
+      <tipo>Cirurgiões - Dentistas - Periodontia</tipo>
+    </row>
+    <row>
+      <idTipo>253</idTipo>
+      <tipo>Cirurgiões - Dentistas - Prótese</tipo>
+    </row>
+    <row>
+      <idTipo>254</idTipo>
+      <tipo>Cirurgiões - Dentistas - Radiologia</tipo>
+    </row>
+    <row>
+      <idTipo>255</idTipo>
+      <tipo>Clínica de Hidroterapia</tipo>
+    </row>
+    <row>
+      <idTipo>256</idTipo>
+      <tipo>Clínica de Cardiologia</tipo>
+    </row>
+    <row>
+      <idTipo>257</idTipo>
+      <tipo>Clínica de Dermatologia</tipo>
+    </row>
+    <row>
+      <idTipo>258</idTipo>
+      <tipo>Clínica de Cirurgia Plástica</tipo>
+    </row>
+    <row>
+      <idTipo>259</idTipo>
+      <tipo>Clínica de Endoscopia</tipo>
+    </row>
+    <row>
+      <idTipo>260</idTipo>
+      <tipo>Clínica de Estética</tipo>
+    </row>
+    <row>
+      <idTipo>261</idTipo>
+      <tipo>Clínica de Fisioterapia</tipo>
+    </row>
+    <row>
+      <idTipo>262</idTipo>
+      <tipo>Clínica Médica</tipo>
+    </row>
+    <row>
+      <idTipo>263</idTipo>
+      <tipo>Clínica Odontológica</tipo>
+    </row>
+    <row>
+      <idTipo>264</idTipo>
+      <tipo>Clínica de Olhos</tipo>
+    </row>
+    <row>
+      <idTipo>265</idTipo>
+      <tipo>Clínica de Ortopedia</tipo>
+    </row>
+    <row>
+      <idTipo>266</idTipo>
+      <tipo>Clínica de Pediatria</tipo>
+    </row>
+    <row>
+      <idTipo>267</idTipo>
+      <tipo>Clínica de Psicologia</tipo>
+    </row>
+    <row>
+      <idTipo>268</idTipo>
+      <tipo>Clínica de Psiquiatria</tipo>
+    </row>
+    <row>
+      <idTipo>269</idTipo>
+      <tipo>Clínica de Radiologia Odontológica</tipo>
+    </row>
+    <row>
+      <idTipo>270</idTipo>
+      <tipo>Clínica de Radiologia e Ultrasonografia</tipo>
+    </row>
+    <row>
+      <idTipo>271</idTipo>
+      <tipo>Clínica de Radioterapia</tipo>
+    </row>
+    <row>
+      <idTipo>272</idTipo>
+      <tipo>Clínica de Reabilitação</tipo>
+    </row>
+    <row>
+      <idTipo>273</idTipo>
+      <tipo>Clínica de Repouso</tipo>
+    </row>
+    <row>
+      <idTipo>274</idTipo>
+      <tipo>Clínica Veterinária</tipo>
+    </row>
+    <row>
+      <idTipo>275</idTipo>
+      <tipo>Clubes e Estádios</tipo>
+    </row>
+    <row>
+      <idTipo>276</idTipo>
+      <tipo>Coberturas</tipo>
+    </row>
+    <row>
+      <idTipo>277</idTipo>
+      <tipo>Cobrança - Agências</tipo>
+    </row>
+    <row>
+      <idTipo>278</idTipo>
+      <tipo>Cofres</tipo>
+    </row>
+    <row>
+      <idTipo>279</idTipo>
+      <tipo>Coifas</tipo>
+    </row>
+    <row>
+      <idTipo>280</idTipo>
+      <tipo>Colchões</tipo>
+    </row>
+    <row>
+      <idTipo>281</idTipo>
+      <tipo>Colchões Magnéticos</tipo>
+    </row>
+    <row>
+      <idTipo>282</idTipo>
+      <tipo>Comércio Exterior - Assessoria</tipo>
+    </row>
+    <row>
+      <idTipo>283</idTipo>
+      <tipo>Compactação do Solo - Maq. e Equip.</tipo>
+    </row>
+    <row>
+      <idTipo>284</idTipo>
+      <tipo>Compensados e Laminados</tipo>
+    </row>
+    <row>
+      <idTipo>285</idTipo>
+      <tipo>Componentes Eletrônicos</tipo>
+    </row>
+    <row>
+      <idTipo>286</idTipo>
+      <tipo>Compressores</tipo>
+    </row>
+    <row>
+      <idTipo>287</idTipo>
+      <tipo>Compressores - Aluguel</tipo>
+    </row>
+    <row>
+      <idTipo>288</idTipo>
+      <tipo>Compressores - Conserto</tipo>
+    </row>
+    <row>
+      <idTipo>289</idTipo>
+      <tipo>Computação Gráfica</tipo>
+    </row>
+    <row>
+      <idTipo>290</idTipo>
+      <tipo>Comunicação Visual</tipo>
+    </row>
+    <row>
+      <idTipo>291</idTipo>
+      <tipo>Concreto</tipo>
+    </row>
+    <row>
+      <idTipo>292</idTipo>
+      <tipo>Condimentos e Molhos</tipo>
+    </row>
+    <row>
+      <idTipo>293</idTipo>
+      <tipo>Condomínios - Administração</tipo>
+    </row>
+    <row>
+      <idTipo>294</idTipo>
+      <tipo>Conexões</tipo>
+    </row>
+    <row>
+      <idTipo>295</idTipo>
+      <tipo>Confecções - Bebê</tipo>
+    </row>
+    <row>
+      <idTipo>296</idTipo>
+      <tipo>Confecções - Cama, Mesa e Banho - Atac. e Fab.</tipo>
+    </row>
+    <row>
+      <idTipo>297</idTipo>
+      <tipo>Confecções - Feminina - Atac. e Fab.</tipo>
+    </row>
+    <row>
+      <idTipo>298</idTipo>
+      <tipo>Confecções - Infantil - Atac. e Fab.</tipo>
+    </row>
+    <row>
+      <idTipo>299</idTipo>
+      <tipo>Confecções - Mão-de-obra</tipo>
+    </row>
+    <row>
+      <idTipo>300</idTipo>
+      <tipo>Confecções - Masculina - Atac. e Fab.</tipo>
+    </row>
+    <row>
+      <idTipo>301</idTipo>
+      <tipo>Confecções - Moldes</tipo>
+    </row>
+    <row>
+      <idTipo>302</idTipo>
+      <tipo>Confecções - Representantes</tipo>
+    </row>
+    <row>
+      <idTipo>303</idTipo>
+      <tipo>Confecções - Unisex- Atac. e Fab.</tipo>
+    </row>
+    <row>
+      <idTipo>304</idTipo>
+      <tipo>Confeitaria e Doceria</tipo>
+    </row>
+    <row>
+      <idTipo>305</idTipo>
+      <tipo>Consórcio</tipo>
+    </row>
+    <row>
+      <idTipo>306</idTipo>
+      <tipo>Construção Civil</tipo>
+    </row>
+    <row>
+      <idTipo>307</idTipo>
+      <tipo>Construção - Maq. e Equip.</tipo>
+    </row>
+    <row>
+      <idTipo>308</idTipo>
+      <tipo>Construção - Industrial</tipo>
+    </row>
+    <row>
+      <idTipo>309</idTipo>
+      <tipo>Construção Industrial - Pré-fabricada</tipo>
+    </row>
+    <row>
+      <idTipo>310</idTipo>
+      <tipo>Construtores</tipo>
+    </row>
+    <row>
+      <idTipo>311</idTipo>
+      <tipo>Consulados</tipo>
+    </row>
+    <row>
+      <idTipo>312</idTipo>
+      <tipo>Consultores Econômico-Financeiros</tipo>
+    </row>
+    <row>
+      <idTipo>313</idTipo>
+      <tipo>Consultores de Empresas</tipo>
+    </row>
+    <row>
+      <idTipo>314</idTipo>
+      <tipo>Consultores Em Gestão da Qualidade</tipo>
+    </row>
+    <row>
+      <idTipo>315</idTipo>
+      <tipo>Consultores Hospitalar</tipo>
+    </row>
+    <row>
+      <idTipo>316</idTipo>
+      <tipo>Consultores Industriais</tipo>
+    </row>
+    <row>
+      <idTipo>317</idTipo>
+      <tipo>Consultores de Marketing</tipo>
+    </row>
+    <row>
+      <idTipo>318</idTipo>
+      <tipo>Consultores de Organização e Métodos</tipo>
+    </row>
+    <row>
+      <idTipo>319</idTipo>
+      <tipo>Consultores em Recursos Humanos</tipo>
+    </row>
+    <row>
+      <idTipo>320</idTipo>
+      <tipo>Consultores em Segurança</tipo>
+    </row>
+    <row>
+      <idTipo>321</idTipo>
+      <tipo>Consultores de Telecomunicações</tipo>
+    </row>
+    <row>
+      <idTipo>322</idTipo>
+      <tipo>Consultoria Ambiental</tipo>
+    </row>
+    <row>
+      <idTipo>323</idTipo>
+      <tipo>Contabilidade - Escritórios</tipo>
+    </row>
+    <row>
+      <idTipo>324</idTipo>
+      <tipo>Controles e Sistemas de Controles</tipo>
+    </row>
+    <row>
+      <idTipo>325</idTipo>
+      <tipo>Convites</tipo>
+    </row>
+    <row>
+      <idTipo>326</idTipo>
+      <tipo>Cooperativas</tipo>
+    </row>
+    <row>
+      <idTipo>327</idTipo>
+      <tipo>Cooperativas de Crédito</tipo>
+    </row>
+    <row>
+      <idTipo>328</idTipo>
+      <tipo>Copiadoras - Assist. Técnica e Suprimentos</tipo>
+    </row>
+    <row>
+      <idTipo>329</idTipo>
+      <tipo>Cópias Xerográficas e Heliográficas</tipo>
+    </row>
+    <row>
+      <idTipo>330</idTipo>
+      <tipo>Cópias Xerográficas e Heliográficas - Equip.</tipo>
+    </row>
+    <row>
+      <idTipo>331</idTipo>
+      <tipo>Copos</tipo>
+    </row>
+    <row>
+      <idTipo>332</idTipo>
+      <tipo>Cordas</tipo>
+    </row>
+    <row>
+      <idTipo>333</idTipo>
+      <tipo>Correias</tipo>
+    </row>
+    <row>
+      <idTipo>334</idTipo>
+      <tipo>Correios e Telégrafos</tipo>
+    </row>
+    <row>
+      <idTipo>335</idTipo>
+      <tipo>Corretoras de Câmbio</tipo>
+    </row>
+    <row>
+      <idTipo>336</idTipo>
+      <tipo>Corretoras de Valores</tipo>
+    </row>
+    <row>
+      <idTipo>337</idTipo>
+      <tipo>Corretores de Imóveis</tipo>
+    </row>
+    <row>
+      <idTipo>338</idTipo>
+      <tipo>Cortinas</tipo>
+    </row>
+    <row>
+      <idTipo>339</idTipo>
+      <tipo>Cortinas - Assessórios</tipo>
+    </row>
+    <row>
+      <idTipo>340</idTipo>
+      <tipo>Cortinas - Limpeza</tipo>
+    </row>
+    <row>
+      <idTipo>341</idTipo>
+      <tipo>Cosméticos</tipo>
+    </row>
+    <row>
+      <idTipo>342</idTipo>
+      <tipo>Costureiras</tipo>
+    </row>
+    <row>
+      <idTipo>343</idTipo>
+      <tipo>Couros - Artef.</tipo>
+    </row>
+    <row>
+      <idTipo>344</idTipo>
+      <tipo>Cozinhas - Decorações e Instalações</tipo>
+    </row>
+    <row>
+      <idTipo>345</idTipo>
+      <tipo>Cozinhas - Industriais</tipo>
+    </row>
+    <row>
+      <idTipo>346</idTipo>
+      <tipo>Cozinhas - Industriais - Equip.</tipo>
+    </row>
+    <row>
+      <idTipo>347</idTipo>
+      <tipo>Crachás</tipo>
+    </row>
+    <row>
+      <idTipo>348</idTipo>
+      <tipo>Creches</tipo>
+    </row>
+    <row>
+      <idTipo>349</idTipo>
+      <tipo>Crédito - Serviço de Proteção</tipo>
+    </row>
+    <row>
+      <idTipo>352</idTipo>
+      <tipo>Cromagem</tipo>
+    </row>
+    <row>
+      <idTipo>353</idTipo>
+      <tipo>Cromo-Duro</tipo>
+    </row>
+    <row>
+      <idTipo>354</idTipo>
+      <tipo>Cursos de Artesanato</tipo>
+    </row>
+    <row>
+      <idTipo>355</idTipo>
+      <tipo>Cursos de Decoração</tipo>
+    </row>
+    <row>
+      <idTipo>356</idTipo>
+      <tipo>Cursos de Estética</tipo>
+    </row>
+    <row>
+      <idTipo>357</idTipo>
+      <tipo>Cursos - Ginástica p/ o Cérebro</tipo>
+    </row>
+    <row>
+      <idTipo>358</idTipo>
+      <tipo>Cursos - Jurídicos</tipo>
+    </row>
+    <row>
+      <idTipo>359</idTipo>
+      <tipo>Cursos Pré-Vestibular</tipo>
+    </row>
+    <row>
+      <idTipo>360</idTipo>
+      <tipo>Cursos Supletivos</tipo>
+    </row>
+    <row>
+      <idTipo>361</idTipo>
+      <tipo>Cursos Técnicos e Profissionalizantes</tipo>
+    </row>
+    <row>
+      <idTipo>362</idTipo>
+      <tipo>CyberCafé</tipo>
+    </row>
+    <row>
+      <idTipo>363</idTipo>
+      <tipo>Danceterias</tipo>
+    </row>
+    <row>
+      <idTipo>364</idTipo>
+      <tipo>Data Show</tipo>
+    </row>
+    <row>
+      <idTipo>365</idTipo>
+      <tipo>Decorações - Art. e Serviços</tipo>
+    </row>
+    <row>
+      <idTipo>366</idTipo>
+      <tipo>Dedetização e Desratização</tipo>
+    </row>
+    <row>
+      <idTipo>367</idTipo>
+      <tipo>Delegacia</tipo>
+    </row>
+    <row>
+      <idTipo>368</idTipo>
+      <tipo>Demolições</tipo>
+    </row>
+    <row>
+      <idTipo>369</idTipo>
+      <tipo>Depilação</tipo>
+    </row>
+    <row>
+      <idTipo>370</idTipo>
+      <tipo>Descartáveis - Art.</tipo>
+    </row>
+    <row>
+      <idTipo>371</idTipo>
+      <tipo>Desenhistas</tipo>
+    </row>
+    <row>
+      <idTipo>372</idTipo>
+      <tipo>Desenhos - Art. e Materiais</tipo>
+    </row>
+    <row>
+      <idTipo>373</idTipo>
+      <tipo>Desentupimento</tipo>
+    </row>
+    <row>
+      <idTipo>374</idTipo>
+      <tipo>Design</tipo>
+    </row>
+    <row>
+      <idTipo>375</idTipo>
+      <tipo>Design Gráfico</tipo>
+    </row>
+    <row>
+      <idTipo>376</idTipo>
+      <tipo>Despachante</tipo>
+    </row>
+    <row>
+      <idTipo>377</idTipo>
+      <tipo>Despachante Aduaneiro</tipo>
+    </row>
+    <row>
+      <idTipo>378</idTipo>
+      <tipo>Detetive Particular</tipo>
+    </row>
+    <row>
+      <idTipo>379</idTipo>
+      <tipo>Digitação - Serviços</tipo>
+    </row>
+    <row>
+      <idTipo>380</idTipo>
+      <tipo>Digitalização de Documentos</tipo>
+    </row>
+    <row>
+      <idTipo>381</idTipo>
+      <tipo>Direção Hidráulica</tipo>
+    </row>
+    <row>
+      <idTipo>382</idTipo>
+      <tipo>Direitos Autorais - Sociedades</tipo>
+    </row>
+    <row>
+      <idTipo>383</idTipo>
+      <tipo>Disk Entregas</tipo>
+    </row>
+    <row>
+      <idTipo>384</idTipo>
+      <tipo>Distribuição - Serviços</tipo>
+    </row>
+    <row>
+      <idTipo>385</idTipo>
+      <tipo>Diversões</tipo>
+    </row>
+    <row>
+      <idTipo>386</idTipo>
+      <tipo>Diversões Eletrônicas</tipo>
+    </row>
+    <row>
+      <idTipo>387</idTipo>
+      <tipo>Divisórias</tipo>
+    </row>
+    <row>
+      <idTipo>388</idTipo>
+      <tipo>DJ's</tipo>
+    </row>
+    <row>
+      <idTipo>389</idTipo>
+      <tipo>Doces - Atac. e Fab.</tipo>
+    </row>
+    <row>
+      <idTipo>390</idTipo>
+      <tipo>Dragagem</tipo>
+    </row>
+    <row>
+      <idTipo>391</idTipo>
+      <tipo>Dutos</tipo>
+    </row>
+    <row>
+      <idTipo>392</idTipo>
+      <tipo>DVD - Gravação</tipo>
+    </row>
+    <row>
+      <idTipo>393</idTipo>
+      <tipo>Editoração Eletrônica</tipo>
+    </row>
+    <row>
+      <idTipo>394</idTipo>
+      <tipo>Editores</tipo>
+    </row>
+    <row>
+      <idTipo>395</idTipo>
+      <tipo>Eletricidade - Empresas</tipo>
+    </row>
+    <row>
+      <idTipo>396</idTipo>
+      <tipo>Eletricistas</tipo>
+    </row>
+    <row>
+      <idTipo>397</idTipo>
+      <tipo>Eletrodomésticos</tipo>
+    </row>
+    <row>
+      <idTipo>398</idTipo>
+      <tipo>Eletrodomésticos - Consertos e Peças</tipo>
+    </row>
+    <row>
+      <idTipo>399</idTipo>
+      <tipo>Eletrônica</tipo>
+    </row>
+    <row>
+      <idTipo>400</idTipo>
+      <tipo>Eletrônica Industrial</tipo>
+    </row>
+    <row>
+      <idTipo>401</idTipo>
+      <tipo>Elevadores</tipo>
+    </row>
+    <row>
+      <idTipo>402</idTipo>
+      <tipo>Embalagens</tipo>
+    </row>
+    <row>
+      <idTipo>403</idTipo>
+      <tipo>Embalagens - Desenvolvimento e Projetos</tipo>
+    </row>
+    <row>
+      <idTipo>404</idTipo>
+      <tipo>Embalagens Plásticas</tipo>
+    </row>
+    <row>
+      <idTipo>405</idTipo>
+      <tipo>Embreagens</tipo>
+    </row>
+    <row>
+      <idTipo>406</idTipo>
+      <tipo>Empilhadeiras</tipo>
+    </row>
+    <row>
+      <idTipo>407</idTipo>
+      <tipo>Empilhadeiras - Conserto</tipo>
+    </row>
+    <row>
+      <idTipo>408</idTipo>
+      <tipo>Embalagens - Art. e Equip.</tipo>
+    </row>
+    <row>
+      <idTipo>409</idTipo>
+      <tipo>Empreendimentos</tipo>
+    </row>
+    <row>
+      <idTipo>410</idTipo>
+      <tipo>Empregos - Agências</tipo>
+    </row>
+    <row>
+      <idTipo>411</idTipo>
+      <tipo>Empreiteiros</tipo>
+    </row>
+    <row>
+      <idTipo>412</idTipo>
+      <tipo>Empresários Artísticos</tipo>
+    </row>
+    <row>
+      <idTipo>413</idTipo>
+      <tipo>Encadernadores</tipo>
+    </row>
+    <row>
+      <idTipo>414</idTipo>
+      <tipo>Encanadores</tipo>
+    </row>
+    <row>
+      <idTipo>415</idTipo>
+      <tipo>Engenharia Ambiental</tipo>
+    </row>
+    <row>
+      <idTipo>416</idTipo>
+      <tipo>Engenharia - Art. e Equip.</tipo>
+    </row>
+    <row>
+      <idTipo>417</idTipo>
+      <tipo>Engenharia - Consultoria</tipo>
+    </row>
+    <row>
+      <idTipo>418</idTipo>
+      <tipo>Engenharia - Empresas</tipo>
+    </row>
+    <row>
+      <idTipo>419</idTipo>
+      <tipo>Engenharia - Perícia</tipo>
+    </row>
+    <row>
+      <idTipo>420</idTipo>
+      <tipo>Engenharia - Recuperações</tipo>
+    </row>
+    <row>
+      <idTipo>421</idTipo>
+      <tipo>Engenheiros</tipo>
+    </row>
+    <row>
+      <idTipo>422</idTipo>
+      <tipo>Engenheiros Agrimensores</tipo>
+    </row>
+    <row>
+      <idTipo>423</idTipo>
+      <tipo>Engenheiros Arquitetos</tipo>
+    </row>
+    <row>
+      <idTipo>424</idTipo>
+      <tipo>Engenheiros Civis</tipo>
+    </row>
+    <row>
+      <idTipo>425</idTipo>
+      <tipo>Engenheiros Eletrecistas</tipo>
+    </row>
+    <row>
+      <idTipo>426</idTipo>
+      <tipo>Engenheiros Eletrônicos</tipo>
+    </row>
+    <row>
+      <idTipo>428</idTipo>
+      <tipo>Entregas</tipo>
+    </row>
+    <row>
+      <idTipo>429</idTipo>
+      <tipo>Entulho - Coleta</tipo>
+    </row>
+    <row>
+      <idTipo>430</idTipo>
+      <tipo>Enxovais</tipo>
+    </row>
+    <row>
+      <idTipo>431</idTipo>
+      <tipo>Enxovais p/ bebês</tipo>
+    </row>
+    <row>
+      <idTipo>432</idTipo>
+      <tipo>Equipamentos a Óleo - Hidráulicos ou Pneumáticos</tipo>
+    </row>
+    <row>
+      <idTipo>433</idTipo>
+      <tipo>Equipamentos Elétricos</tipo>
+    </row>
+    <row>
+      <idTipo>434</idTipo>
+      <tipo>Equipamentos Eletrônicos</tipo>
+    </row>
+    <row>
+      <idTipo>435</idTipo>
+      <tipo>Equipamentos Industriais</tipo>
+    </row>
+    <row>
+      <idTipo>436</idTipo>
+      <tipo>Equipamentos Magnéticos</tipo>
+    </row>
+    <row>
+      <idTipo>437</idTipo>
+      <tipo>Equipamentos Odontológicos</tipo>
+    </row>
+    <row>
+      <idTipo>438</idTipo>
+      <tipo>Equipamentos de Proteção Individual</tipo>
+    </row>
+    <row>
+      <idTipo>439</idTipo>
+      <tipo>Ervas Medicinais</tipo>
+    </row>
+    <row>
+      <idTipo>440</idTipo>
+      <tipo>Escadas</tipo>
+    </row>
+    <row>
+      <idTipo>441</idTipo>
+      <tipo>Escapamentos p/ Veículos</tipo>
+    </row>
+    <row>
+      <idTipo>442</idTipo>
+      <tipo>Escolas</tipo>
+    </row>
+    <row>
+      <idTipo>443</idTipo>
+      <tipo>Escolas de Artes</tipo>
+    </row>
+    <row>
+      <idTipo>444</idTipo>
+      <tipo>Escolas de Ballet</tipo>
+    </row>
+    <row>
+      <idTipo>445</idTipo>
+      <tipo>Escolas de Cabeleireiros</tipo>
+    </row>
+    <row>
+      <idTipo>446</idTipo>
+      <tipo>Escolas de Dança</tipo>
+    </row>
+    <row>
+      <idTipo>447</idTipo>
+      <tipo>Escolas de Dicção e Oratória</tipo>
+    </row>
+    <row>
+      <idTipo>448</idTipo>
+      <tipo>Escolas de Educação Infantil</tipo>
+    </row>
+    <row>
+      <idTipo>449</idTipo>
+      <tipo>Escolas de Enfermagem</tipo>
+    </row>
+    <row>
+      <idTipo>450</idTipo>
+      <tipo>Escolas de Idiomas</tipo>
+    </row>
+    <row>
+      <idTipo>451</idTipo>
+      <tipo>Escolas de Moda</tipo>
+    </row>
+    <row>
+      <idTipo>452</idTipo>
+      <tipo>Escolas de Música</tipo>
+    </row>
+    <row>
+      <idTipo>453</idTipo>
+      <tipo>Escolas de Natação</tipo>
+    </row>
+    <row>
+      <idTipo>454</idTipo>
+      <tipo>Escolas Particulares</tipo>
+    </row>
+    <row>
+      <idTipo>455</idTipo>
+      <tipo>Escolas Técnicas e Profissionalizantes</tipo>
+    </row>
+    <row>
+      <idTipo>456</idTipo>
+      <tipo>Escoras</tipo>
+    </row>
+    <row>
+      <idTipo>457</idTipo>
+      <tipo>Escovas</tipo>
+    </row>
+    <row>
+      <idTipo>458</idTipo>
+      <tipo>Escritório Virtual</tipo>
+    </row>
+    <row>
+      <idTipo>459</idTipo>
+      <tipo>Esgotos - Limpeza</tipo>
+    </row>
+    <row>
+      <idTipo>460</idTipo>
+      <tipo>Esoterismo</tipo>
+    </row>
+    <row>
+      <idTipo>461</idTipo>
+      <tipo>Espetinhos</tipo>
+    </row>
+    <row>
+      <idTipo>462</idTipo>
+      <tipo>Esportes - Art., Equip. e Roupas</tipo>
+    </row>
+    <row>
+      <idTipo>463</idTipo>
+      <tipo>Esquadrias</tipo>
+    </row>
+    <row>
+      <idTipo>464</idTipo>
+      <tipo>Esquadrias - Acessórios</tipo>
+    </row>
+    <row>
+      <idTipo>465</idTipo>
+      <tipo>Esquadrias de Madeira</tipo>
+    </row>
+    <row>
+      <idTipo>466</idTipo>
+      <tipo>Esquadrias Metálicas</tipo>
+    </row>
+    <row>
+      <idTipo>467</idTipo>
+      <tipo>Estacas</tipo>
+    </row>
+    <row>
+      <idTipo>468</idTipo>
+      <tipo>Estacionamento p/ Veículos</tipo>
+    </row>
+    <row>
+      <idTipo>469</idTipo>
+      <tipo>Estamparia</tipo>
+    </row>
+    <row>
+      <idTipo>470</idTipo>
+      <tipo>Estamparia em Metal</tipo>
+    </row>
+    <row>
+      <idTipo>471</idTipo>
+      <tipo>Estampos e Moldes</tipo>
+    </row>
+    <row>
+      <idTipo>472</idTipo>
+      <tipo>Estantes</tipo>
+    </row>
+    <row>
+      <idTipo>473</idTipo>
+      <tipo>Estaqueamento</tipo>
+    </row>
+    <row>
+      <idTipo>474</idTipo>
+      <tipo>Esteiras</tipo>
+    </row>
+    <row>
+      <idTipo>475</idTipo>
+      <tipo>Estética - Ap</tipo>
+    </row>
+    <row>
+      <idTipo>476</idTipo>
+      <tipo>Esteticista</tipo>
+    </row>
+    <row>
+      <idTipo>477</idTipo>
+      <tipo>Estilistas</tipo>
+    </row>
+    <row>
+      <idTipo>478</idTipo>
+      <tipo>Estofamentos - Art</tipo>
+    </row>
+    <row>
+      <idTipo>479</idTipo>
+      <tipo>Estofarias</tipo>
+    </row>
+    <row>
+      <idTipo>480</idTipo>
+      <tipo>Estopas</tipo>
+    </row>
+    <row>
+      <idTipo>481</idTipo>
+      <tipo>Estruturas p/ Construção</tipo>
+    </row>
+    <row>
+      <idTipo>482</idTipo>
+      <tipo>Estruturas Metálicas</tipo>
+    </row>
+    <row>
+      <idTipo>483</idTipo>
+      <tipo>Estúdios e Gravações</tipo>
+    </row>
+    <row>
+      <idTipo>484</idTipo>
+      <tipo>Etiquetas</tipo>
+    </row>
+    <row>
+      <idTipo>485</idTipo>
+      <tipo>Eventos - Organização e Promoção</tipo>
+    </row>
+    <row>
+      <idTipo>486</idTipo>
+      <tipo>Exaustores</tipo>
+    </row>
+    <row>
+      <idTipo>487</idTipo>
+      <tipo>Excursões</tipo>
+    </row>
+    <row>
+      <idTipo>488</idTipo>
+      <tipo>Expositores p/ Lojas</tipo>
+    </row>
+    <row>
+      <idTipo>489</idTipo>
+      <tipo>Extintores de Incêndio</tipo>
+    </row>
+    <row>
+      <idTipo>490</idTipo>
+      <tipo>Facções</tipo>
+    </row>
+    <row>
+      <idTipo>491</idTipo>
+      <tipo>Factoring - Fomento Mercantil</tipo>
+    </row>
+    <row>
+      <idTipo>492</idTipo>
+      <tipo>Faculdades, Universidades e Pós-Graduação</tipo>
+    </row>
+    <row>
+      <idTipo>493</idTipo>
+      <tipo>Faixas - Pintura</tipo>
+    </row>
+    <row>
+      <idTipo>494</idTipo>
+      <tipo>Fantasias</tipo>
+    </row>
+    <row>
+      <idTipo>495</idTipo>
+      <tipo>Farmácias e Drograrias</tipo>
+    </row>
+    <row>
+      <idTipo>496</idTipo>
+      <tipo>Farmácias Homeopáticas</tipo>
+    </row>
+    <row>
+      <idTipo>497</idTipo>
+      <tipo>Farmácias de Manipulação</tipo>
+    </row>
+    <row>
+      <idTipo>498</idTipo>
+      <tipo>Fax - Assistência, Venda e Suprimentos</tipo>
+    </row>
+    <row>
+      <idTipo>499</idTipo>
+      <tipo>Fechaduras</tipo>
+    </row>
+    <row>
+      <idTipo>500</idTipo>
+      <tipo>Ferragens</tipo>
+    </row>
+    <row>
+      <idTipo>501</idTipo>
+      <tipo>Ferramentarias</tipo>
+    </row>
+    <row>
+      <idTipo>502</idTipo>
+      <tipo>Ferramentas</tipo>
+    </row>
+    <row>
+      <idTipo>503</idTipo>
+      <tipo>Ferramentas - Aluguel</tipo>
+    </row>
+    <row>
+      <idTipo>504</idTipo>
+      <tipo>Ferramentas de Corte</tipo>
+    </row>
+    <row>
+      <idTipo>505</idTipo>
+      <tipo>Ferramentas Elétricas</tipo>
+    </row>
+    <row>
+      <idTipo>506</idTipo>
+      <tipo>Ferramentas Pneumáticas</tipo>
+    </row>
+    <row>
+      <idTipo>507</idTipo>
+      <tipo>Ferro</tipo>
+    </row>
+    <row>
+      <idTipo>508</idTipo>
+      <tipo>Ferro - Chapas</tipo>
+    </row>
+    <row>
+      <idTipo>509</idTipo>
+      <tipo>Ferro p/ Construção</tipo>
+    </row>
+    <row>
+      <idTipo>510</idTipo>
+      <tipo>Ferro Velho</tipo>
+    </row>
+    <row>
+      <idTipo>511</idTipo>
+      <tipo>Festas - Animação</tipo>
+    </row>
+    <row>
+      <idTipo>512</idTipo>
+      <tipo>Festas - Organizações, Artigos-Aluguel</tipo>
+    </row>
+    <row>
+      <idTipo>513</idTipo>
+      <tipo>Fiação e Tecelagem</tipo>
+    </row>
+    <row>
+      <idTipo>514</idTipo>
+      <tipo>Fibras e Produtos de Fibra</tipo>
+    </row>
+    <row>
+      <idTipo>515</idTipo>
+      <tipo>Filmagens</tipo>
+    </row>
+    <row>
+      <idTipo>516</idTipo>
+      <tipo>Filtros</tipo>
+    </row>
+    <row>
+      <idTipo>517</idTipo>
+      <tipo>Filtros de Água</tipo>
+    </row>
+    <row>
+      <idTipo>518</idTipo>
+      <tipo>Filtros p/ Automóveis</tipo>
+    </row>
+    <row>
+      <idTipo>519</idTipo>
+      <tipo>Financeiras - Empréstimos</tipo>
+    </row>
+    <row>
+      <idTipo>520</idTipo>
+      <tipo>Fios Têxteis</tipo>
+    </row>
+    <row>
+      <idTipo>521</idTipo>
+      <tipo>Fisioterapeutas</tipo>
+    </row>
+    <row>
+      <idTipo>522</idTipo>
+      <tipo>Fisioterapia - Equip.</tipo>
+    </row>
+    <row>
+      <idTipo>523</idTipo>
+      <tipo>Fitas Adesivas e Gomadas</tipo>
+    </row>
+    <row>
+      <idTipo>524</idTipo>
+      <tipo>Floricultores</tipo>
+    </row>
+    <row>
+      <idTipo>525</idTipo>
+      <tipo>Floriculturas</tipo>
+    </row>
+    <row>
+      <idTipo>526</idTipo>
+      <tipo>Floriculturas - Art.</tipo>
+    </row>
+    <row>
+      <idTipo>527</idTipo>
+      <tipo>Fogões - Art. Peças e Conserto</tipo>
+    </row>
+    <row>
+      <idTipo>528</idTipo>
+      <tipo>Fogos de Artifício</tipo>
+    </row>
+    <row>
+      <idTipo>529</idTipo>
+      <tipo>Fonoaudiólogos</tipo>
+    </row>
+    <row>
+      <idTipo>530</idTipo>
+      <tipo>Formaturas - Organização</tipo>
+    </row>
+    <row>
+      <idTipo>531</idTipo>
+      <tipo>Formulários Contínuos</tipo>
+    </row>
+    <row>
+      <idTipo>532</idTipo>
+      <tipo>Forros</tipo>
+    </row>
+    <row>
+      <idTipo>533</idTipo>
+      <tipo>Forros Térmicos e Acústicos</tipo>
+    </row>
+    <row>
+      <idTipo>534</idTipo>
+      <tipo>Fossas e Filtros</tipo>
+    </row>
+    <row>
+      <idTipo>535</idTipo>
+      <tipo>Fossas Sépticas - Limpeza</tipo>
+    </row>
+    <row>
+      <idTipo>536</idTipo>
+      <tipo>Fotografia - Conserto de Máquinas</tipo>
+    </row>
+    <row>
+      <idTipo>537</idTipo>
+      <tipo>Fotografia - Aéreas</tipo>
+    </row>
+    <row>
+      <idTipo>538</idTipo>
+      <tipo>Fotografia - Ampliações, Cópias, Revelação</tipo>
+    </row>
+    <row>
+      <idTipo>539</idTipo>
+      <tipo>Fotografia - Art. e Equip.</tipo>
+    </row>
+    <row>
+      <idTipo>540</idTipo>
+      <tipo>Fotografia - Digitais</tipo>
+    </row>
+    <row>
+      <idTipo>541</idTipo>
+      <tipo>Fotografia - Estúdios</tipo>
+    </row>
+    <row>
+      <idTipo>542</idTipo>
+      <tipo>Fotógrafos</tipo>
+    </row>
+    <row>
+      <idTipo>543</idTipo>
+      <tipo>Fotolitos</tipo>
+    </row>
+    <row>
+      <idTipo>544</idTipo>
+      <tipo>Fraldas</tipo>
+    </row>
+    <row>
+      <idTipo>545</idTipo>
+      <tipo>Freios p/ Veículos</tipo>
+    </row>
+    <row>
+      <idTipo>546</idTipo>
+      <tipo>Fretes</tipo>
+    </row>
+    <row>
+      <idTipo>547</idTipo>
+      <tipo>Frios e Queijos</tipo>
+    </row>
+    <row>
+      <idTipo>548</idTipo>
+      <tipo>Frutas</tipo>
+    </row>
+    <row>
+      <idTipo>549</idTipo>
+      <tipo>Frutos do Mar</tipo>
+    </row>
+    <row>
+      <idTipo>550</idTipo>
+      <tipo>Fundações p/ Construções</tipo>
+    </row>
+    <row>
+      <idTipo>551</idTipo>
+      <tipo>Fundições</tipo>
+    </row>
+    <row>
+      <idTipo>552</idTipo>
+      <tipo>Funerárias</tipo>
+    </row>
+    <row>
+      <idTipo>553</idTipo>
+      <tipo>Funileiros</tipo>
+    </row>
+    <row>
+      <idTipo>554</idTipo>
+      <tipo>Furgões - Reformas</tipo>
+    </row>
+    <row>
+      <idTipo>555</idTipo>
+      <tipo>Galpões - Construtores</tipo>
+    </row>
+    <row>
+      <idTipo>556</idTipo>
+      <tipo>Galvanização</tipo>
+    </row>
+    <row>
+      <idTipo>557</idTipo>
+      <tipo>Galvanoplastia</tipo>
+    </row>
+    <row>
+      <idTipo>558</idTipo>
+      <tipo>Gases em Geral</tipo>
+    </row>
+    <row>
+      <idTipo>559</idTipo>
+      <tipo>Gás - Fornecedores</tipo>
+    </row>
+    <row>
+      <idTipo>560</idTipo>
+      <tipo>Gás - Instalações</tipo>
+    </row>
+    <row>
+      <idTipo>561</idTipo>
+      <tipo>Gás Natural para Veículos</tipo>
+    </row>
+    <row>
+      <idTipo>562</idTipo>
+      <tipo>Gelo</tipo>
+    </row>
+    <row>
+      <idTipo>563</idTipo>
+      <tipo>Gesso</tipo>
+    </row>
+    <row>
+      <idTipo>564</idTipo>
+      <tipo>Gesso Acartonado</tipo>
+    </row>
+    <row>
+      <idTipo>565</idTipo>
+      <tipo>Ginástica - Ap.</tipo>
+    </row>
+    <row>
+      <idTipo>566</idTipo>
+      <tipo>Grades</tipo>
+    </row>
+    <row>
+      <idTipo>567</idTipo>
+      <tipo>Gráfica Expressa</tipo>
+    </row>
+    <row>
+      <idTipo>568</idTipo>
+      <tipo>Gráficas</tipo>
+    </row>
+    <row>
+      <idTipo>569</idTipo>
+      <tipo>Gráficas - Art e Equip</tipo>
+    </row>
+    <row>
+      <idTipo>570</idTipo>
+      <tipo>Grama</tipo>
+    </row>
+    <row>
+      <idTipo>571</idTipo>
+      <tipo>Grama Sintética</tipo>
+    </row>
+    <row>
+      <idTipo>572</idTipo>
+      <tipo>Granjas</tipo>
+    </row>
+    <row>
+      <idTipo>573</idTipo>
+      <tipo>Gravações Industriais</tipo>
+    </row>
+    <row>
+      <idTipo>574</idTipo>
+      <tipo>Gravadores</tipo>
+    </row>
+    <row>
+      <idTipo>575</idTipo>
+      <tipo>Grupos Geradores</tipo>
+    </row>
+    <row>
+      <idTipo>576</idTipo>
+      <tipo>Guarda-Chuvas</tipo>
+    </row>
+    <row>
+      <idTipo>577</idTipo>
+      <tipo>Guinchos</tipo>
+    </row>
+    <row>
+      <idTipo>578</idTipo>
+      <tipo>Guindastes</tipo>
+    </row>
+    <row>
+      <idTipo>579</idTipo>
+      <tipo>Hidrantes de Incêndio</tipo>
+    </row>
+    <row>
+      <idTipo>580</idTipo>
+      <tipo>Home Theater</tipo>
+    </row>
+    <row>
+      <idTipo>581</idTipo>
+      <tipo>Hospitais</tipo>
+    </row>
+    <row>
+      <idTipo>582</idTipo>
+      <tipo>Hospitais - Art. e Equip.</tipo>
+    </row>
+    <row>
+      <idTipo>583</idTipo>
+      <tipo>Hotéis</tipo>
+    </row>
+    <row>
+      <idTipo>584</idTipo>
+      <tipo>Hotéis - Administração</tipo>
+    </row>
+    <row>
+      <idTipo>585</idTipo>
+      <tipo>Igrejas, Templos e Instituições Religiosas</tipo>
+    </row>
+    <row>
+      <idTipo>586</idTipo>
+      <tipo>Imobiliárias</tipo>
+    </row>
+    <row>
+      <idTipo>587</idTipo>
+      <tipo>Imóveis - Regularização</tipo>
+    </row>
+    <row>
+      <idTipo>588</idTipo>
+      <tipo>Impermeabilizações</tipo>
+    </row>
+    <row>
+      <idTipo>589</idTipo>
+      <tipo>Impermeabilizantes</tipo>
+    </row>
+    <row>
+      <idTipo>590</idTipo>
+      <tipo>Importação e Exportação</tipo>
+    </row>
+    <row>
+      <idTipo>591</idTipo>
+      <tipo>Importados - Produtos</tipo>
+    </row>
+    <row>
+      <idTipo>592</idTipo>
+      <tipo>Impressão Digital</tipo>
+    </row>
+    <row>
+      <idTipo>593</idTipo>
+      <tipo>Impressoras Fiscais</tipo>
+    </row>
+    <row>
+      <idTipo>594</idTipo>
+      <tipo>Incêndio - Prevenção - Projetos e Instalações</tipo>
+    </row>
+    <row>
+      <idTipo>595</idTipo>
+      <tipo>Informações Comerciais</tipo>
+    </row>
+    <row>
+      <idTipo>596</idTipo>
+      <tipo>Informática - Art. Equip. e Suprimentos</tipo>
+    </row>
+    <row>
+      <idTipo>597</idTipo>
+      <tipo>Informática - Auditoria</tipo>
+    </row>
+    <row>
+      <idTipo>598</idTipo>
+      <tipo>Informática - Consultoria</tipo>
+    </row>
+    <row>
+      <idTipo>599</idTipo>
+      <tipo>Informática - Cursos e Treinamentos</tipo>
+    </row>
+    <row>
+      <idTipo>600</idTipo>
+      <tipo>Informática - Digitalização de Documentos</tipo>
+    </row>
+    <row>
+      <idTipo>601</idTipo>
+      <tipo>Informática - Equip. - Aluguel e Leasing</tipo>
+    </row>
+    <row>
+      <idTipo>602</idTipo>
+      <tipo>Informática - Equip. - Assistência Técnica</tipo>
+    </row>
+    <row>
+      <idTipo>603</idTipo>
+      <tipo>Informática - Equip. Fab. e Venda</tipo>
+    </row>
+    <row>
+      <idTipo>604</idTipo>
+      <tipo>Informática - Estabilizadores e No-Break</tipo>
+    </row>
+    <row>
+      <idTipo>605</idTipo>
+      <tipo>Informática - HomePage (Web Site)</tipo>
+    </row>
+    <row>
+      <idTipo>606</idTipo>
+      <tipo>Informática - Impressora</tipo>
+    </row>
+    <row>
+      <idTipo>607</idTipo>
+      <tipo>Informática - Internet - Produtora de Sites e Serviços</tipo>
+    </row>
+    <row>
+      <idTipo>608</idTipo>
+      <tipo>Informática - Internet - Serviços de Acesso</tipo>
+    </row>
+    <row>
+      <idTipo>609</idTipo>
+      <tipo>Informática - Internet - Periféricos</tipo>
+    </row>
+    <row>
+      <idTipo>610</idTipo>
+      <tipo>Informática - Processamento de Dados</tipo>
+    </row>
+    <row>
+      <idTipo>611</idTipo>
+      <tipo>Informática - Projetos e Instalações</tipo>
+    </row>
+    <row>
+      <idTipo>612</idTipo>
+      <tipo>Informática - Redes</tipo>
+    </row>
+    <row>
+      <idTipo>613</idTipo>
+      <tipo>Informática - Software - Aplicativos e Sistemas</tipo>
+    </row>
+    <row>
+      <idTipo>614</idTipo>
+      <tipo>Informática - Software - Desenvolvimento</tipo>
+    </row>
+    <row>
+      <idTipo>615</idTipo>
+      <tipo>Injeção Eletrônica</tipo>
+    </row>
+    <row>
+      <idTipo>616</idTipo>
+      <tipo>Inspeção e Controle de Qualidade</tipo>
+    </row>
+    <row>
+      <idTipo>617</idTipo>
+      <tipo>Instalações Comerciais</tipo>
+    </row>
+    <row>
+      <idTipo>618</idTipo>
+      <tipo>Instalações Elétricas</tipo>
+    </row>
+    <row>
+      <idTipo>619</idTipo>
+      <tipo>Instalações Hidráulicas</tipo>
+    </row>
+    <row>
+      <idTipo>620</idTipo>
+      <tipo>Instalações Indústriais</tipo>
+    </row>
+    <row>
+      <idTipo>621</idTipo>
+      <tipo>Institutos e Fundações</tipo>
+    </row>
+    <row>
+      <idTipo>622</idTipo>
+      <tipo>Instrumentos de Medição e Precisão</tipo>
+    </row>
+    <row>
+      <idTipo>623</idTipo>
+      <tipo>Instrumentos Musicais</tipo>
+    </row>
+    <row>
+      <idTipo>624</idTipo>
+      <tipo>Intercâmbio Cultural</tipo>
+    </row>
+    <row>
+      <idTipo>625</idTipo>
+      <tipo>Internet - Data Center</tipo>
+    </row>
+    <row>
+      <idTipo>626</idTipo>
+      <tipo>Internet - Provedores</tipo>
+    </row>
+    <row>
+      <idTipo>627</idTipo>
+      <tipo>Isolação Térmica</tipo>
+    </row>
+    <row>
+      <idTipo>628</idTipo>
+      <tipo>Isopor</tipo>
+    </row>
+    <row>
+      <idTipo>629</idTipo>
+      <tipo>Janelas</tipo>
+    </row>
+    <row>
+      <idTipo>630</idTipo>
+      <tipo>Jardins - Art e Projetos</tipo>
+    </row>
+    <row>
+      <idTipo>631</idTipo>
+      <tipo>Jateamento</tipo>
+    </row>
+    <row>
+      <idTipo>632</idTipo>
+      <tipo>Jateamento - Equip.</tipo>
+    </row>
+    <row>
+      <idTipo>633</idTipo>
+      <tipo>Joalheria</tipo>
+    </row>
+    <row>
+      <idTipo>634</idTipo>
+      <tipo>Jogos e Art. p/ Jogos</tipo>
+    </row>
+    <row>
+      <idTipo>635</idTipo>
+      <tipo>Jogos Eletrônicos</tipo>
+    </row>
+    <row>
+      <idTipo>636</idTipo>
+      <tipo>Jóias - Atac., Fab., e Conserto</tipo>
+    </row>
+    <row>
+      <idTipo>637</idTipo>
+      <tipo>Jornais - Editores e Representantes</tipo>
+    </row>
+    <row>
+      <idTipo>638</idTipo>
+      <tipo>Laboratório de Análises Clínicas</tipo>
+    </row>
+    <row>
+      <idTipo>639</idTipo>
+      <tipo>Laboratório de Análises Fisio-Clínicas</tipo>
+    </row>
+    <row>
+      <idTipo>641</idTipo>
+      <tipo>Laboratórios - Ap., Art., e Equip.</tipo>
+    </row>
+    <row>
+      <idTipo>642</idTipo>
+      <tipo>Laboratórios de Manipulação - Medicamentos e Cosméticos</tipo>
+    </row>
+    <row>
+      <idTipo>643</idTipo>
+      <tipo>Lacres</tipo>
+    </row>
+    <row>
+      <idTipo>644</idTipo>
+      <tipo>Lajes</tipo>
+    </row>
+    <row>
+      <idTipo>645</idTipo>
+      <tipo>Lajotas e Lajotões</tipo>
+    </row>
+    <row>
+      <idTipo>646</idTipo>
+      <tipo>Laminações</tipo>
+    </row>
+    <row>
+      <idTipo>647</idTipo>
+      <tipo>Lâmpadas</tipo>
+    </row>
+    <row>
+      <idTipo>648</idTipo>
+      <tipo>Lanchas</tipo>
+    </row>
+    <row>
+      <idTipo>649</idTipo>
+      <tipo>Lanchonetes</tipo>
+    </row>
+    <row>
+      <idTipo>650</idTipo>
+      <tipo>Lan House</tipo>
+    </row>
+    <row>
+      <idTipo>651</idTipo>
+      <tipo>Lareiras</tipo>
+    </row>
+    <row>
+      <idTipo>652</idTipo>
+      <tipo>Laticínios</tipo>
+    </row>
+    <row>
+      <idTipo>653</idTipo>
+      <tipo>Lã p/ Tricô</tipo>
+    </row>
+    <row>
+      <idTipo>654</idTipo>
+      <tipo>Lavação e Polimento de Veículos</tipo>
+    </row>
+    <row>
+      <idTipo>655</idTipo>
+      <tipo>Lavajato</tipo>
+    </row>
+    <row>
+      <idTipo>656</idTipo>
+      <tipo>Lavanderias</tipo>
+    </row>
+    <row>
+      <idTipo>657</idTipo>
+      <tipo>Lavanderias Industriais</tipo>
+    </row>
+    <row>
+      <idTipo>659</idTipo>
+      <tipo>Legumes e Hortaliças</tipo>
+    </row>
+    <row>
+      <idTipo>660</idTipo>
+      <tipo>Leiloeiros</tipo>
+    </row>
+    <row>
+      <idTipo>661</idTipo>
+      <tipo>Limpeza de Caixas d'água</tipo>
+    </row>
+    <row>
+      <idTipo>662</idTipo>
+      <tipo>Limpeza Conservação e Higienização</tipo>
+    </row>
+    <row>
+      <idTipo>663</idTipo>
+      <tipo>Lingerie</tipo>
+    </row>
+    <row>
+      <idTipo>665</idTipo>
+      <tipo>Livrarias</tipo>
+    </row>
+    <row>
+      <idTipo>666</idTipo>
+      <tipo>Livros - Distribuidores</tipo>
+    </row>
+    <row>
+      <idTipo>667</idTipo>
+      <tipo>Livros Religiosos</tipo>
+    </row>
+    <row>
+      <idTipo>668</idTipo>
+      <tipo>Livros Usados</tipo>
+    </row>
+    <row>
+      <idTipo>669</idTipo>
+      <tipo>Lixadeiras</tipo>
+    </row>
+    <row>
+      <idTipo>670</idTipo>
+      <tipo>Lixo e Residuos Industriais - Coleta</tipo>
+    </row>
+    <row>
+      <idTipo>671</idTipo>
+      <tipo>Logística</tipo>
+    </row>
+    <row>
+      <idTipo>672</idTipo>
+      <tipo>Lotéricas</tipo>
+    </row>
+    <row>
+      <idTipo>673</idTipo>
+      <tipo>Louças</tipo>
+    </row>
+    <row>
+      <idTipo>674</idTipo>
+      <tipo>Lubrificação - Sistemas e Máquinas</tipo>
+    </row>
+    <row>
+      <idTipo>675</idTipo>
+      <tipo>Lubrificantes</tipo>
+    </row>
+    <row>
+      <idTipo>676</idTipo>
+      <tipo>Luminárias</tipo>
+    </row>
+    <row>
+      <idTipo>677</idTipo>
+      <tipo>Luminosos</tipo>
+    </row>
+    <row>
+      <idTipo>678</idTipo>
+      <tipo>Lustres - Lojas</tipo>
+    </row>
+    <row>
+      <idTipo>679</idTipo>
+      <tipo>Madeiras</tipo>
+    </row>
+    <row>
+      <idTipo>680</idTipo>
+      <tipo>Madeiras - Máquinas p/ trabalhar</tipo>
+    </row>
+    <row>
+      <idTipo>681</idTipo>
+      <tipo>Magazines</tipo>
+    </row>
+    <row>
+      <idTipo>682</idTipo>
+      <tipo>Maiôs</tipo>
+    </row>
+    <row>
+      <idTipo>683</idTipo>
+      <tipo>Malhas</tipo>
+    </row>
+    <row>
+      <idTipo>684</idTipo>
+      <tipo>Malhas - Atac. e Fabric.</tipo>
+    </row>
+    <row>
+      <idTipo>685</idTipo>
+      <tipo>Manequins p/ Vitrines</tipo>
+    </row>
+    <row>
+      <idTipo>686</idTipo>
+      <tipo>Mangueiras</tipo>
+    </row>
+    <row>
+      <idTipo>687</idTipo>
+      <tipo>Manutenção Industrial</tipo>
+    </row>
+    <row>
+      <idTipo>688</idTipo>
+      <tipo>Manutenção Predial</tipo>
+    </row>
+    <row>
+      <idTipo>689</idTipo>
+      <tipo>Mão-de-Obra Temporária</tipo>
+    </row>
+    <row>
+      <idTipo>690</idTipo>
+      <tipo>Máquinas Agrícolas</tipo>
+    </row>
+    <row>
+      <idTipo>691</idTipo>
+      <tipo>Máquinas - Conserto</tipo>
+    </row>
+    <row>
+      <idTipo>692</idTipo>
+      <tipo>Máquinas Copiadoras - Venda e Assistência</tipo>
+    </row>
+    <row>
+      <idTipo>693</idTipo>
+      <tipo>Máquinas p/ Cortar Grama</tipo>
+    </row>
+    <row>
+      <idTipo>694</idTipo>
+      <tipo>Máquinas de Costura</tipo>
+    </row>
+    <row>
+      <idTipo>695</idTipo>
+      <tipo>Máquinas de Costura Industriais</tipo>
+    </row>
+    <row>
+      <idTipo>696</idTipo>
+      <tipo>Máquinas de Costura - Peças, Acessórios e Conserto</tipo>
+    </row>
+    <row>
+      <idTipo>697</idTipo>
+      <tipo>Máquinas de Ensacar e Empacotar</tipo>
+    </row>
+    <row>
+      <idTipo>698</idTipo>
+      <tipo>Máquinas e Equipamentos - Aluguel e Arrendamento</tipo>
+    </row>
+    <row>
+      <idTipo>699</idTipo>
+      <tipo>Máquinas e Equipamentos Industriais - Representantes</tipo>
+    </row>
+    <row>
+      <idTipo>700</idTipo>
+      <tipo>Máquinas de Escrever - Art. e Peças</tipo>
+    </row>
+    <row>
+      <idTipo>701</idTipo>
+      <tipo>Máquinas Especiais</tipo>
+    </row>
+    <row>
+      <idTipo>702</idTipo>
+      <tipo>Máquinas p/ Fragmentar Papel</tipo>
+    </row>
+    <row>
+      <idTipo>703</idTipo>
+      <tipo>Máquinas de Lavar Roupa - Conserto</tipo>
+    </row>
+    <row>
+      <idTipo>704</idTipo>
+      <tipo>Máquinas de Lixar e Polir</tipo>
+    </row>
+    <row>
+      <idTipo>705</idTipo>
+      <tipo>Máquinas p/ Madeira</tipo>
+    </row>
+    <row>
+      <idTipo>706</idTipo>
+      <tipo>Máquinas Operatrizes</tipo>
+    </row>
+    <row>
+      <idTipo>707</idTipo>
+      <tipo>Máquinas p/ Terraplenagem</tipo>
+    </row>
+    <row>
+      <idTipo>708</idTipo>
+      <tipo>Máquinas Têxteis - Manutenção</tipo>
+    </row>
+    <row>
+      <idTipo>709</idTipo>
+      <tipo>Máquinas Usadas</tipo>
+    </row>
+    <row>
+      <idTipo>710</idTipo>
+      <tipo>Marcas e Patentes</tipo>
+    </row>
+    <row>
+      <idTipo>711</idTipo>
+      <tipo>Marcenarias</tipo>
+    </row>
+    <row>
+      <idTipo>712</idTipo>
+      <tipo>Marcenarias - Artigos e Produtos</tipo>
+    </row>
+    <row>
+      <idTipo>713</idTipo>
+      <tipo>Marina</tipo>
+    </row>
+    <row>
+      <idTipo>714</idTipo>
+      <tipo>Marketing Direto</tipo>
+    </row>
+    <row>
+      <idTipo>715</idTipo>
+      <tipo>Marmitas - Fornecimento</tipo>
+    </row>
+    <row>
+      <idTipo>716</idTipo>
+      <tipo>Mármores e Granitos</tipo>
+    </row>
+    <row>
+      <idTipo>717</idTipo>
+      <tipo>Marteletes</tipo>
+    </row>
+    <row>
+      <idTipo>718</idTipo>
+      <tipo>Massagens</tipo>
+    </row>
+    <row>
+      <idTipo>719</idTipo>
+      <tipo>Massas Alimentícias</tipo>
+    </row>
+    <row>
+      <idTipo>720</idTipo>
+      <tipo>Massoterapia</tipo>
+    </row>
+    <row>
+      <idTipo>721</idTipo>
+      <tipo>Materiais de Construção</tipo>
+    </row>
+    <row>
+      <idTipo>722</idTipo>
+      <tipo>Materiais Didáticos e Pedagógicos</tipo>
+    </row>
+    <row>
+      <idTipo>723</idTipo>
+      <tipo>Materiais Elétricos</tipo>
+    </row>
+    <row>
+      <idTipo>724</idTipo>
+      <tipo>Materiais de Escritório</tipo>
+    </row>
+    <row>
+      <idTipo>725</idTipo>
+      <tipo>Materiais Hidráulicos</tipo>
+    </row>
+    <row>
+      <idTipo>726</idTipo>
+      <tipo>Mecânica Industrial</tipo>
+    </row>
+    <row>
+      <idTipo>727</idTipo>
+      <tipo>Medalhas</tipo>
+    </row>
+    <row>
+      <idTipo>728</idTipo>
+      <tipo>Medicina Alternativa</tipo>
+    </row>
+    <row>
+      <idTipo>729</idTipo>
+      <tipo>Medicina - Artigos</tipo>
+    </row>
+    <row>
+      <idTipo>730</idTipo>
+      <tipo>Medicina Nuclear</tipo>
+    </row>
+    <row>
+      <idTipo>731</idTipo>
+      <tipo>Medicina do Trabalho</tipo>
+    </row>
+    <row>
+      <idTipo>732</idTipo>
+      <tipo>Médicos - Alergia e Imunologia</tipo>
+    </row>
+    <row>
+      <idTipo>733</idTipo>
+      <tipo>Médicos - Anestesiologia</tipo>
+    </row>
+    <row>
+      <idTipo>734</idTipo>
+      <tipo>Médicos - Angiologia (Doenças Vasculares Periféricas)</tipo>
+    </row>
+    <row>
+      <idTipo>735</idTipo>
+      <tipo>Médicos - Cardiologia (Coração)</tipo>
+    </row>
+    <row>
+      <idTipo>736</idTipo>
+      <tipo>Médicos - Cirurgia Cardiovascular (Coração e Vasos)</tipo>
+    </row>
+    <row>
+      <idTipo>737</idTipo>
+      <tipo>Médicos - Cirurgia Pediátrica</tipo>
+    </row>
+    <row>
+      <idTipo>738</idTipo>
+      <tipo>Médicos - Cirurgia Plástica</tipo>
+    </row>
+    <row>
+      <idTipo>739</idTipo>
+      <tipo>Médicos - Clínica Geral</tipo>
+    </row>
+    <row>
+      <idTipo>740</idTipo>
+      <tipo>Médicos - Dermatologia (Doenças da Pele)</tipo>
+    </row>
+    <row>
+      <idTipo>741</idTipo>
+      <tipo>Médicos - Endocrinologia (Glândulas, Diabetes, Obesidade e Nutrição)</tipo>
+    </row>
+    <row>
+      <idTipo>742</idTipo>
+      <tipo>Médicos - Endoscopia</tipo>
+    </row>
+    <row>
+      <idTipo>743</idTipo>
+      <tipo>Médicos - Gastroenterologia (Aparelho Digestivo)</tipo>
+    </row>
+    <row>
+      <idTipo>744</idTipo>
+      <tipo>Médicos - Geriatria (Doenças dos Idosos)</tipo>
+    </row>
+    <row>
+      <idTipo>745</idTipo>
+      <tipo>Médicos - Ginecologia (Doenças das Senhoras)</tipo>
+    </row>
+    <row>
+      <idTipo>746</idTipo>
+      <tipo>Médicos - Homeopatia</tipo>
+    </row>
+    <row>
+      <idTipo>747</idTipo>
+      <tipo>Médicos - Neurologia e Neurocirurgia</tipo>
+    </row>
+    <row>
+      <idTipo>748</idTipo>
+      <tipo>Médicos - Obstetrícia (Partos)</tipo>
+    </row>
+    <row>
+      <idTipo>749</idTipo>
+      <tipo>Médicos - Oftalmologia (Olhos)</tipo>
+    </row>
+    <row>
+      <idTipo>750</idTipo>
+      <tipo>Médicos - Oncologia (Câncer)</tipo>
+    </row>
+    <row>
+      <idTipo>751</idTipo>
+      <tipo>Médicos - Ortopedia (Ossos e Articulações)</tipo>
+    </row>
+    <row>
+      <idTipo>752</idTipo>
+      <tipo>Médicos - Otorrinolaringologia (Ouvidos, Nariz e Garganta)</tipo>
+    </row>
+    <row>
+      <idTipo>753</idTipo>
+      <tipo>Médicos - Pediatria (Doenças das Crianças)</tipo>
+    </row>
+    <row>
+      <idTipo>754</idTipo>
+      <tipo>Médicos - Pneumologia (Pulmões)</tipo>
+    </row>
+    <row>
+      <idTipo>755</idTipo>
+      <tipo>Médicos - Proctologia (Cólon, Ânus e Reto)</tipo>
+    </row>
+    <row>
+      <idTipo>756</idTipo>
+      <tipo>Médicos - Psiquiatria</tipo>
+    </row>
+    <row>
+      <idTipo>757</idTipo>
+      <tipo>Médicos - Radiodiagnóstico e Radiologia (Raio-X)</tipo>
+    </row>
+    <row>
+      <idTipo>758</idTipo>
+      <tipo>Médicos - Radioterapia</tipo>
+    </row>
+    <row>
+      <idTipo>759</idTipo>
+      <tipo>Médicos - Reumatologia (Reumatismo e Articulações)</tipo>
+    </row>
+    <row>
+      <idTipo>760</idTipo>
+      <tipo>Médicos - Urologia (Doenças das Vias Urinárias)</tipo>
+    </row>
+    <row>
+      <idTipo>761</idTipo>
+      <tipo>Meias</tipo>
+    </row>
+    <row>
+      <idTipo>762</idTipo>
+      <tipo>Meio Ambiente - Defesa</tipo>
+    </row>
+    <row>
+      <idTipo>763</idTipo>
+      <tipo>Mergulho - Art. e Equip.</tipo>
+    </row>
+    <row>
+      <idTipo>764</idTipo>
+      <tipo>Metais</tipo>
+    </row>
+    <row>
+      <idTipo>765</idTipo>
+      <tipo>Metais Sanitários</tipo>
+    </row>
+    <row>
+      <idTipo>766</idTipo>
+      <tipo>Metalurgia</tipo>
+    </row>
+    <row>
+      <idTipo>767</idTipo>
+      <tipo>Microfilmagem</tipo>
+    </row>
+    <row>
+      <idTipo>768</idTipo>
+      <tipo>Microondas - Conserto</tipo>
+    </row>
+    <row>
+      <idTipo>769</idTipo>
+      <tipo>Midia Digital</tipo>
+    </row>
+    <row>
+      <idTipo>770</idTipo>
+      <tipo>Minérios</tipo>
+    </row>
+    <row>
+      <idTipo>771</idTipo>
+      <tipo>Mini-Mercados e Mercearias</tipo>
+    </row>
+    <row>
+      <idTipo>772</idTipo>
+      <tipo>Moda Praia</tipo>
+    </row>
+    <row>
+      <idTipo>773</idTipo>
+      <tipo>Modeladores</tipo>
+    </row>
+    <row>
+      <idTipo>774</idTipo>
+      <tipo>Modelos e Manequins - Agências</tipo>
+    </row>
+    <row>
+      <idTipo>775</idTipo>
+      <tipo>Molas</tipo>
+    </row>
+    <row>
+      <idTipo>776</idTipo>
+      <tipo>Moldes p/ Confecções</tipo>
+    </row>
+    <row>
+      <idTipo>777</idTipo>
+      <tipo>Molduras</tipo>
+    </row>
+    <row>
+      <idTipo>778</idTipo>
+      <tipo>Montagens Industriais</tipo>
+    </row>
+    <row>
+      <idTipo>779</idTipo>
+      <tipo>Motéis</tipo>
+    </row>
+    <row>
+      <idTipo>780</idTipo>
+      <tipo>Motocicletas</tipo>
+    </row>
+    <row>
+      <idTipo>781</idTipo>
+      <tipo>Motocicletas -Acessórios, Peças e Conserto</tipo>
+    </row>
+    <row>
+      <idTipo>782</idTipo>
+      <tipo>Motores - Conserto</tipo>
+    </row>
+    <row>
+      <idTipo>783</idTipo>
+      <tipo>Motores Diesel - Conserto e Peças</tipo>
+    </row>
+    <row>
+      <idTipo>784</idTipo>
+      <tipo>Motores Elétricos</tipo>
+    </row>
+    <row>
+      <idTipo>785</idTipo>
+      <tipo>Motores Elétricos - Consertos e Peças</tipo>
+    </row>
+    <row>
+      <idTipo>786</idTipo>
+      <tipo>Motoserras</tipo>
+    </row>
+    <row>
+      <idTipo>787</idTipo>
+      <tipo>Moto-Taxi</tipo>
+    </row>
+    <row>
+      <idTipo>788</idTipo>
+      <tipo>Móveis - Acessórios</tipo>
+    </row>
+    <row>
+      <idTipo>789</idTipo>
+      <tipo>Móveis - Atac. e Fabric.</tipo>
+    </row>
+    <row>
+      <idTipo>790</idTipo>
+      <tipo>Móveis - Conserto, Reformas e Restauração</tipo>
+    </row>
+    <row>
+      <idTipo>791</idTipo>
+      <tipo>Móveis - Desmontagem e Montagem</tipo>
+    </row>
+    <row>
+      <idTipo>792</idTipo>
+      <tipo>Móveis p/ Escolas</tipo>
+    </row>
+    <row>
+      <idTipo>793</idTipo>
+      <tipo>Móveis p/ Escritórios</tipo>
+    </row>
+    <row>
+      <idTipo>794</idTipo>
+      <tipo>Móveis Estofados</tipo>
+    </row>
+    <row>
+      <idTipo>795</idTipo>
+      <tipo>Móveis de Ferro</tipo>
+    </row>
+    <row>
+      <idTipo>796</idTipo>
+      <tipo>Móveis Infantis e Juvenis</tipo>
+    </row>
+    <row>
+      <idTipo>797</idTipo>
+      <tipo>Móveis - Lojas</tipo>
+    </row>
+    <row>
+      <idTipo>798</idTipo>
+      <tipo>Móveis de Metal</tipo>
+    </row>
+    <row>
+      <idTipo>799</idTipo>
+      <tipo>Móveis de Ratan</tipo>
+    </row>
+    <row>
+      <idTipo>800</idTipo>
+      <tipo>Móveis sob Medida</tipo>
+    </row>
+    <row>
+      <idTipo>801</idTipo>
+      <tipo>Móveis Tubulares</tipo>
+    </row>
+    <row>
+      <idTipo>802</idTipo>
+      <tipo>Móveis Usados</tipo>
+    </row>
+    <row>
+      <idTipo>803</idTipo>
+      <tipo>Mudanças</tipo>
+    </row>
+    <row>
+      <idTipo>804</idTipo>
+      <tipo>Mudas</tipo>
+    </row>
+    <row>
+      <idTipo>805</idTipo>
+      <tipo>Museus</tipo>
+    </row>
+    <row>
+      <idTipo>806</idTipo>
+      <tipo>Músicos</tipo>
+    </row>
+    <row>
+      <idTipo>807</idTipo>
+      <tipo>Náutica - Equip</tipo>
+    </row>
+    <row>
+      <idTipo>808</idTipo>
+      <tipo>Noivas - Vestidos e Artigos - Lojas</tipo>
+    </row>
+    <row>
+      <idTipo>809</idTipo>
+      <tipo>Nutricionistas</tipo>
+    </row>
+    <row>
+      <idTipo>810</idTipo>
+      <tipo>Offset - Impressão</tipo>
+    </row>
+    <row>
+      <idTipo>811</idTipo>
+      <tipo>Oficinas Mecânicas</tipo>
+    </row>
+    <row>
+      <idTipo>812</idTipo>
+      <tipo>Óleos Lubrificantes</tipo>
+    </row>
+    <row>
+      <idTipo>813</idTipo>
+      <tipo>Ônibus - Aluguel</tipo>
+    </row>
+    <row>
+      <idTipo>814</idTipo>
+      <tipo>Ônibus Urbanos, Interurbanos e Interestaduais</tipo>
+    </row>
+    <row>
+      <idTipo>815</idTipo>
+      <tipo>Ortopedia - Aparelhos</tipo>
+    </row>
+    <row>
+      <idTipo>816</idTipo>
+      <tipo>Óticas</tipo>
+    </row>
+    <row>
+      <idTipo>817</idTipo>
+      <tipo>Ouro</tipo>
+    </row>
+    <row>
+      <idTipo>818</idTipo>
+      <tipo>Outdoor</tipo>
+    </row>
+    <row>
+      <idTipo>819</idTipo>
+      <tipo>Ovos</tipo>
+    </row>
+    <row>
+      <idTipo>820</idTipo>
+      <tipo>Oxicorte</tipo>
+    </row>
+    <row>
+      <idTipo>821</idTipo>
+      <tipo>Oxigênio</tipo>
+    </row>
+    <row>
+      <idTipo>822</idTipo>
+      <tipo>Padarias e Confeitarias</tipo>
+    </row>
+    <row>
+      <idTipo>823</idTipo>
+      <tipo>Painéis</tipo>
+    </row>
+    <row>
+      <idTipo>824</idTipo>
+      <tipo>Painéis Elétricos e Eletrônicos</tipo>
+    </row>
+    <row>
+      <idTipo>825</idTipo>
+      <tipo>Paisagismo</tipo>
+    </row>
+    <row>
+      <idTipo>826</idTipo>
+      <tipo>Pallets</tipo>
+    </row>
+    <row>
+      <idTipo>827</idTipo>
+      <tipo>Panfletagens</tipo>
+    </row>
+    <row>
+      <idTipo>828</idTipo>
+      <tipo>Papelarias</tipo>
+    </row>
+    <row>
+      <idTipo>829</idTipo>
+      <tipo>Papelarias - Atac</tipo>
+    </row>
+    <row>
+      <idTipo>830</idTipo>
+      <tipo>Papel - Atac e Fabric.</tipo>
+    </row>
+    <row>
+      <idTipo>831</idTipo>
+      <tipo>Papel p/ Embalagens</tipo>
+    </row>
+    <row>
+      <idTipo>832</idTipo>
+      <tipo>Papel Higiênico</tipo>
+    </row>
+    <row>
+      <idTipo>833</idTipo>
+      <tipo>Papel de Parede - Lojas</tipo>
+    </row>
+    <row>
+      <idTipo>835</idTipo>
+      <tipo>Papel Velho, Aparas e Resíduos</tipo>
+    </row>
+    <row>
+      <idTipo>836</idTipo>
+      <tipo>Pára-Choques p/ Veículos</tipo>
+    </row>
+    <row>
+      <idTipo>837</idTipo>
+      <tipo>Parafusos</tipo>
+    </row>
+    <row>
+      <idTipo>838</idTipo>
+      <tipo>Pára-Raios</tipo>
+    </row>
+    <row>
+      <idTipo>839</idTipo>
+      <tipo>Parques</tipo>
+    </row>
+    <row>
+      <idTipo>840</idTipo>
+      <tipo>Passagens Aéreas, Marítimas e Terrestres</tipo>
+    </row>
+    <row>
+      <idTipo>841</idTipo>
+      <tipo>Pastelarias</tipo>
+    </row>
+    <row>
+      <idTipo>842</idTipo>
+      <tipo>Pavimentação</tipo>
+    </row>
+    <row>
+      <idTipo>843</idTipo>
+      <tipo>Pavimentação - Equip. e Mat.</tipo>
+    </row>
+    <row>
+      <idTipo>844</idTipo>
+      <tipo>Pedicuros</tipo>
+    </row>
+    <row>
+      <idTipo>845</idTipo>
+      <tipo>Pedras</tipo>
+    </row>
+    <row>
+      <idTipo>846</idTipo>
+      <tipo>Pedras Britadas</tipo>
+    </row>
+    <row>
+      <idTipo>847</idTipo>
+      <tipo>Pedreiros</tipo>
+    </row>
+    <row>
+      <idTipo>848</idTipo>
+      <tipo>Peixarias</tipo>
+    </row>
+    <row>
+      <idTipo>849</idTipo>
+      <tipo>Peixe - Atac. e Distrib.</tipo>
+    </row>
+    <row>
+      <idTipo>850</idTipo>
+      <tipo>Películas (Filmes p/ Controle Solar)</tipo>
+    </row>
+    <row>
+      <idTipo>851</idTipo>
+      <tipo>Pensões</tipo>
+    </row>
+    <row>
+      <idTipo>852</idTipo>
+      <tipo>Perfilados Metálicos</tipo>
+    </row>
+    <row>
+      <idTipo>853</idTipo>
+      <tipo>Perfumarias</tipo>
+    </row>
+    <row>
+      <idTipo>854</idTipo>
+      <tipo>Persianas</tipo>
+    </row>
+    <row>
+      <idTipo>855</idTipo>
+      <tipo>Persianas - Conserto</tipo>
+    </row>
+    <row>
+      <idTipo>856</idTipo>
+      <tipo>Personalização - Serviços</tipo>
+    </row>
+    <row>
+      <idTipo>857</idTipo>
+      <tipo>Perucas e Alongamento</tipo>
+    </row>
+    <row>
+      <idTipo>858</idTipo>
+      <tipo>Pesca - Empresas</tipo>
+    </row>
+    <row>
+      <idTipo>859</idTipo>
+      <tipo>Pesquisa de Mercado</tipo>
+    </row>
+    <row>
+      <idTipo>860</idTipo>
+      <tipo>Pet Shop</tipo>
+    </row>
+    <row>
+      <idTipo>861</idTipo>
+      <tipo>Pintores</tipo>
+    </row>
+    <row>
+      <idTipo>862</idTipo>
+      <tipo>Pintura Eletrostática a Pó</tipo>
+    </row>
+    <row>
+      <idTipo>863</idTipo>
+      <tipo>Pintura - Art. e Equip.</tipo>
+    </row>
+    <row>
+      <idTipo>864</idTipo>
+      <tipo>Pintura Industriais</tipo>
+    </row>
+    <row>
+      <idTipo>865</idTipo>
+      <tipo>Piscicultura</tipo>
+    </row>
+    <row>
+      <idTipo>866</idTipo>
+      <tipo>Piscinas</tipo>
+    </row>
+    <row>
+      <idTipo>867</idTipo>
+      <tipo>Piscinas - Art. e Equip.</tipo>
+    </row>
+    <row>
+      <idTipo>868</idTipo>
+      <tipo>Piscinas - Manutenção</tipo>
+    </row>
+    <row>
+      <idTipo>869</idTipo>
+      <tipo>Pisos</tipo>
+    </row>
+    <row>
+      <idTipo>870</idTipo>
+      <tipo>Pisos Industriais</tipo>
+    </row>
+    <row>
+      <idTipo>871</idTipo>
+      <tipo>Pisos de Madeira</tipo>
+    </row>
+    <row>
+      <idTipo>872</idTipo>
+      <tipo>Pistolas p/ Pintura</tipo>
+    </row>
+    <row>
+      <idTipo>873</idTipo>
+      <tipo>Pizzarias</tipo>
+    </row>
+    <row>
+      <idTipo>874</idTipo>
+      <tipo>Placas de Homenagem</tipo>
+    </row>
+    <row>
+      <idTipo>875</idTipo>
+      <tipo>Placas de Identificação</tipo>
+    </row>
+    <row>
+      <idTipo>876</idTipo>
+      <tipo>Placas p/ Veículos</tipo>
+    </row>
+    <row>
+      <idTipo>877</idTipo>
+      <tipo>Planos de Assistência Familiar</tipo>
+    </row>
+    <row>
+      <idTipo>878</idTipo>
+      <tipo>Planos Odontológicos</tipo>
+    </row>
+    <row>
+      <idTipo>879</idTipo>
+      <tipo>Planos de Saúde</tipo>
+    </row>
+    <row>
+      <idTipo>880</idTipo>
+      <tipo>Plantas Ornamentais</tipo>
+    </row>
+    <row>
+      <idTipo>881</idTipo>
+      <tipo>Plásticos - Artef.</tipo>
+    </row>
+    <row>
+      <idTipo>882</idTipo>
+      <tipo>Plásticos - Extrusoras e Injetores</tipo>
+    </row>
+    <row>
+      <idTipo>883</idTipo>
+      <tipo>Plásticos - Fabric.</tipo>
+    </row>
+    <row>
+      <idTipo>884</idTipo>
+      <tipo>Plásticos - Máq. p/ Fabric.</tipo>
+    </row>
+    <row>
+      <idTipo>885</idTipo>
+      <tipo>Plásticos - Matéria-Prima</tipo>
+    </row>
+    <row>
+      <idTipo>886</idTipo>
+      <tipo>Plásticos - Peças Industriais</tipo>
+    </row>
+    <row>
+      <idTipo>887</idTipo>
+      <tipo>Plásticos - Peças Injetadas</tipo>
+    </row>
+    <row>
+      <idTipo>888</idTipo>
+      <tipo>Plastificação</tipo>
+    </row>
+    <row>
+      <idTipo>889</idTipo>
+      <tipo>Plotters</tipo>
+    </row>
+    <row>
+      <idTipo>890</idTipo>
+      <tipo>Pneus</tipo>
+    </row>
+    <row>
+      <idTipo>891</idTipo>
+      <tipo>Poços Artesianos - Construtores</tipo>
+    </row>
+    <row>
+      <idTipo>892</idTipo>
+      <tipo>Podólogo</tipo>
+    </row>
+    <row>
+      <idTipo>893</idTipo>
+      <tipo>Polidores</tipo>
+    </row>
+    <row>
+      <idTipo>894</idTipo>
+      <tipo>Polimentos</tipo>
+    </row>
+    <row>
+      <idTipo>895</idTipo>
+      <tipo>Portas</tipo>
+    </row>
+    <row>
+      <idTipo>896</idTipo>
+      <tipo>Portas de Aço</tipo>
+    </row>
+    <row>
+      <idTipo>897</idTipo>
+      <tipo>Portas Automáticas</tipo>
+    </row>
+    <row>
+      <idTipo>898</idTipo>
+      <tipo>Portas Corta-Fogo</tipo>
+    </row>
+    <row>
+      <idTipo>899</idTipo>
+      <tipo>Portas Sanfonadas</tipo>
+    </row>
+    <row>
+      <idTipo>901</idTipo>
+      <tipo>Porteiro Eletrônico</tipo>
+    </row>
+    <row>
+      <idTipo>902</idTipo>
+      <tipo>Portões Eletrônicos</tipo>
+    </row>
+    <row>
+      <idTipo>903</idTipo>
+      <tipo>Postes</tipo>
+    </row>
+    <row>
+      <idTipo>904</idTipo>
+      <tipo>Postos de Combustíveis e Serviços</tipo>
+    </row>
+    <row>
+      <idTipo>905</idTipo>
+      <tipo>Postos de Saúde</tipo>
+    </row>
+    <row>
+      <idTipo>906</idTipo>
+      <tipo>Postos Telefônicos</tipo>
+    </row>
+    <row>
+      <idTipo>907</idTipo>
+      <tipo>Pousadas</tipo>
+    </row>
+    <row>
+      <idTipo>908</idTipo>
+      <tipo>Pré Moldados</tipo>
+    </row>
+    <row>
+      <idTipo>909</idTipo>
+      <tipo>Presentes</tipo>
+    </row>
+    <row>
+      <idTipo>910</idTipo>
+      <tipo>Pressurizadores</tipo>
+    </row>
+    <row>
+      <idTipo>911</idTipo>
+      <tipo>Previdência Social Privada</tipo>
+    </row>
+    <row>
+      <idTipo>912</idTipo>
+      <tipo>Produtoras</tipo>
+    </row>
+    <row>
+      <idTipo>913</idTipo>
+      <tipo>Produtos Alimentícios</tipo>
+    </row>
+    <row>
+      <idTipo>914</idTipo>
+      <tipo>Produtos de Beleza</tipo>
+    </row>
+    <row>
+      <idTipo>915</idTipo>
+      <tipo>Produtos Farmacêuticos</tipo>
+    </row>
+    <row>
+      <idTipo>916</idTipo>
+      <tipo>Produtos de Higiene</tipo>
+    </row>
+    <row>
+      <idTipo>917</idTipo>
+      <tipo>Produtos Industriais - Representantes</tipo>
+    </row>
+    <row>
+      <idTipo>918</idTipo>
+      <tipo>Produtos p/ Limpeza</tipo>
+    </row>
+    <row>
+      <idTipo>919</idTipo>
+      <tipo>Produtos Metalúrgicos - Representantes</tipo>
+    </row>
+    <row>
+      <idTipo>920</idTipo>
+      <tipo>Produtos Naturais</tipo>
+    </row>
+    <row>
+      <idTipo>921</idTipo>
+      <tipo>Produtos Químicos</tipo>
+    </row>
+    <row>
+      <idTipo>922</idTipo>
+      <tipo>Produtos Veterinários</tipo>
+    </row>
+    <row>
+      <idTipo>923</idTipo>
+      <tipo>Projetores</tipo>
+    </row>
+    <row>
+      <idTipo>924</idTipo>
+      <tipo>Projetos Industriais</tipo>
+    </row>
+    <row>
+      <idTipo>925</idTipo>
+      <tipo>Projetos e Plantas</tipo>
+    </row>
+    <row>
+      <idTipo>926</idTipo>
+      <tipo>Propaganda e Publicidade</tipo>
+    </row>
+    <row>
+      <idTipo>927</idTipo>
+      <tipo>Próteses</tipo>
+    </row>
+    <row>
+      <idTipo>928</idTipo>
+      <tipo>Protótipos</tipo>
+    </row>
+    <row>
+      <idTipo>929</idTipo>
+      <tipo>Psicanalistas</tipo>
+    </row>
+    <row>
+      <idTipo>930</idTipo>
+      <tipo>Psicólogos</tipo>
+    </row>
+    <row>
+      <idTipo>931</idTipo>
+      <tipo>Publicações</tipo>
+    </row>
+    <row>
+      <idTipo>932</idTipo>
+      <tipo>Pulseiras</tipo>
+    </row>
+    <row>
+      <idTipo>933</idTipo>
+      <tipo>Puxadores</tipo>
+    </row>
+    <row>
+      <idTipo>934</idTipo>
+      <tipo>Quadras Esportivas - Aluguel</tipo>
+    </row>
+    <row>
+      <idTipo>936</idTipo>
+      <tipo>Queijos</tipo>
+    </row>
+    <row>
+      <idTipo>937</idTipo>
+      <tipo>Queimadores Industriais</tipo>
+    </row>
+    <row>
+      <idTipo>938</idTipo>
+      <tipo>Químicos de Análises</tipo>
+    </row>
+    <row>
+      <idTipo>939</idTipo>
+      <tipo>Rações</tipo>
+    </row>
+    <row>
+      <idTipo>940</idTipo>
+      <tipo>Radiadores</tipo>
+    </row>
+    <row>
+      <idTipo>941</idTipo>
+      <tipo>Radiocomunicações - Equip. e Sistemas</tipo>
+    </row>
+    <row>
+      <idTipo>942</idTipo>
+      <tipo>Rádio - Emissoras</tipo>
+    </row>
+    <row>
+      <idTipo>943</idTipo>
+      <tipo>Raio X - Consultórios</tipo>
+    </row>
+    <row>
+      <idTipo>944</idTipo>
+      <tipo>Rastreamento de Veículos</tipo>
+    </row>
+    <row>
+      <idTipo>945</idTipo>
+      <tipo>Reboques e Engates</tipo>
+    </row>
+    <row>
+      <idTipo>946</idTipo>
+      <tipo>Reciclagem de Materiais</tipo>
+    </row>
+    <row>
+      <idTipo>947</idTipo>
+      <tipo>Redes de Proteção</tipo>
+    </row>
+    <row>
+      <idTipo>948</idTipo>
+      <tipo>Redutores Velocidade</tipo>
+    </row>
+    <row>
+      <idTipo>949</idTipo>
+      <tipo>Refeições Coletivas</tipo>
+    </row>
+    <row>
+      <idTipo>950</idTipo>
+      <tipo>Refratários</tipo>
+    </row>
+    <row>
+      <idTipo>951</idTipo>
+      <tipo>Refrigeração - Balcões</tipo>
+    </row>
+    <row>
+      <idTipo>952</idTipo>
+      <tipo>Refrigeração Comercial - Art. e Equip.</tipo>
+    </row>
+    <row>
+      <idTipo>953</idTipo>
+      <tipo>Refrigeradores - Art. e Peças</tipo>
+    </row>
+    <row>
+      <idTipo>954</idTipo>
+      <tipo>Refrigeradores - Conserto e Peças</tipo>
+    </row>
+    <row>
+      <idTipo>955</idTipo>
+      <tipo>Relações Públicas - Consultoria e Agências</tipo>
+    </row>
+    <row>
+      <idTipo>956</idTipo>
+      <tipo>Relógio de Ponto</tipo>
+    </row>
+    <row>
+      <idTipo>957</idTipo>
+      <tipo>Relojoaria</tipo>
+    </row>
+    <row>
+      <idTipo>958</idTipo>
+      <tipo>Representações</tipo>
+    </row>
+    <row>
+      <idTipo>959</idTipo>
+      <tipo>Resíduos Industriais - Coleta e Tratamento</tipo>
+    </row>
+    <row>
+      <idTipo>960</idTipo>
+      <tipo>Resinas</tipo>
+    </row>
+    <row>
+      <idTipo>961</idTipo>
+      <tipo>Resistências Elétricas</tipo>
+    </row>
+    <row>
+      <idTipo>962</idTipo>
+      <tipo>Restaurantes</tipo>
+    </row>
+    <row>
+      <idTipo>963</idTipo>
+      <tipo>Restaurantes, Bares e Lanchonetes - Art. e Equip.</tipo>
+    </row>
+    <row>
+      <idTipo>964</idTipo>
+      <tipo>Retentores</tipo>
+    </row>
+    <row>
+      <idTipo>965</idTipo>
+      <tipo>Retificação de Motores e Peças</tipo>
+    </row>
+    <row>
+      <idTipo>966</idTipo>
+      <tipo>Retífica p/ Ferramentaria</tipo>
+    </row>
+    <row>
+      <idTipo>967</idTipo>
+      <tipo>Retroprojetores</tipo>
+    </row>
+    <row>
+      <idTipo>968</idTipo>
+      <tipo>Revistas</tipo>
+    </row>
+    <row>
+      <idTipo>969</idTipo>
+      <tipo>Roçadeiras</tipo>
+    </row>
+    <row>
+      <idTipo>970</idTipo>
+      <tipo>Rodas e Aros p/ Veículos - Conserto e Venda</tipo>
+    </row>
+    <row>
+      <idTipo>971</idTipo>
+      <tipo>Rolamentos</tipo>
+    </row>
+    <row>
+      <idTipo>972</idTipo>
+      <tipo>Rotisserie</tipo>
+    </row>
+    <row>
+      <idTipo>974</idTipo>
+      <tipo>Roupa de Cama, Mesa e Banho - Lojas</tipo>
+    </row>
+    <row>
+      <idTipo>975</idTipo>
+      <tipo>Roupas - Aluguel</tipo>
+    </row>
+    <row>
+      <idTipo>976</idTipo>
+      <tipo>Roupas Femininas - Lojas</tipo>
+    </row>
+    <row>
+      <idTipo>977</idTipo>
+      <tipo>Roupas Infantis - Lojas</tipo>
+    </row>
+    <row>
+      <idTipo>978</idTipo>
+      <tipo>Roupas Masculinas - Lojas</tipo>
+    </row>
+    <row>
+      <idTipo>979</idTipo>
+      <tipo>Roupas Profissionais</tipo>
+    </row>
+    <row>
+      <idTipo>980</idTipo>
+      <tipo>Roupas Unissex - Lojas</tipo>
+    </row>
+    <row>
+      <idTipo>981</idTipo>
+      <tipo>Sacolas e Bolsas Promocionais</tipo>
+    </row>
+    <row>
+      <idTipo>982</idTipo>
+      <tipo>Sacos Plásticos</tipo>
+    </row>
+    <row>
+      <idTipo>983</idTipo>
+      <tipo>Salgadinhos</tipo>
+    </row>
+    <row>
+      <idTipo>984</idTipo>
+      <tipo>Salões p/ Banquetes e Festas</tipo>
+    </row>
+    <row>
+      <idTipo>985</idTipo>
+      <tipo>Saneamento</tipo>
+    </row>
+    <row>
+      <idTipo>986</idTipo>
+      <tipo>Sanitários Portáteis</tipo>
+    </row>
+    <row>
+      <idTipo>987</idTipo>
+      <tipo>Sapateiros</tipo>
+    </row>
+    <row>
+      <idTipo>988</idTipo>
+      <tipo>Sauna</tipo>
+    </row>
+    <row>
+      <idTipo>989</idTipo>
+      <tipo>Sebo</tipo>
+    </row>
+    <row>
+      <idTipo>990</idTipo>
+      <tipo>Segurança Industrial</tipo>
+    </row>
+    <row>
+      <idTipo>991</idTipo>
+      <tipo>Segurança - Sistemas</tipo>
+    </row>
+    <row>
+      <idTipo>992</idTipo>
+      <tipo>Segurança do Trabalho</tipo>
+    </row>
+    <row>
+      <idTipo>993</idTipo>
+      <tipo>Seguros</tipo>
+    </row>
+    <row>
+      <idTipo>994</idTipo>
+      <tipo>Seguros - Vistoriadores</tipo>
+    </row>
+    <row>
+      <idTipo>995</idTipo>
+      <tipo>Seleção de Pessoal</tipo>
+    </row>
+    <row>
+      <idTipo>996</idTipo>
+      <tipo>Sementes</tipo>
+    </row>
+    <row>
+      <idTipo>997</idTipo>
+      <tipo>Semijóias</tipo>
+    </row>
+    <row>
+      <idTipo>999</idTipo>
+      <tipo>Serralheiros</tipo>
+    </row>
+    <row>
+      <idTipo>1000</idTipo>
+      <tipo>Serralheiros - Artigos</tipo>
+    </row>
+    <row>
+      <idTipo>1001</idTipo>
+      <tipo>Serrarias</tipo>
+    </row>
+    <row>
+      <idTipo>1002</idTipo>
+      <tipo>Serviços Sociais</tipo>
+    </row>
+    <row>
+      <idTipo>1003</idTipo>
+      <tipo>Sex Shop</tipo>
+    </row>
+    <row>
+      <idTipo>1004</idTipo>
+      <tipo>Shopping Center - Administração</tipo>
+    </row>
+    <row>
+      <idTipo>1005</idTipo>
+      <tipo>Sinais de Tráfego</tipo>
+    </row>
+    <row>
+      <idTipo>1006</idTipo>
+      <tipo>Sinalização - Sistemas</tipo>
+    </row>
+    <row>
+      <idTipo>1007</idTipo>
+      <tipo>Sindicatos e Federações</tipo>
+    </row>
+    <row>
+      <idTipo>1008</idTipo>
+      <tipo>Sofás</tipo>
+    </row>
+    <row>
+      <idTipo>1009</idTipo>
+      <tipo>Solda - Art., Equip. e Serviços</tipo>
+    </row>
+    <row>
+      <idTipo>1010</idTipo>
+      <tipo>Som - Aparelhos</tipo>
+    </row>
+    <row>
+      <idTipo>1011</idTipo>
+      <tipo>Som - Aparelhos - Conserto e Peças</tipo>
+    </row>
+    <row>
+      <idTipo>1012</idTipo>
+      <tipo>Som Automotivo</tipo>
+    </row>
+    <row>
+      <idTipo>1013</idTipo>
+      <tipo>Som - Estúdios</tipo>
+    </row>
+    <row>
+      <idTipo>1014</idTipo>
+      <tipo>Som e Iluminação - Equip. Aluguel</tipo>
+    </row>
+    <row>
+      <idTipo>1015</idTipo>
+      <tipo>Som - Música ao Vivo</tipo>
+    </row>
+    <row>
+      <idTipo>1016</idTipo>
+      <tipo>Som - Projetos e Instalações</tipo>
+    </row>
+    <row>
+      <idTipo>1017</idTipo>
+      <tipo>Sondagens</tipo>
+    </row>
+    <row>
+      <idTipo>1018</idTipo>
+      <tipo>Sorvetes - Fabricação</tipo>
+    </row>
+    <row>
+      <idTipo>1019</idTipo>
+      <tipo>Sorvetes e Sorveterias</tipo>
+    </row>
+    <row>
+      <idTipo>1020</idTipo>
+      <tipo>Spa - Clínicas</tipo>
+    </row>
+    <row>
+      <idTipo>1021</idTipo>
+      <tipo>Stands - Criação e Montagem</tipo>
+    </row>
+    <row>
+      <idTipo>1022</idTipo>
+      <tipo>Sucata</tipo>
+    </row>
+    <row>
+      <idTipo>1023</idTipo>
+      <tipo>Sucos</tipo>
+    </row>
+    <row>
+      <idTipo>1024</idTipo>
+      <tipo>Supermercados</tipo>
+    </row>
+    <row>
+      <idTipo>1025</idTipo>
+      <tipo>Suplementos Alimentares</tipo>
+    </row>
+    <row>
+      <idTipo>1026</idTipo>
+      <tipo>Surf - Lojas</tipo>
+    </row>
+    <row>
+      <idTipo>1027</idTipo>
+      <tipo>Tacógrafos</tipo>
+    </row>
+    <row>
+      <idTipo>1028</idTipo>
+      <tipo>Tacos e Parquetes</tipo>
+    </row>
+    <row>
+      <idTipo>1029</idTipo>
+      <tipo>Tambores e Tonéis</tipo>
+    </row>
+    <row>
+      <idTipo>1030</idTipo>
+      <tipo>Tapeçarias</tipo>
+    </row>
+    <row>
+      <idTipo>1031</idTipo>
+      <tipo>Tapetes e Passadeiras</tipo>
+    </row>
+    <row>
+      <idTipo>1032</idTipo>
+      <tipo>Tapetes e Passadeiras - Limpeza</tipo>
+    </row>
+    <row>
+      <idTipo>1033</idTipo>
+      <tipo>Tapetes Persas</tipo>
+    </row>
+    <row>
+      <idTipo>1034</idTipo>
+      <tipo>Tatuagens e Piercings</tipo>
+    </row>
+    <row>
+      <idTipo>1035</idTipo>
+      <tipo>Táxi</tipo>
+    </row>
+    <row>
+      <idTipo>1036</idTipo>
+      <tipo>Teatros</tipo>
+    </row>
+    <row>
+      <idTipo>1037</idTipo>
+      <tipo>Tecidos</tipo>
+    </row>
+    <row>
+      <idTipo>1038</idTipo>
+      <tipo>Tecidos - Resíduos e Refugos</tipo>
+    </row>
+    <row>
+      <idTipo>1039</idTipo>
+      <tipo>Telão - Venda e Locação</tipo>
+    </row>
+    <row>
+      <idTipo>1040</idTipo>
+      <tipo>Telas</tipo>
+    </row>
+    <row>
+      <idTipo>1041</idTipo>
+      <tipo>Telecomunicações</tipo>
+    </row>
+    <row>
+      <idTipo>1042</idTipo>
+      <tipo>Telecomunicações - Equip. - Instalação e Manutenção</tipo>
+    </row>
+    <row>
+      <idTipo>1043</idTipo>
+      <tipo>Telefones Celulares</tipo>
+    </row>
+    <row>
+      <idTipo>1044</idTipo>
+      <tipo>Telefones Celulares - Assist. Técnica</tipo>
+    </row>
+    <row>
+      <idTipo>1045</idTipo>
+      <tipo>Telefones - Compra, Venda e Aluguel</tipo>
+    </row>
+    <row>
+      <idTipo>1046</idTipo>
+      <tipo>Telemarketing - Empresas</tipo>
+    </row>
+    <row>
+      <idTipo>1047</idTipo>
+      <tipo>Telemensagens</tipo>
+    </row>
+    <row>
+      <idTipo>1048</idTipo>
+      <tipo>Televisão - Aparelhos - Conserto</tipo>
+    </row>
+    <row>
+      <idTipo>1049</idTipo>
+      <tipo>Televisão - Assinatura</tipo>
+    </row>
+    <row>
+      <idTipo>1050</idTipo>
+      <tipo>Televisão - Emissora e Representantes</tipo>
+    </row>
+    <row>
+      <idTipo>1051</idTipo>
+      <tipo>Telhas</tipo>
+    </row>
+    <row>
+      <idTipo>1052</idTipo>
+      <tipo>Tendas</tipo>
+    </row>
+    <row>
+      <idTipo>1053</idTipo>
+      <tipo>Terapia Ocupacional</tipo>
+    </row>
+    <row>
+      <idTipo>1054</idTipo>
+      <tipo>Terapias Alternativas</tipo>
+    </row>
+    <row>
+      <idTipo>1055</idTipo>
+      <tipo>Terraplenagem</tipo>
+    </row>
+    <row>
+      <idTipo>1056</idTipo>
+      <tipo>Tijolos</tipo>
+    </row>
+    <row>
+      <idTipo>1057</idTipo>
+      <tipo>Tintas</tipo>
+    </row>
+    <row>
+      <idTipo>1058</idTipo>
+      <tipo>Tintas Automotivas</tipo>
+    </row>
+    <row>
+      <idTipo>1059</idTipo>
+      <tipo>Tinturarias</tipo>
+    </row>
+    <row>
+      <idTipo>1060</idTipo>
+      <tipo>Toldos</tipo>
+    </row>
+    <row>
+      <idTipo>1061</idTipo>
+      <tipo>Tomografia e Ressonância Magnética</tipo>
+    </row>
+    <row>
+      <idTipo>1062</idTipo>
+      <tipo>Topografia e Agrimensura</tipo>
+    </row>
+    <row>
+      <idTipo>1063</idTipo>
+      <tipo>Tornearia de Precisão</tipo>
+    </row>
+    <row>
+      <idTipo>1064</idTipo>
+      <tipo>Torneiros</tipo>
+    </row>
+    <row>
+      <idTipo>1065</idTipo>
+      <tipo>Tornos</tipo>
+    </row>
+    <row>
+      <idTipo>1066</idTipo>
+      <tipo>Trabalhos Temporários</tipo>
+    </row>
+    <row>
+      <idTipo>1067</idTipo>
+      <tipo>Tradutores</tipo>
+    </row>
+    <row>
+      <idTipo>1068</idTipo>
+      <tipo>Tradutores Públicos</tipo>
+    </row>
+    <row>
+      <idTipo>1069</idTipo>
+      <tipo>Transfers</tipo>
+    </row>
+    <row>
+      <idTipo>1070</idTipo>
+      <tipo>Transformadores Elétricos</tipo>
+    </row>
+    <row>
+      <idTipo>1071</idTipo>
+      <tipo>Transportadora - Cargas</tipo>
+    </row>
+    <row>
+      <idTipo>1072</idTipo>
+      <tipo>Transportadores Industriais</tipo>
+    </row>
+    <row>
+      <idTipo>1073</idTipo>
+      <tipo>Transporte Aéreo</tipo>
+    </row>
+    <row>
+      <idTipo>1075</idTipo>
+      <tipo>Transporte de Documentos</tipo>
+    </row>
+    <row>
+      <idTipo>1076</idTipo>
+      <tipo>Transporte Escolar</tipo>
+    </row>
+    <row>
+      <idTipo>1077</idTipo>
+      <tipo>Transporte Especial</tipo>
+    </row>
+    <row>
+      <idTipo>1080</idTipo>
+      <tipo>Transporte Interurbano e Interestadual</tipo>
+    </row>
+    <row>
+      <idTipo>1081</idTipo>
+      <tipo>Transporte de Passageiros - Vans e Ônibus</tipo>
+    </row>
+    <row>
+      <idTipo>1082</idTipo>
+      <tipo>Transporte Pesado</tipo>
+    </row>
+    <row>
+      <idTipo>1084</idTipo>
+      <tipo>Transporte Rodoviário</tipo>
+    </row>
+    <row>
+      <idTipo>1085</idTipo>
+      <tipo>Transportes Rápidos</tipo>
+    </row>
+    <row>
+      <idTipo>1086</idTipo>
+      <tipo>Transporte de Valores</tipo>
+    </row>
+    <row>
+      <idTipo>1087</idTipo>
+      <tipo>Transporte de Veículos</tipo>
+    </row>
+    <row>
+      <idTipo>1088</idTipo>
+      <tipo>Tratamento Térmico</tipo>
+    </row>
+    <row>
+      <idTipo>1089</idTipo>
+      <tipo>Tratores - Peças, Acess. e Conserto</tipo>
+    </row>
+    <row>
+      <idTipo>1090</idTipo>
+      <tipo>Travesseiros</tipo>
+    </row>
+    <row>
+      <idTipo>1091</idTipo>
+      <tipo>Troféus e Placas</tipo>
+    </row>
+    <row>
+      <idTipo>1092</idTipo>
+      <tipo>Tubos</tipo>
+    </row>
+    <row>
+      <idTipo>1093</idTipo>
+      <tipo>Tubos de Concreto</tipo>
+    </row>
+    <row>
+      <idTipo>1094</idTipo>
+      <tipo>Tubos de PVC</tipo>
+    </row>
+    <row>
+      <idTipo>1095</idTipo>
+      <tipo>Túmulos e Mausoléus</tipo>
+    </row>
+    <row>
+      <idTipo>1096</idTipo>
+      <tipo>Turbinas</tipo>
+    </row>
+    <row>
+      <idTipo>1097</idTipo>
+      <tipo>Turismo - Agências</tipo>
+    </row>
+    <row>
+      <idTipo>1098</idTipo>
+      <tipo>Turismo - Clubes</tipo>
+    </row>
+    <row>
+      <idTipo>1099</idTipo>
+      <tipo>Turismo - Guias</tipo>
+    </row>
+    <row>
+      <idTipo>1100</idTipo>
+      <tipo>Ultra-Som</tipo>
+    </row>
+    <row>
+      <idTipo>1101</idTipo>
+      <tipo>Uniformes</tipo>
+    </row>
+    <row>
+      <idTipo>1102</idTipo>
+      <tipo>Usinagem</tipo>
+    </row>
+    <row>
+      <idTipo>1103</idTipo>
+      <tipo>Usinagem de Peças</tipo>
+    </row>
+    <row>
+      <idTipo>1104</idTipo>
+      <tipo>Utensílios e Utilidades Domésticas</tipo>
+    </row>
+    <row>
+      <idTipo>1105</idTipo>
+      <tipo>Válvulas</tipo>
+    </row>
+    <row>
+      <idTipo>1106</idTipo>
+      <tipo>Vans - Aluguel</tipo>
+    </row>
+    <row>
+      <idTipo>1107</idTipo>
+      <tipo>Vassouras</tipo>
+    </row>
+    <row>
+      <idTipo>1108</idTipo>
+      <tipo>Vedação - Prod</tipo>
+    </row>
+    <row>
+      <idTipo>1109</idTipo>
+      <tipo>Velas de Cera ou Parafina</tipo>
+    </row>
+    <row>
+      <idTipo>1110</idTipo>
+      <tipo>Velocimetros</tipo>
+    </row>
+    <row>
+      <idTipo>1111</idTipo>
+      <tipo>Vendas - Organização e Sistemas</tipo>
+    </row>
+    <row>
+      <idTipo>1112</idTipo>
+      <tipo>Ventilação - Art. e Equip.</tipo>
+    </row>
+    <row>
+      <idTipo>1113</idTipo>
+      <tipo>Ventiladores - Atac. e Fabric.</tipo>
+    </row>
+    <row>
+      <idTipo>1114</idTipo>
+      <tipo>Veterinários - Médicos</tipo>
+    </row>
+    <row>
+      <idTipo>1115</idTipo>
+      <tipo>Videocassete - Ap., Acessórios e Conserto</tipo>
+    </row>
+    <row>
+      <idTipo>1116</idTipo>
+      <tipo>Videoclubes e Locadoras</tipo>
+    </row>
+    <row>
+      <idTipo>1117</idTipo>
+      <tipo>Video Game</tipo>
+    </row>
+    <row>
+      <idTipo>1118</idTipo>
+      <tipo>Videokê - Aluguel e Vendas</tipo>
+    </row>
+    <row>
+      <idTipo>1119</idTipo>
+      <tipo>Video - Produções e Reportagens</tipo>
+    </row>
+    <row>
+      <idTipo>1120</idTipo>
+      <tipo>Vidraçarias</tipo>
+    </row>
+    <row>
+      <idTipo>1121</idTipo>
+      <tipo>Vidro Temperado</tipo>
+    </row>
+    <row>
+      <idTipo>1122</idTipo>
+      <tipo>Vigilância</tipo>
+    </row>
+    <row>
+      <idTipo>1123</idTipo>
+      <tipo>Vinhos</tipo>
+    </row>
+    <row>
+      <idTipo>1124</idTipo>
+      <tipo>Vitrines e Mat. p/ Exposição</tipo>
+    </row>
+    <row>
+      <idTipo>1125</idTipo>
+      <tipo>Yoga</tipo>
+    </row>
+    <row>
+      <idTipo>1126</idTipo>
+      <tipo>Zincagem</tipo>
+    </row>
+    <row>
+      <idTipo>1127</idTipo>
+      <tipo>Abreugrafia</tipo>
+    </row>
+    <row>
+      <idTipo>1129</idTipo>
+      <tipo>Cantinas</tipo>
+    </row>
+    <row>
+      <idTipo>1131</idTipo>
+      <tipo>Vitrais</tipo>
+    </row>
+    <row>
+      <idTipo>1132</idTipo>
+      <tipo>Automóveis - Acessórios</tipo>
+    </row>
+    <row>
+      <idTipo>1133</idTipo>
+      <tipo>Automóveis - Adaptação para Deficientes Físicos</tipo>
+    </row>
+    <row>
+      <idTipo>1134</idTipo>
+      <tipo>Urbanizacao - Empresas</tipo>
+    </row>
+    <row>
+      <idTipo>1135</idTipo>
+      <tipo>Telefonia - Projetos e Instalacoes</tipo>
+    </row>
+    <row>
+      <idTipo>1136</idTipo>
+      <tipo>Telefonia Equipamentos</tipo>
+    </row>
+    <row>
+      <idTipo>1137</idTipo>
+      <tipo>Ambulatórios</tipo>
+    </row>
+    <row>
+      <idTipo>1138</idTipo>
+      <tipo>Tanques</tipo>
+    </row>
+    <row>
+      <idTipo>1139</idTipo>
+      <tipo>Tabacarias</tipo>
+    </row>
+    <row>
+      <idTipo>1140</idTipo>
+      <tipo>malas</tipo>
+    </row>
+    <row>
+      <idTipo>1143</idTipo>
+      <tipo>mochilas</tipo>
+    </row>
+    <row>
+      <idTipo>1144</idTipo>
+      <tipo>pastas</tipo>
+    </row>
+    <row>
+      <idTipo>1146</idTipo>
+      <tipo>carteiras</tipo>
+    </row>
+    <row>
+      <idTipo>1148</idTipo>
+      <tipo>Agencias de empregos</tipo>
+    </row>
+  </data>
+  <metadata>
+    <totalRows>1122</totalRows>
+    <pageNum>0</pageNum>
+  </metadata>
+</response>
