@@ -101,8 +101,17 @@
     </div>
 
     <script>
+      function toSlug(str) {
+        return str
+          .normalize("NFD")
+          .replace(/[̀-ͯ]/g, "")
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, "_")
+          .replace(/^_+|_+$/g, "");
+      }
+
       function navigateToSegmento(tipo) {
-        window.location = "paginas_amarelas/" + tipo + ".html";
+        window.location = toSlug(tipo) + ".html";
       }
 
       var tipos = [
