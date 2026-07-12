@@ -79,6 +79,12 @@ The portal directly enabled local commerce growth at a pivotal moment — 2008, 
 
 Technically, the project combined a PHP/Mambo CMS backend — responsible for managing multiple content sections simultaneously — with an Adobe Flex-powered interactive layer that enhanced the browsing experience beyond what plain HTML/JavaScript could offer in 2008. The MySQL-backed classifieds and directory engine was designed for efficient search and filtering, the critical path for any yellow pages product.
 
+### Key Features
+
+- **Searchable yellow-pages engine** — I designed a category-driven MySQL business directory with fast search and filtering, giving hundreds of local businesses their first online presence and turning the portal into the region's go-to place to find a service.
+- **Tiered banner ad network** — I built a multi-placement sponsored-advertising system on top of the Mambo CMS, creating the site's revenue engine and a low-barrier, geographically targeted channel that let small Joinville businesses advertise online for the first time.
+- **Multi-vertical content platform** — I unified news, events, classifieds, recipes, polls, and a web directory under one PHP/Flex codebase, broadening the audience beyond news readers and sustaining the repeat traffic and dwell time that made ad inventory valuable.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SCREENSHOTS -->
